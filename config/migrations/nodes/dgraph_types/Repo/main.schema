@@ -1,0 +1,49 @@
+name:  string @index(exact) .
+files: [uid] .
+env: string .
+# config: uid .
+dependencies: [uid] .
+type Source {
+	name: string
+	env: string
+	dependencies: [SrcDependency]
+	files: [uid]
+}
+
+type SrcDependency {
+	
+}
+
+isTemplate: bool .
+ownerId: string .
+rootPath: string .
+src: [uid] .
+vms: [uid] .
+type Repo {
+	rootPath: string
+    name: string 
+	src: [Source] 
+	vms: [VM]
+    isTemplate: bool 
+    ownerId: string
+}
+
+email: string .
+loginName: string .
+password: string .
+username: string .
+type VMAgent {
+	email: string
+	loginName: string
+	password: string
+    username: string
+}
+
+agent: uid .
+type VM {
+	name: string
+	agent: VMAgent
+}
+
+
+

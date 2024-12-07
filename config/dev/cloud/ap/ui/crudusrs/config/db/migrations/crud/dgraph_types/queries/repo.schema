@@ -1,0 +1,92 @@
+{
+  root(func: eq(name, "app_pathway")) {
+			ui
+      name
+      rootPath
+      nginxContainer {
+        name 
+        composeSection 
+        dockerfile {
+            fileContent {
+              filePath
+              stringContent
+            }
+          }
+        build {
+          files {
+            fileContent {
+              filePath
+              stringContent
+            }
+          }
+        }
+        envFile{
+          fileContent {
+              filePath
+              stringContent
+          }
+        }
+      }
+      goContainers  {
+        name 
+        composeSection
+        dockerfile {
+          fileContent {
+              filePath
+              stringContent
+          }
+        }
+        build {
+          files {
+            fileContent {
+                filePath
+                  decls {
+                      funcDecls {
+                        ident
+                        codeString
+                      }
+                      structDecls  {
+                        ident
+                        codeString
+                      }
+                      interfaceDecls  {
+                        ident
+                        codeString
+                      }
+                      varDecls  {
+                        ident
+                        codeString
+                      }
+                      constDecls  {
+                        ident
+                        codeString
+                      }
+                      otherTypeDecls  {
+                        ident
+                        codeString
+                      }
+                    }
+                    imports  {
+                        alias
+                        importPath
+                    }
+            }
+          }
+        }  
+        envFile {
+          fileContent {
+              filePath
+              stringContent
+          }
+        }
+      }
+      composeFile {
+          fileContent {
+              filePath
+              stringContent
+          }
+      }
+      isTemplate
+      ownerId
+	}
+}

@@ -1,0 +1,30 @@
+.vscode
+/config
+/deployments
+/doc 
+/examples/prodapi/pkg/clients
+/examples/prodapi/pkg/orgs
+# /examples/prodapi/pkg/plugins/scheduler
+/examples/prodapi/pkg/plugins/sms
+/examples/prodapi/pkg/plugins/intent
+/pkg/adminctl
+/pkg/app
+/pkg/builder
+/pkg/cert
+/pkg/client
+/pkg/db_api
+#/pkg/debug
+#/pkg/errors
+# /pkg/net
+/pkg/user
+/scripts 
+/secrets 
+/temp 
+/third_party
+/web 
+*.gitignore
+*.work
+*.work.sum
+*.md
+*.dockerignore
+Makefile

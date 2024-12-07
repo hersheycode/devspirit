@@ -1,0 +1,61 @@
+version: 1 
+# The App Pathway API builder uses these tools to generate containerized plugins for 
+# services that themselves can be used as plugins in other services
+
+repos:
+  # api builder controls - cli
+  ap:
+    modules:
+      srv:
+        groups:
+          external:
+            api:
+            srvtempl: 
+          internal:
+            root:
+            net: 
+            database:
+            srvtempld:
+
+  # nodes deamon - recieves requests with gen specs from abctl and returns generated files
+  nodesd:
+    modules:
+      srv:
+        groups:
+          external:
+            api:
+            srvtempl: 
+          internal:
+            root:
+            net: 
+            database:
+            srvtempld:
+
+  # the apinodes deamon - generates api boilerplate and integrates the client code it gets from cplugind  
+  apinodesd:
+    modules:
+      srv:
+        groups:
+          external:
+            api:
+            srvtempl: 
+          internal:
+            root:
+            net: 
+            database:
+            srvtempld:  
+
+  # the containerized plugin deamon - generates and containerizes plugins and returns client code to 
+  # apinodes to enble the services it generates to connect to the containerized plugins 
+  cplugind:
+    modules:
+      srv:
+        groups:
+          external:
+            api:
+            srvtempl: 
+          internal:
+            root:
+            net: 
+            database:
+            srvtempld: 

@@ -1,0 +1,47 @@
+quantity: int . 
+
+type ImportMetaData {
+    quantity: int 
+}
+
+type FuncMetaData {
+    quantity: int 
+}
+
+type StructMetaData {
+    quantity: int 
+}
+
+type InterfaceMetaData {
+    quantity: int 
+}
+
+type VarDeclMetaData {
+    quantity: int 
+}
+
+type ConstDeclMetaData {
+    quantity: int 
+}
+
+type OtherTypeDeclMetaData {
+    quantity: int 
+}
+
+importMetaData: uid .
+funcMetaData: uid . 
+structMetaData: uid .
+interfaceMetaData: uid . 
+varDeclMetaData: uid . 
+constDeclMetaData: uid .
+otherTypeDeclMetaData: uid . 
+type GoFileMetaData {
+    importMetaData: ImportMetaData
+    funcMetaData: FuncMetaData
+    structMetaData: StructMetaData
+    interfaceMetaData: InterfaceMetaData
+    varDeclMetaData: VarDeclMetaData
+    constDeclMetaData: ConstDeclMetaData
+    otherTypeDeclMetaData: OtherTypeDeclMetaData
+}
+

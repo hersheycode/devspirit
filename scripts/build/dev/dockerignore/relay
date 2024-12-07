@@ -1,0 +1,9 @@
+/submodules
+/third_party
+/web/nginx
+/web/api_gen_ui
+/pkg
+/deployments
+go.mod
+go.sum
+dockerignores

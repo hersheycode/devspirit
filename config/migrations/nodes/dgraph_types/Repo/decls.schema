@@ -1,0 +1,48 @@
+fileUid:  string @index(exact) .
+
+funcDecls: [uid] .
+structDecls: [uid] .
+interfaceDecls: [uid] .
+varDecls: [uid] .
+constDecls: [uid] .
+otherTypeDecls: [uid] .
+type Decls {
+    funcDecls: [FuncDecl]
+    structDecls: [StructDecl]
+    interfaceDecls: [InterfaceDecl]
+    varDecls: [VarDecl]
+    constDecls: [ConstDecl]
+    otherTypeDecls: [OtherTypeDecl]
+}
+
+ident:  string @index(exact) .
+codeString: string @index(term) . #search for terms within code string
+type FuncDecl {
+    ident:  string
+    codeString:  string
+}
+
+type StructDecl { 
+    ident:  string
+    codeString:  string   
+}
+
+type InterfaceDecl { 
+    ident:  string
+    codeString:  string  
+}
+
+type VarDecl {
+    ident:  string
+    codeString:  string   
+}
+
+type ConstDecl {
+    ident:  string
+    codeString:  string   
+}
+ 
+type OtherTypeDecl {
+    ident:  string
+    codeString:  string   
+}

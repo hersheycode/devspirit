@@ -1,0 +1,17 @@
+/app
+/deployments
+/doc
+/examples
+/multipass
+/pkg
+/scripts
+/secrets
+/temp
+/third_party/gitea
+/web
+.vscode
+.gitignore
+*.work
+*.work.sum
+Makefile
+*.md

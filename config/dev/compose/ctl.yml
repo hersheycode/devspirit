@@ -1,0 +1,34 @@
+version: "3.9"
+
+networks:
+  app_pathway_network:
+    external: true
+    
+services:
+  ap:
+      container_name: ap
+      build:
+        dockerfile: pkg/adminctl/build/package/Dockerfile
+        context: ../../../
+      env_file:
+        - env/ap.env   
+      volumes:
+        - $ROOT/config/dev/cloud/ap/ui:/cloud/data
+        - $PKG/adminctl:$PKG/adminctl
+        - $PKG/client:$PKG/client
+        - $PKG/adminctl/go.mod:$PKG/adminctl/go.mod
+        - $PKG/adminctl/go.sum:$PKG/adminctl/go.sum
+        - $PKG/builder/nodes:$PKG/builder/nodes
+        - $PKG/builder/gonodes:$PKG/builder/gonodes
+        - $PKG/builder/spec:$PKG/builder/spec
+        - $PKG/builder/cplugin:$PKG/builder/cplugin
+        - $PKG/builder/ci:$PKG/builder/ci
+        - $PKG/builder/cd:$PKG/builder/cd
+        - $PKG/user/behavior:$PKG/user/behavior
+        - $PKG/user/auth:$PKG/user/auth
+        - $PKG/net:$PKG/net
+        - $PKG/errors:$PKG/errors
+        - $PKG/debug:$PKG/debug
+        - $ROOT/secrets/crt/auth:/etc/ssl/certs/auth
+      networks:
+        app_pathway_network:

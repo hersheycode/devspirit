@@ -1,0 +1,456 @@
+package crudbasicpb
+
+import (
+	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
+	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
+	reflect "reflect"
+	sync "sync"
+)
+
+var file_crud_basic_proto_rawDesc = []byte{0x0a, 0x10, 0x63, 0x72, 0x75, 0x64, 0x5f, 0x62, 0x61, 0x73, 0x69, 0x63, 0x2e, 0x70, 0x72, 0x6f, 0x74, 0x6f, 0x12, 0x0b, 0x63, 0x72, 0x75, 0x64, 0x62, 0x61, 0x73, 0x69, 0x63, 0x70, 0x62, 0x22, 0x23, 0x0a, 0x0d, 0x43, 0x72, 0x65, 0x61, 0x74, 0x65, 0x52, 0x65, 0x71, 0x75, 0x65, 0x73, 0x74, 0x12, 0x12, 0x0a, 0x04, 0x6e, 0x61, 0x6d, 0x65, 0x18, 0x01, 0x20, 0x01, 0x28, 0x09, 0x52, 0x04, 0x6e, 0x61, 0x6d, 0x65, 0x22, 0x28, 0x0a, 0x0e, 0x43, 0x72, 0x65, 0x61, 0x74, 0x65, 0x52, 0x65, 0x73, 0x70, 0x6f, 0x6e, 0x73, 0x65, 0x12, 0x16, 0x0a, 0x06, 0x73, 0x74, 0x61, 0x74, 0x75, 0x73, 0x18, 0x01, 0x20, 0x01, 0x28, 0x09, 0x52, 0x06, 0x73, 0x74, 0x61, 0x74, 0x75, 0x73, 0x22, 0x23, 0x0a, 0x11, 0x50, 0x68, 0x65, 0x6e, 0x6f, 0x6d, 0x65, 0x6e, 0x6f, 0x6e, 0x52, 0x65, 0x71, 0x75, 0x65, 0x73, 0x74, 0x12, 0x0e, 0x0a, 0x02, 0x69, 0x64, 0x18, 0x01, 0x20, 0x01, 0x28, 0x09, 0x52, 0x02, 0x69, 0x64, 0x22, 0x28, 0x0a, 0x12, 0x50, 0x68, 0x65, 0x6e, 0x6f, 0x6d, 0x65, 0x6e, 0x6f, 0x6e, 0x52, 0x65, 0x73, 0x70, 0x6f, 0x6e, 0x73, 0x65, 0x12, 0x12, 0x0a, 0x04, 0x6e, 0x61, 0x6d, 0x65, 0x18, 0x01, 0x20, 0x01, 0x28, 0x09, 0x52, 0x04, 0x6e, 0x61, 0x6d, 0x65, 0x22, 0x1f, 0x0a, 0x0d, 0x55, 0x70, 0x64, 0x61, 0x74, 0x65, 0x52, 0x65, 0x71, 0x75, 0x65, 0x73, 0x74, 0x12, 0x0e, 0x0a, 0x02, 0x69, 0x64, 0x18, 0x01, 0x20, 0x01, 0x28, 0x09, 0x52, 0x02, 0x69, 0x64, 0x22, 0x28, 0x0a, 0x0e, 0x55, 0x70, 0x64, 0x61, 0x74, 0x65, 0x52, 0x65, 0x73, 0x70, 0x6f, 0x6e, 0x73, 0x65, 0x12, 0x16, 0x0a, 0x06, 0x73, 0x74, 0x61, 0x74, 0x75, 0x73, 0x18, 0x01, 0x20, 0x01, 0x28, 0x09, 0x52, 0x06, 0x73, 0x74, 0x61, 0x74, 0x75, 0x73, 0x22, 0x1f, 0x0a, 0x0d, 0x44, 0x65, 0x6c, 0x65, 0x74, 0x65, 0x52, 0x65, 0x71, 0x75, 0x65, 0x73, 0x74, 0x12, 0x0e, 0x0a, 0x02, 0x69, 0x64, 0x18, 0x01, 0x20, 0x01, 0x28, 0x09, 0x52, 0x02, 0x69, 0x64, 0x22, 0x28, 0x0a, 0x0e, 0x44, 0x65, 0x6c, 0x65, 0x74, 0x65, 0x52, 0x65, 0x73, 0x70, 0x6f, 0x6e, 0x73, 0x65, 0x12, 0x16, 0x0a, 0x06, 0x73, 0x74, 0x61, 0x74, 0x75, 0x73, 0x18, 0x01, 0x20, 0x01, 0x28, 0x09, 0x52, 0x06, 0x73, 0x74, 0x61, 0x74, 0x75, 0x73, 0x32, 0xa3, 0x02, 0x0a, 0x09, 0x50, 0x68, 0x65, 0x6e, 0x6f, 0x6d, 0x65, 0x6e, 0x61, 0x12, 0x41, 0x0a, 0x06, 0x43, 0x72, 0x65, 0x61, 0x74, 0x65, 0x12, 0x1a, 0x2e, 0x63, 0x72, 0x75, 0x64, 0x62, 0x61, 0x73, 0x69, 0x63, 0x70, 0x62, 0x2e, 0x43, 0x72, 0x65, 0x61, 0x74, 0x65, 0x52, 0x65, 0x71, 0x75, 0x65, 0x73, 0x74, 0x1a, 0x1b, 0x2e, 0x63, 0x72, 0x75, 0x64, 0x62, 0x61, 0x73, 0x69, 0x63, 0x70, 0x62, 0x2e, 0x43, 0x72, 0x65, 0x61, 0x74, 0x65, 0x52, 0x65, 0x73, 0x70, 0x6f, 0x6e, 0x73, 0x65, 0x12, 0x4d, 0x0a, 0x0a, 0x50, 0x68, 0x65, 0x6e, 0x6f, 0x6d, 0x65, 0x6e, 0x6f, 0x6e, 0x12, 0x1e, 0x2e, 0x63, 0x72, 0x75, 0x64, 0x62, 0x61, 0x73, 0x69, 0x63, 0x70, 0x62, 0x2e, 0x50, 0x68, 0x65, 0x6e, 0x6f, 0x6d, 0x65, 0x6e, 0x6f, 0x6e, 0x52, 0x65, 0x71, 0x75, 0x65, 0x73, 0x74, 0x1a, 0x1f, 0x2e, 0x63, 0x72, 0x75, 0x64, 0x62, 0x61, 0x73, 0x69, 0x63, 0x70, 0x62, 0x2e, 0x50, 0x68, 0x65, 0x6e, 0x6f, 0x6d, 0x65, 0x6e, 0x6f, 0x6e, 0x52, 0x65, 0x73, 0x70, 0x6f, 0x6e, 0x73, 0x65, 0x12, 0x41, 0x0a, 0x06, 0x55, 0x70, 0x64, 0x61, 0x74, 0x65, 0x12, 0x1a, 0x2e, 0x63, 0x72, 0x75, 0x64, 0x62, 0x61, 0x73, 0x69, 0x63, 0x70, 0x62, 0x2e, 0x55, 0x70, 0x64, 0x61, 0x74, 0x65, 0x52, 0x65, 0x71, 0x75, 0x65, 0x73, 0x74, 0x1a, 0x1b, 0x2e, 0x63, 0x72, 0x75, 0x64, 0x62, 0x61, 0x73, 0x69, 0x63, 0x70, 0x62, 0x2e, 0x55, 0x70, 0x64, 0x61, 0x74, 0x65, 0x52, 0x65, 0x73, 0x70, 0x6f, 0x6e, 0x73, 0x65, 0x12, 0x41, 0x0a, 0x06, 0x44, 0x65, 0x6c, 0x65, 0x74, 0x65, 0x12, 0x1a, 0x2e, 0x63, 0x72, 0x75, 0x64, 0x62, 0x61, 0x73, 0x69, 0x63, 0x70, 0x62, 0x2e, 0x44, 0x65, 0x6c, 0x65, 0x74, 0x65, 0x52, 0x65, 0x71, 0x75, 0x65, 0x73, 0x74, 0x1a, 0x1b, 0x2e, 0x63, 0x72, 0x75, 0x64, 0x62, 0x61, 0x73, 0x69, 0x63, 0x70, 0x62, 0x2e, 0x44, 0x65, 0x6c, 0x65, 0x74, 0x65, 0x52, 0x65, 0x73, 0x70, 0x6f, 0x6e, 0x73, 0x65, 0x42, 0x39, 0x5a, 0x37, 0x63, 0x6f, 0x64, 0x65, 0x73, 0x74, 0x6f, 0x72, 0x65, 0x2e, 0x6c, 0x6f, 0x63, 0x61, 0x6c, 0x68, 0x6f, 0x73, 0x74, 0x2f, 0x63, 0x72, 0x75, 0x64, 0x75, 0x73, 0x72, 0x73, 0x2f, 0x63, 0x72, 0x75, 0x64, 0x5f, 0x62, 0x61, 0x73, 0x69, 0x63, 0x2f, 0x61, 0x70, 0x69, 0x2f, 0x63, 0x72, 0x75, 0x64, 0x62, 0x61, 0x73, 0x69, 0x63, 0x70, 0x62, 0x62, 0x06, 0x70, 0x72, 0x6f, 0x74, 0x6f, 0x33}
+var file_crud_basic_proto_goTypes = []interface{}{(*CreateRequest)(nil), (*CreateResponse)(nil), (*PhenomenonRequest)(nil), (*PhenomenonResponse)(nil), (*UpdateRequest)(nil), (*UpdateResponse)(nil), (*DeleteRequest)(nil), (*DeleteResponse)(nil)}
+var file_crud_basic_proto_depIdxs = []int32{0, 2, 4, 6, 1, 3, 5, 7, 4, 0, 0, 0, 0}
+var (
+	file_crud_basic_proto_rawDescOnce sync.Once
+	file_crud_basic_proto_rawDescData = file_crud_basic_proto_rawDesc
+)
+var file_crud_basic_proto_msgTypes = make([]protoimpl.MessageInfo, 8)
+var File_crud_basic_proto protoreflect.FileDescriptor
+
+const (
+	_ = protoimpl.EnforceVersion(20 - protoimpl.MinVersion)
+	_ = protoimpl.EnforceVersion(protoimpl.MaxVersion - 20)
+)
+
+type UpdateResponse struct {
+	state         protoimpl.MessageState
+	sizeCache     protoimpl.SizeCache
+	unknownFields protoimpl.UnknownFields
+	Status        string `protobuf:"bytes,1,opt,name=status,proto3" json:"status,omitempty"`
+}
+type DeleteResponse struct {
+	state         protoimpl.MessageState
+	sizeCache     protoimpl.SizeCache
+	unknownFields protoimpl.UnknownFields
+	Status        string `protobuf:"bytes,1,opt,name=status,proto3" json:"status,omitempty"`
+}
+type PhenomenonResponse struct {
+	state         protoimpl.MessageState
+	sizeCache     protoimpl.SizeCache
+	unknownFields protoimpl.UnknownFields
+	Name          string `protobuf:"bytes,1,opt,name=name,proto3" json:"name,omitempty"`
+}
+type UpdateRequest struct {
+	state         protoimpl.MessageState
+	sizeCache     protoimpl.SizeCache
+	unknownFields protoimpl.UnknownFields
+	Id            string `protobuf:"bytes,1,opt,name=id,proto3" json:"id,omitempty"`
+}
+type CreateRequest struct {
+	state         protoimpl.MessageState
+	sizeCache     protoimpl.SizeCache
+	unknownFields protoimpl.UnknownFields
+	Name          string `protobuf:"bytes,1,opt,name=name,proto3" json:"name,omitempty"`
+}
+type PhenomenonRequest struct {
+	state         protoimpl.MessageState
+	sizeCache     protoimpl.SizeCache
+	unknownFields protoimpl.UnknownFields
+	Id            string `protobuf:"bytes,1,opt,name=id,proto3" json:"id,omitempty"`
+}
+type DeleteRequest struct {
+	state         protoimpl.MessageState
+	sizeCache     protoimpl.SizeCache
+	unknownFields protoimpl.UnknownFields
+	Id            string `protobuf:"bytes,1,opt,name=id,proto3" json:"id,omitempty"`
+}
+type x struct{}
+type CreateResponse struct {
+	state         protoimpl.MessageState
+	sizeCache     protoimpl.SizeCache
+	unknownFields protoimpl.UnknownFields
+	Status        string `protobuf:"bytes,1,opt,name=status,proto3" json:"status,omitempty"`
+}
+
+func (*PhenomenonRequest) Descriptor() ([]byte, []int) {
+	return file_crud_basic_proto_rawDescGZIP(), []int{2}
+}
+func (*UpdateResponse) Descriptor() ([]byte, []int) {
+	return file_crud_basic_proto_rawDescGZIP(), []int{5}
+}
+func (x *DeleteRequest) GetId() string {
+	if x != nil {
+		return x.Id
+	}
+	return ""
+}
+func (x *DeleteResponse) Reset() {
+	*x = DeleteResponse{}
+	if protoimpl.UnsafeEnabled {
+		mi := &file_crud_basic_proto_msgTypes[7]
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		ms.StoreMessageInfo(mi)
+	}
+}
+func (*CreateRequest) ProtoMessage() {
+}
+func (x *UpdateRequest) String() string {
+	return protoimpl.X.MessageStringOf(x)
+}
+func (x *UpdateResponse) ProtoReflect() protoreflect.Message {
+	mi := &file_crud_basic_proto_msgTypes[5]
+	if protoimpl.UnsafeEnabled && x != nil {
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		if ms.LoadMessageInfo() == nil {
+			ms.StoreMessageInfo(mi)
+		}
+		return ms
+	}
+	return mi.MessageOf(x)
+}
+func (x *UpdateRequest) GetId() string {
+	if x != nil {
+		return x.Id
+	}
+	return ""
+}
+func (*DeleteRequest) ProtoMessage() {
+}
+func (*CreateRequest) Descriptor() ([]byte, []int) {
+	return file_crud_basic_proto_rawDescGZIP(), []int{0}
+}
+func (*CreateResponse) ProtoMessage() {
+}
+func (x *UpdateRequest) Reset() {
+	*x = UpdateRequest{}
+	if protoimpl.UnsafeEnabled {
+		mi := &file_crud_basic_proto_msgTypes[4]
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		ms.StoreMessageInfo(mi)
+	}
+}
+func (x *PhenomenonResponse) GetName() string {
+	if x != nil {
+		return x.Name
+	}
+	return ""
+}
+func (x *PhenomenonRequest) Reset() {
+	*x = PhenomenonRequest{}
+	if protoimpl.UnsafeEnabled {
+		mi := &file_crud_basic_proto_msgTypes[2]
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		ms.StoreMessageInfo(mi)
+	}
+}
+func init() {
+	file_crud_basic_proto_init()
+}
+func (*UpdateRequest) ProtoMessage() {
+}
+func (x *DeleteRequest) ProtoReflect() protoreflect.Message {
+	mi := &file_crud_basic_proto_msgTypes[6]
+	if protoimpl.UnsafeEnabled && x != nil {
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		if ms.LoadMessageInfo() == nil {
+			ms.StoreMessageInfo(mi)
+		}
+		return ms
+	}
+	return mi.MessageOf(x)
+}
+func (*PhenomenonResponse) ProtoMessage() {
+}
+func (x *DeleteResponse) String() string {
+	return protoimpl.X.MessageStringOf(x)
+}
+func (x *PhenomenonResponse) ProtoReflect() protoreflect.Message {
+	mi := &file_crud_basic_proto_msgTypes[3]
+	if protoimpl.UnsafeEnabled && x != nil {
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		if ms.LoadMessageInfo() == nil {
+			ms.StoreMessageInfo(mi)
+		}
+		return ms
+	}
+	return mi.MessageOf(x)
+}
+func (x *CreateRequest) GetName() string {
+	if x != nil {
+		return x.Name
+	}
+	return ""
+}
+func (x *DeleteResponse) GetStatus() string {
+	if x != nil {
+		return x.Status
+	}
+	return ""
+}
+func (x *CreateResponse) String() string {
+	return protoimpl.X.MessageStringOf(x)
+}
+func (*PhenomenonResponse) Descriptor() ([]byte, []int) {
+	return file_crud_basic_proto_rawDescGZIP(), []int{3}
+}
+func (x *DeleteRequest) Reset() {
+	*x = DeleteRequest{}
+	if protoimpl.UnsafeEnabled {
+		mi := &file_crud_basic_proto_msgTypes[6]
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		ms.StoreMessageInfo(mi)
+	}
+}
+func (x *DeleteRequest) String() string {
+	return protoimpl.X.MessageStringOf(x)
+}
+func (*DeleteResponse) ProtoMessage() {
+}
+func (x *DeleteResponse) ProtoReflect() protoreflect.Message {
+	mi := &file_crud_basic_proto_msgTypes[7]
+	if protoimpl.UnsafeEnabled && x != nil {
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		if ms.LoadMessageInfo() == nil {
+			ms.StoreMessageInfo(mi)
+		}
+		return ms
+	}
+	return mi.MessageOf(x)
+}
+func (*DeleteResponse) Descriptor() ([]byte, []int) {
+	return file_crud_basic_proto_rawDescGZIP(), []int{7}
+}
+func (x *CreateRequest) ProtoReflect() protoreflect.Message {
+	mi := &file_crud_basic_proto_msgTypes[0]
+	if protoimpl.UnsafeEnabled && x != nil {
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		if ms.LoadMessageInfo() == nil {
+			ms.StoreMessageInfo(mi)
+		}
+		return ms
+	}
+	return mi.MessageOf(x)
+}
+func (x *CreateResponse) Reset() {
+	*x = CreateResponse{}
+	if protoimpl.UnsafeEnabled {
+		mi := &file_crud_basic_proto_msgTypes[1]
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		ms.StoreMessageInfo(mi)
+	}
+}
+func (x *UpdateResponse) String() string {
+	return protoimpl.X.MessageStringOf(x)
+}
+func (x *UpdateResponse) Reset() {
+	*x = UpdateResponse{}
+	if protoimpl.UnsafeEnabled {
+		mi := &file_crud_basic_proto_msgTypes[5]
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		ms.StoreMessageInfo(mi)
+	}
+}
+func (x *UpdateResponse) GetStatus() string {
+	if x != nil {
+		return x.Status
+	}
+	return ""
+}
+func (*DeleteRequest) Descriptor() ([]byte, []int) {
+	return file_crud_basic_proto_rawDescGZIP(), []int{6}
+}
+func (x *CreateRequest) Reset() {
+	*x = CreateRequest{}
+	if protoimpl.UnsafeEnabled {
+		mi := &file_crud_basic_proto_msgTypes[0]
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		ms.StoreMessageInfo(mi)
+	}
+}
+func (*PhenomenonRequest) ProtoMessage() {
+}
+func (x *CreateResponse) ProtoReflect() protoreflect.Message {
+	mi := &file_crud_basic_proto_msgTypes[1]
+	if protoimpl.UnsafeEnabled && x != nil {
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		if ms.LoadMessageInfo() == nil {
+			ms.StoreMessageInfo(mi)
+		}
+		return ms
+	}
+	return mi.MessageOf(x)
+}
+func (x *PhenomenonRequest) String() string {
+	return protoimpl.X.MessageStringOf(x)
+}
+func (x *CreateRequest) String() string {
+	return protoimpl.X.MessageStringOf(x)
+}
+func (*CreateResponse) Descriptor() ([]byte, []int) {
+	return file_crud_basic_proto_rawDescGZIP(), []int{1}
+}
+func (x *CreateResponse) GetStatus() string {
+	if x != nil {
+		return x.Status
+	}
+	return ""
+}
+func (x *UpdateRequest) ProtoReflect() protoreflect.Message {
+	mi := &file_crud_basic_proto_msgTypes[4]
+	if protoimpl.UnsafeEnabled && x != nil {
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		if ms.LoadMessageInfo() == nil {
+			ms.StoreMessageInfo(mi)
+		}
+		return ms
+	}
+	return mi.MessageOf(x)
+}
+func (*UpdateResponse) ProtoMessage() {
+}
+func file_crud_basic_proto_init() {
+	if File_crud_basic_proto != nil {
+		return
+	}
+	if !protoimpl.UnsafeEnabled {
+		file_crud_basic_proto_msgTypes[0].Exporter = func(v interface{}, i int) interface{} {
+			switch v := v.(*CreateRequest); i {
+			case 0:
+				return &v.state
+			case 1:
+				return &v.sizeCache
+			case 2:
+				return &v.unknownFields
+			default:
+				return nil
+			}
+		}
+		file_crud_basic_proto_msgTypes[1].Exporter = func(v interface{}, i int) interface{} {
+			switch v := v.(*CreateResponse); i {
+			case 0:
+				return &v.state
+			case 1:
+				return &v.sizeCache
+			case 2:
+				return &v.unknownFields
+			default:
+				return nil
+			}
+		}
+		file_crud_basic_proto_msgTypes[2].Exporter = func(v interface{}, i int) interface{} {
+			switch v := v.(*PhenomenonRequest); i {
+			case 0:
+				return &v.state
+			case 1:
+				return &v.sizeCache
+			case 2:
+				return &v.unknownFields
+			default:
+				return nil
+			}
+		}
+		file_crud_basic_proto_msgTypes[3].Exporter = func(v interface{}, i int) interface{} {
+			switch v := v.(*PhenomenonResponse); i {
+			case 0:
+				return &v.state
+			case 1:
+				return &v.sizeCache
+			case 2:
+				return &v.unknownFields
+			default:
+				return nil
+			}
+		}
+		file_crud_basic_proto_msgTypes[4].Exporter = func(v interface{}, i int) interface{} {
+			switch v := v.(*UpdateRequest); i {
+			case 0:
+				return &v.state
+			case 1:
+				return &v.sizeCache
+			case 2:
+				return &v.unknownFields
+			default:
+				return nil
+			}
+		}
+		file_crud_basic_proto_msgTypes[5].Exporter = func(v interface{}, i int) interface{} {
+			switch v := v.(*UpdateResponse); i {
+			case 0:
+				return &v.state
+			case 1:
+				return &v.sizeCache
+			case 2:
+				return &v.unknownFields
+			default:
+				return nil
+			}
+		}
+		file_crud_basic_proto_msgTypes[6].Exporter = func(v interface{}, i int) interface{} {
+			switch v := v.(*DeleteRequest); i {
+			case 0:
+				return &v.state
+			case 1:
+				return &v.sizeCache
+			case 2:
+				return &v.unknownFields
+			default:
+				return nil
+			}
+		}
+		file_crud_basic_proto_msgTypes[7].Exporter = func(v interface{}, i int) interface{} {
+			switch v := v.(*DeleteResponse); i {
+			case 0:
+				return &v.state
+			case 1:
+				return &v.sizeCache
+			case 2:
+				return &v.unknownFields
+			default:
+				return nil
+			}
+		}
+	}
+	type x struct{}
+	out := protoimpl.TypeBuilder{File: protoimpl.DescBuilder{GoPackagePath: reflect.TypeOf(x{}).PkgPath(), RawDescriptor: file_crud_basic_proto_rawDesc, NumEnums: 0, NumMessages: 8, NumExtensions: 0, NumServices: 1}, GoTypes: file_crud_basic_proto_goTypes, DependencyIndexes: file_crud_basic_proto_depIdxs, MessageInfos: file_crud_basic_proto_msgTypes}.Build()
+	File_crud_basic_proto = out.File
+	file_crud_basic_proto_rawDesc = nil
+	file_crud_basic_proto_goTypes = nil
+	file_crud_basic_proto_depIdxs = nil
+}
+func (x *PhenomenonRequest) ProtoReflect() protoreflect.Message {
+	mi := &file_crud_basic_proto_msgTypes[2]
+	if protoimpl.UnsafeEnabled && x != nil {
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		if ms.LoadMessageInfo() == nil {
+			ms.StoreMessageInfo(mi)
+		}
+		return ms
+	}
+	return mi.MessageOf(x)
+}
+func (x *PhenomenonResponse) Reset() {
+	*x = PhenomenonResponse{}
+	if protoimpl.UnsafeEnabled {
+		mi := &file_crud_basic_proto_msgTypes[3]
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		ms.StoreMessageInfo(mi)
+	}
+}
+func (x *PhenomenonResponse) String() string {
+	return protoimpl.X.MessageStringOf(x)
+}
+func (x *PhenomenonRequest) GetId() string {
+	if x != nil {
+		return x.Id
+	}
+	return ""
+}
+func (*UpdateRequest) Descriptor() ([]byte, []int) {
+	return file_crud_basic_proto_rawDescGZIP(), []int{4}
+}
+func file_crud_basic_proto_rawDescGZIP() []byte {
+	file_crud_basic_proto_rawDescOnce.Do(func() {
+		file_crud_basic_proto_rawDescData = protoimpl.X.CompressGZIP(file_crud_basic_proto_rawDescData)
+	})
+	return file_crud_basic_proto_rawDescData
+}

@@ -1,0 +1,16 @@
+version: 1 
+
+repos:
+  crud_basic:
+    version: "0.0.1"
+    located: host
+    context: $ROOT
+    root: /crudusrs/pkg/plugins/crud_basic
+    modules:
+      srv:
+        external:
+          api: 
+        internal:
+          root:
+          net: 
+

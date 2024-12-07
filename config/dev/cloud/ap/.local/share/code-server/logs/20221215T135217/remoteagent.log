@@ -1,0 +1,7 @@
+[2022-12-15 08:52:17.675] [remoteagent] [info] Extension host agent started.
+[2022-12-15 08:52:17.801] [remoteagent] [info] Deleted from disk golang.go /home/coder/.local/share/code-server/extensions/golang.go-0.32.0
+[2022-12-15 08:52:20.081] [remoteagent] [error] [10.0.1.246][a58a520d][ManagementConnection] Unknown reconnection token (never seen).
+[2022-12-15 08:52:20.262] [remoteagent] [error] [10.0.1.246][0ddf2775][ExtensionHostConnection] Unknown reconnection token (never seen).
+[2022-12-15 08:52:21.003] [remoteagent] [info] [10.0.1.246][66db43a7][ManagementConnection] New connection established.
+[2022-12-15 08:52:22.186] [remoteagent] [info] [10.0.1.246][ed726be3][ExtensionHostConnection] New connection established.
+[2022-12-15 08:52:22.199] [remoteagent] [info] [10.0.1.246][ed726be3][ExtensionHostConnection] <94> Launched Extension Host Process.

@@ -1,0 +1,31 @@
+version: "3.9"
+
+networks:
+  app_pathway_network:
+    external: true
+    
+services:
+    is:
+      container_name: is
+      build:
+        dockerfile: $DOCKERFILE
+        context: $CONTEXT
+      env_file:
+        - $RUNTIME_ENV  
+      volumes:
+        # apppathway pkgs
+        - $ROOT/pkg/net:$ROOT/pkg/net
+        - $ROOT/pkg/errors:$ROOT/pkg/errors
+        - $ROOT/pkg/debug:$ROOT/pkg/debug
+        # this service 
+        - $MAIN/pkg/clients/is:$MAIN/pkg/clients/is
+        # plugins
+        - $MAIN/pkg/orgs/intentsys:$MAIN/pkg/orgs/intentsys
+        - $MAIN/pkg/plugins/intent:$MAIN/pkg/plugins/intent
+        - $MAIN/pkg/plugins/scheduler:$MAIN/pkg/plugins/scheduler
+        - $MAIN/pkg/plugins/sms:$MAIN/pkg/plugins/sms
+        # env
+        - $MAIN/config/dev/secrets/crt/auth:/etc/ssl/certs/auth
+        - $MAIN/config/dev/secrets/crt/dgraph:/etc/ssl/certs/dgraph
+      networks:
+        app_pathway_network:

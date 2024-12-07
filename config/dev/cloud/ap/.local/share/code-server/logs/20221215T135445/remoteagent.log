@@ -1,0 +1,2 @@
+[2022-12-15 08:54:45.836] [remoteagent] [info] Extension host agent started.
+[2022-12-15 08:54:46.062] [remoteagent] [error] [10.0.1.32][ed726be3][ExtensionHostConnection] Unknown reconnection token (never seen).

@@ -1,0 +1,39 @@
+version: "3.9"
+
+networks:
+  app_pathway_network:
+    external: true
+    
+services:
+  code:
+    container_name: code
+    image: codespace:latest
+    # build:
+    #   dockerfile: cloud/vscode.Dockerfile
+    #   context: ./
+    volumes:
+      - /home/nate/code/app-pathway/config/dev/cloud/ap:/home/coder
+      - /home/nate/code/app-pathway/scripts/cloud/zshrc:/home/coder/.zshrc
+      - /etc/timezone:/etc/timezone 
+      - /etc/localtime:/etc/localtime 
+      - /var/run/docker.sock:/var/run/docker.sock 
+      - /var/lib/docker:/var/lib/docker 
+    networks:
+      app_pathway_network:
+
+  # hoppscotch:
+  #   container_name: hoppscotch
+  #   build:
+  #     context: ../../../third_party/hoppscotch
+  #   environment:
+  #     HOST: 0.0.0.0
+  #   networks:
+  #     app_pathway_network:
+      
+  # ratel:
+  #   image: dgraph/ratel
+  #   ports:
+  #     - 8001:8001
+  #   command: dgraph-ratel -port 8001
+  #   networks:
+  #     - app_pathway_network 

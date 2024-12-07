@@ -1,0 +1,55 @@
+version: "3.9"
+
+networks:
+  app_pathway_network:
+    external: true
+    
+services:
+  ca:
+    image: step-ca-test:latest
+    ports:
+      - 9443:443
+    networks:
+        app_pathway_network:
+    restart: always
+
+  renewer:
+    depends_on:
+      - ca
+    image: step-renewer-test:latest
+    volumes:
+      - certificates:/var/local/step
+    secrets:
+      - password
+    networks:
+        app_pathway_network:
+    environment:
+      STEPPATH: /home/step
+      STEP_CA_URL: https://ca
+      STEP_FINGERPRINT: 84a033e84196f73bd593fad7a63e509e57fd982f02084359c4e8c5c864efc27d
+      STEP_ROOT: /var/local/step/root_ca.crt
+      STEP_KID: DmAtZt2EhmZr_iTJJ387fr4Md2NbzMXGdXQNW1UWPXk
+      STEP_PASSWORD_FILE: /run/secrets/password
+      COMMON_NAME: nginx
+
+  nginx:
+    depends_on:
+      - renewer
+    build:
+      context: ../nginx
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - certificates:/var/local/step:ro
+      - $ROOT/secrets/crt/dgraph:/secrets/crt/dgraph
+    restart: always
+    networks:
+        app_pathway_network:
+
+volumes:
+  certificates:
+
+secrets:
+  password:
+    file: ../../../secrets/code_server/password.txt

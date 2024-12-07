@@ -1,0 +1,14 @@
+[2022-12-17 19:27:31.671] [exthost] [info] Extension host with pid 49222 started
+[2022-12-17 19:27:31.685] [exthost] [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/-2320c4fc/vscode.lock': Lock acquired.
+[2022-12-17 19:27:31.756] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-12-17 19:27:31.766] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2022-12-17 19:27:31.772] [exthost] [info] ExtensionService#_doActivateExtension cweijan.vscode-ssh, startup: true, activationEvent: '*'
+[2022-12-17 19:27:31.939] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-12-17 19:27:32.079] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-12-17 19:27:32.094] [exthost] [info] ExtensionService#_doActivateExtension golang.go, startup: true, activationEvent: 'workspaceContains:*.go,*/*.go,*/*/*.go'
+[2022-12-17 19:27:32.780] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-12-17 19:27:32.813] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-12-17 19:27:32.820] [exthost] [info] Eager extensions activated
+[2022-12-18 08:49:24.729] [exthost] [info] extension host terminating: renderer disconnected for too long (1)
+[2022-12-18 08:49:24.730] [exthost] [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/-2320c4fc/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-12-18 08:49:24.782] [exthost] [info] Extension host with pid 49222 exiting with code 0

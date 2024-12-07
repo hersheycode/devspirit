@@ -1,0 +1,90 @@
+version: "3.9"
+
+networks:
+  app_pathway_network:
+    external: true
+    
+services:
+    gonodes:
+      restart: always
+      container_name: gonodes
+      build:
+        dockerfile: pkg/builder/gonodes/build/package/Dockerfile
+        context: ../../../
+      env_file:
+        - env/gonodes.env   
+      volumes:
+        - $PKG/builder/gonodes/cmd/gonodesd/devstart/run:$PKG/builder/gonodes/run
+        - $PKG/builder/gonodes:$PKG/builder/gonodes
+        - $PKG/builder/spec:$PKG/builder/spec
+        - $PKG/user:$PKG/user
+        - $PKG/net:$PKG/net
+        - $PKG/errors:$PKG/errors
+        - $PKG/debug:$PKG/debug
+        - $ROOT/secrets/crt/auth:/etc/ssl/certs/auth
+        - $ROOT/secrets/crt/dgraph:/etc/ssl/certs/dgraph
+      networks:
+        app_pathway_network:
+
+
+    cplugind:
+      restart: always
+      container_name: cplugind
+      build:
+        dockerfile: pkg/builder/cplugin/build/package/Dockerfile
+        context: ../../../
+      env_file:
+        - env/cplugin.env   
+      volumes:
+        - $PKG/builder/cplugin/cmd/cplugind/devstart/run:$PKG/builder/cplugin/run
+        - $PKG/builder/cplugin:$PKG/builder/cplugin
+        - $PKG/user:$PKG/user
+        - $PKG/net:$PKG/net
+        - $PKG/errors:$PKG/errors
+        - $PKG/debug:$PKG/debug
+        - $ROOT/secrets/crt/auth:/etc/ssl/certs/auth
+        - $ROOT/secrets/crt/dgraph:/etc/ssl/certs/dgraph
+      networks:
+        app_pathway_network:
+
+    cid:
+      restart: always
+      container_name: cid
+      build:
+        dockerfile: pkg/builder/ci/build/package/Dockerfile
+        context: ../../../
+      env_file:
+        - env/ci.env   
+      volumes:
+        - $PKG/builder/ci/cmd/cid/devstart/run:$PKG/builder/ci/run
+        - $PKG/builder/ci:$PKG/builder/ci
+        - $PKG/user:$PKG/user
+        - $PKG/net:$PKG/net
+        - $PKG/errors:$PKG/errors
+        - $PKG/debug:$PKG/debug
+        - $ROOT/secrets/crt/auth:/etc/ssl/certs/auth
+        - $ROOT/secrets/crt/dgraph:/etc/ssl/certs/dgraph
+        - /var/run/docker.sock:/var/run/docker.sock
+        - /var/lib/docker:/var/lib/docker
+      networks:
+        app_pathway_network:
+
+    cdd:
+      restart: always
+      container_name: cdd
+      build:
+        dockerfile: pkg/builder/cd/build/package/Dockerfile
+        context: ../../../
+      env_file:
+        - env/cd.env   
+      volumes:
+        - $PKG/builder/cd/cmd/cdd/devstart/run:$PKG/builder/cd/run
+        - $PKG/builder/cd:$PKG/builder/cd
+        - $PKG/user:$PKG/user
+        - $PKG/net:$PKG/net
+        - $PKG/errors:$PKG/errors
+        - $PKG/debug:$PKG/debug
+        - $ROOT/secrets/crt/auth:/etc/ssl/certs/auth
+        - $ROOT/secrets/crt/dgraph:/etc/ssl/certs/dgraph
+      networks:
+        app_pathway_network:

@@ -1,0 +1,22 @@
+syntax = "proto3";
+package smspb;
+
+option go_package = "apppathway.com/examples/prodapi/pkg/plugins/sms/api/smspb";
+
+message SendRequest {
+    string phoneNum = 1;
+    string email = 2;
+    Message msg = 3; 
+}
+
+message Message {
+    string body = 1;
+}
+
+message SendResponse {
+    string status = 1;
+}
+
+service SMS {
+    rpc Send(SendRequest) returns (SendResponse);
+}

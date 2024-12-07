@@ -1,0 +1,26 @@
+alias: string .
+importPath: string .
+type Import {
+    alias: string # alias name or empty string
+    importPath: string
+}
+
+meta: uid .
+decls: uid .               
+imports: [uid] .
+pkgName: string .
+type GoFile {
+    meta:        GoFileMetaData
+    pkgName:     string
+    filePath:    string  
+	decls:       Decls              # top-level declarations
+	imports: [Import]   
+}
+
+filePath: string @index(term, trigram) . 
+stringContent:  string @index(term) .
+type StringOnlyFile {
+    filePath:    string
+    stringContent:     string 
+}
+

@@ -1,0 +1,18 @@
+# Names
+funcName:  string @index(exact) .
+pkgName: string @index(exact) .
+
+# Uid List types
+funcs: [uid] .
+
+# Uid types
+root: uid .
+funcOverview: uid .
+
+# string types .
+string: string .
+bytes: string .
+scope: string .
+
+# int types
+quanity:  int .

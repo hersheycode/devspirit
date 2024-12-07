@@ -1,0 +1,15 @@
+[2022-03-26 21:07:16.191] [exthost] [info] Extension host with pid 3888 started
+[2022-03-26 21:07:16.209] [exthost] [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/-5905bff9/vscode.lock': Lock acquired.
+[2022-03-26 21:07:16.624] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-03-26 21:07:16.650] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2022-03-26 21:07:16.677] [exthost] [info] ExtensionService#_doActivateExtension cweijan.vscode-ssh, startup: true, activationEvent: '*'
+[2022-03-26 21:07:16.985] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-03-26 21:07:17.149] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-03-26 21:07:17.760] [exthost] [info] ExtensionService#_doActivateExtension golang.go, startup: true, activationEvent: 'workspaceContains:*.go,*/*.go,*/*/*.go'
+[2022-03-26 21:07:18.272] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 523
+[2022-03-26 21:07:18.335] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-26 21:07:18.376] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-26 21:07:18.387] [exthost] [info] Eager extensions activated
+[2022-03-26 21:07:52.118] [exthost] [info] extension host terminating: received terminate message from renderer
+[2022-03-26 21:07:52.119] [exthost] [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/-5905bff9/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-03-26 21:07:52.149] [exthost] [info] Extension host with pid 3888 exiting with code 0

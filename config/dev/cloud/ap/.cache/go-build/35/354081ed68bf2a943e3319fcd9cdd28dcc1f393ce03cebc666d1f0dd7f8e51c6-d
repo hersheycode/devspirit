@@ -1,0 +1,3 @@
+./buildinfo.go
+./fixbuild.go
+./version.go

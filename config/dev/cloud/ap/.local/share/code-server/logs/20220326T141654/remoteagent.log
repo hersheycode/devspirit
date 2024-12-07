@@ -1,0 +1,37 @@
+[2022-03-26 10:16:54.425] [remoteagent] [info] Extension host agent started.
+[2022-03-26 10:16:56.643] [remoteagent] [info] [10.0.1.238][888777e2][ManagementConnection] New connection established.
+[2022-03-26 10:16:57.820] [remoteagent] [info] [10.0.1.238][4659e1e0][ExtensionHostConnection] New connection established.
+[2022-03-26 10:16:57.877] [remoteagent] [info] [10.0.1.238][4659e1e0][ExtensionHostConnection] <110> Launched Extension Host Process.
+[2022-03-26 10:17:14.419] [remoteagent] [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[2022-03-26 10:19:16.686] [remoteagent] [info] [10.0.1.238][888777e2][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-03-26 10:19:16.723] [remoteagent] [info] [10.0.1.238][4659e1e0][ExtensionHostConnection] <110> Extension Host Process exited with code: 0, signal: null.
+[2022-03-26 10:19:17.637] [remoteagent] [info] [10.0.1.238][730e82dd][ManagementConnection] New connection established.
+[2022-03-26 10:19:18.625] [remoteagent] [info] [10.0.1.238][5931f272][ExtensionHostConnection] New connection established.
+[2022-03-26 10:19:18.635] [remoteagent] [info] [10.0.1.238][5931f272][ExtensionHostConnection] <568> Launched Extension Host Process.
+[2022-03-26 12:33:20.729] [remoteagent] [info] [10.0.1.238][730e82dd][ManagementConnection] The client has reconnected.
+[2022-03-26 12:42:03.767] [remoteagent] [info] [10.0.1.238][5931f272][ExtensionHostConnection] The client has reconnected.
+[2022-03-26 13:03:42.554] [remoteagent] [info] [10.0.1.238][730e82dd][ManagementConnection] The client has reconnected.
+[2022-03-26 14:08:23.246] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: std::bad_alloc (EUNKNOWN) (path: /home/coder/ui)
+[2022-03-26 14:08:23.302] [remoteagent] [error] [File Watcher (parcel)] restarting watcher after error: std::bad_alloc
+[2022-03-26 14:31:01.470] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-03-26 21:07:05.884] [remoteagent] [info] [10.0.1.238][b3791141][ManagementConnection] New connection established.
+[2022-03-26 21:07:09.487] [remoteagent] [info] [10.0.1.238][c450ed69][ExtensionHostConnection] New connection established.
+[2022-03-26 21:07:09.511] [remoteagent] [info] [10.0.1.238][c450ed69][ExtensionHostConnection] <3888> Launched Extension Host Process.
+[2022-03-26 21:07:33.068] [remoteagent] [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[2022-03-26 21:07:52.132] [remoteagent] [info] [10.0.1.238][b3791141][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-03-26 21:07:52.196] [remoteagent] [info] [10.0.1.238][c450ed69][ExtensionHostConnection] <3888> Extension Host Process exited with code: 0, signal: null.
+[2022-03-26 21:07:56.770] [remoteagent] [info] [10.0.1.238][f5a0f20c][ManagementConnection] New connection established.
+[2022-03-26 21:07:59.988] [remoteagent] [info] [10.0.1.238][7a8167ea][ExtensionHostConnection] New connection established.
+[2022-03-26 21:08:00.034] [remoteagent] [info] [10.0.1.238][7a8167ea][ExtensionHostConnection] <4085> Launched Extension Host Process.
+[2022-03-26 21:08:06.290] [remoteagent] [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[2022-03-26 21:08:21.358] [remoteagent] [info] [10.0.1.238][f5a0f20c][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-03-26 21:08:22.566] [remoteagent] [info] [10.0.1.238][f5a0f20c][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2022-03-26 21:08:22.566] [remoteagent] [info] [10.0.1.238][d2efcc1b][ManagementConnection] New connection established.
+[2022-03-26 21:08:25.795] [remoteagent] [info] [10.0.1.238][dc10fd3f][ExtensionHostConnection] New connection established.
+[2022-03-26 21:08:25.817] [remoteagent] [info] [10.0.1.238][dc10fd3f][ExtensionHostConnection] <4184> Launched Extension Host Process.
+[2022-03-26 21:08:37.556] [remoteagent] [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[2022-03-26 21:10:06.358] [remoteagent] [info] [10.0.1.238][d2efcc1b][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-03-26 21:13:22.668] [remoteagent] [info] [10.0.1.238][f5a0f20c][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[2022-03-26 21:13:22.712] [remoteagent] [info] [10.0.1.238][7a8167ea][ExtensionHostConnection] <4085> Extension Host Process exited with code: 0, signal: null.
+[2022-03-27 00:10:03.394] [remoteagent] [info] [10.0.1.238][dc10fd3f][ExtensionHostConnection] <4184> Extension Host Process exited with code: 0, signal: null.
+[2022-03-27 00:10:12.866] [remoteagent] [info] [10.0.1.238][d2efcc1b][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.

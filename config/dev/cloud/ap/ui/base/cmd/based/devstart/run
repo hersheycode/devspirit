@@ -1,0 +1,4 @@
+#!/bin/bash
+pkill -f cplugind
+go run -race ./cmd/cplugind/cplugind.go
+

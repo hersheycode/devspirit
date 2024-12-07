@@ -1,0 +1,4 @@
+#!/bin/bash
+pkill -f schedulerd
+go run -race ./cmd/schedulerd/schedulerd.go
+

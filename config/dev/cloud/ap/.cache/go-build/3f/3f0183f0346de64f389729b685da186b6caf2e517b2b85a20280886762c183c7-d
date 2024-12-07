@@ -1,0 +1,4 @@
+./debugregs.go
+./xsave.go
+./xsave_amd64.go
+./xsave_amd64.s

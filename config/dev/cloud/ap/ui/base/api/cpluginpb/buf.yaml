@@ -1,0 +1,4 @@
+version: v1
+name: buf.build/app-pathway/genpb
+deps:
+  - buf.build/googleapis/googleapis

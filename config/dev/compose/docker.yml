@@ -1,0 +1,27 @@
+version: "3.9"
+
+networks:
+  app_pathway_network:
+    external: true
+    
+services:
+    devcluster:
+      container_name: devcluster
+      build:
+          dockerfile: cluster/Dockerfile
+          context: ../k8s
+
+    hub:
+      image: registry:2
+      environment:
+        REGISTRY_AUTH: htpasswd
+        REGISTRY_HTTP_ADDR: 0.0.0.0:5000
+        REGISTRY_AUTH_HTPASSWD_REALM: Registry Realm
+        REGISTRY_AUTH_HTPASSWD_PATH: /auth/.htpasswd
+        REGISTRY_STORAGE_FILESYSTEM_ROOTDIRECTORY: /data
+      restart: always
+      volumes:
+        - ../auth:/auth
+        - ../data:/data
+      networks:
+        app_pathway_network:

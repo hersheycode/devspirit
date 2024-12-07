@@ -1,0 +1,260 @@
+Below tools are needed for the basic features of the Go extension.
+  staticcheck
+Tools environment: GOPATH=/home/coder/go
+Installing 1 tool at /home/coder/go/bin in module mode.
+  staticcheck
+
+Installing honnef.co/go/tools/cmd/staticcheck@latest (/home/coder/go/bin/staticcheck) SUCCEEDED
+
+All tools successfully installed. You are ready to Go. :)
+Starting linting the current package at /home/coder/ui/crudusrs/pkg/plugins/crud_basic
+Error while running tool: /home/coder/go/bin/staticcheck
+err: exit status 1: stderr: go: open /home/coder/ui/crudusrs/pkg/plugins/user/go.mod: no such file or directory
+
+
+Starting linting the current package at /home/coder/ui/crudusrs/pkg/plugins/crud_basic
+Error while running tool: /home/coder/go/bin/staticcheck
+err: exit status 1: stderr: go: open /home/coder/ui/crudusrs/pkg/plugins/user/go.mod: no such file or directory
+
+
+Starting linting the current package at /home/coder/ui/crudusrs/pkg/plugins/crud_basic
+Error while running tool: /home/coder/go/bin/staticcheck
+err: exit status 1: stderr: go: open /home/coder/ui/crudusrs/pkg/plugins/user/go.mod: no such file or directory
+
+
+Starting linting the current package at /home/coder/ui/crudusrs/pkg/plugins/crud_basic
+Error while running tool: /home/coder/go/bin/staticcheck
+err: exit status 1: stderr: go: open /home/coder/ui/crudusrs/pkg/plugins/user/go.mod: no such file or directory
+
+
+Starting linting the current package at /home/coder/ui/crudusrs/pkg/plugins/crud_basic
+Error while running tool: /home/coder/go/bin/staticcheck
+err: exit status 1: stderr: go: open /home/coder/ui/crudusrs/pkg/plugins/user/go.mod: no such file or directory
+
+
+Starting linting the current package at /home/coder/ui/crudusrs/pkg/plugins/crud_basic
+Error while running tool: /home/coder/go/bin/staticcheck
+err: exit status 1: stderr: go: open /home/coder/ui/crudusrs/pkg/plugins/user/go.mod: no such file or directory
+
+
+Starting linting the current package at /home/coder/ui/crudusrs/pkg/plugins/crud_basic
+Error while running tool: /home/coder/go/bin/staticcheck
+err: exit status 1: stderr: go: open /home/coder/ui/crudusrs/pkg/plugins/user/go.mod: no such file or directory
+
+
+Starting linting the current package at /home/coder/ui/crudusrs/pkg/plugins/crud_basic
+Error while running tool: /home/coder/go/bin/staticcheck
+err: exit status 1: stderr: go: open /home/coder/ui/crudusrs/pkg/plugins/user/go.mod: no such file or directory
+
+
+Starting linting the current package at /home/coder/ui/crudusrs/pkg/plugins/crud_basic
+Error while running tool: /home/coder/go/bin/staticcheck
+err: exit status 1: stderr: go: open /home/coder/ui/crudusrs/pkg/plugins/user/go.mod: no such file or directory
+
+
+Starting linting the current package at /home/coder/ui/crudusrs/pkg/plugins/crud_basic
+Error while running tool: /home/coder/go/bin/staticcheck
+err: exit status 1: stderr: go: open /home/coder/ui/crudusrs/pkg/plugins/user/go.mod: no such file or directory
+
+
+Starting linting the current package at /home/coder/ui/crudusrs/pkg/plugins/crud_basic
+Error while running tool: /home/coder/go/bin/staticcheck
+err: exit status 1: stderr: go: open /home/coder/ui/crudusrs/pkg/plugins/user/go.mod: no such file or directory
+
+
+Starting linting the current package at /home/coder/ui/crudusrs/pkg/plugins/crud_basic
+Error while running tool: /home/coder/go/bin/staticcheck
+err: exit status 1: stderr: go: open /home/coder/ui/crudusrs/pkg/plugins/user/go.mod: no such file or directory
+
+
+Starting linting the current package at /home/coder/ui/crudusrs/pkg/plugins/crud_basic
+Error while running tool: /home/coder/go/bin/staticcheck
+err: exit status 1: stderr: go: open /home/coder/ui/crudusrs/pkg/plugins/user/go.mod: no such file or directory
+
+
+Starting linting the current package at /home/coder/ui/crudusrs/pkg/plugins/crud_basic
+Error while running tool: /home/coder/go/bin/staticcheck
+err: exit status 1: stderr: go: open /home/coder/ui/crudusrs/pkg/plugins/user/go.mod: no such file or directory
+
+
+Starting linting the current package at /home/coder/ui/crudusrs/pkg/plugins/crud_basic
+Error while running tool: /home/coder/go/bin/staticcheck
+err: exit status 1: stderr: go: open /home/coder/ui/crudusrs/pkg/plugins/user/go.mod: no such file or directory
+
+
+Starting linting the current package at /home/coder/ui/crudusrs/pkg/plugins/crud_basic
+Error while running tool: /home/coder/go/bin/staticcheck
+err: exit status 1: stderr: go: open /home/coder/ui/crudusrs/pkg/plugins/user/go.mod: no such file or directory
+
+
+Starting linting the current package at /home/coder/ui/crudusrs/pkg/plugins/crud_basic
+Error while running tool: /home/coder/go/bin/staticcheck
+err: exit status 1: stderr: go: open /home/coder/ui/crudusrs/pkg/plugins/user/go.mod: no such file or directory
+
+
+Starting linting the current package at /home/coder/ui/crudusrs/pkg/plugins/crud_basic
+Error while running tool: /home/coder/go/bin/staticcheck
+err: exit status 1: stderr: go: open /home/coder/ui/crudusrs/pkg/plugins/user/go.mod: no such file or directory
+
+
+Starting linting the current package at /home/coder/ui/crudusrs/pkg/plugins/crud_basic
+Error while running tool: /home/coder/go/bin/staticcheck
+err: exit status 1: stderr: go: open /home/coder/ui/crudusrs/pkg/plugins/user/go.mod: no such file or directory
+
+
+Starting linting the current package at /home/coder/ui/crudusrs/pkg/plugins/crud_basic
+Error while running tool: /home/coder/go/bin/staticcheck
+err: exit status 1: stderr: go: open /home/coder/ui/crudusrs/pkg/plugins/user/go.mod: no such file or directory
+
+
+Starting linting the current package at /home/coder/ui/crudusrs/pkg/plugins/crud_basic
+Error while running tool: /home/coder/go/bin/staticcheck
+err: exit status 1: stderr: go: open /home/coder/ui/crudusrs/pkg/plugins/user/go.mod: no such file or directory
+
+
+Starting linting the current package at /home/coder/ui/crudusrs/pkg/plugins/crud_basic
+Error while running tool: /home/coder/go/bin/staticcheck
+err: exit status 1: stderr: go: open /home/coder/ui/crudusrs/pkg/plugins/user/go.mod: no such file or directory
+
+
+Starting linting the current package at /home/coder/ui/crudusrs/pkg/plugins/crud_basic
+Error while running tool: /home/coder/go/bin/staticcheck
+err: exit status 1: stderr: go: open /home/coder/ui/crudusrs/pkg/plugins/user/go.mod: no such file or directory
+
+
+Starting linting the current package at /home/coder/ui/crudusrs/pkg/plugins/crud_basic
+Error while running tool: /home/coder/go/bin/staticcheck
+err: exit status 1: stderr: go: open /home/coder/ui/crudusrs/pkg/plugins/user/go.mod: no such file or directory
+
+
+Starting linting the current package at /home/coder/ui/crudusrs/pkg/plugins/crud_basic
+Error while running tool: /home/coder/go/bin/staticcheck
+err: exit status 1: stderr: go: open /home/coder/ui/crudusrs/pkg/plugins/user/go.mod: no such file or directory
+
+
+Starting linting the current package at /home/coder/ui/crudusrs/pkg/plugins/crud_basic
+Error while running tool: /home/coder/go/bin/staticcheck
+err: exit status 1: stderr: go: open /home/coder/ui/crudusrs/pkg/plugins/user/go.mod: no such file or directory
+
+
+Starting linting the current package at /home/coder/ui/crudusrs/pkg/plugins/crud_basic
+Error while running tool: /home/coder/go/bin/staticcheck
+err: exit status 1: stderr: go: open /home/coder/ui/crudusrs/pkg/plugins/user/go.mod: no such file or directory
+
+
+Starting linting the current package at /home/coder/ui/crudusrs/pkg/plugins/crud_basic
+Error while running tool: /home/coder/go/bin/staticcheck
+err: exit status 1: stderr: go: open /home/coder/ui/crudusrs/pkg/plugins/user/go.mod: no such file or directory
+
+
+Starting linting the current package at /home/coder/ui/crudusrs/pkg/plugins/crud_basic
+Error while running tool: /home/coder/go/bin/staticcheck
+err: exit status 1: stderr: go: open /home/coder/ui/crudusrs/pkg/plugins/user/go.mod: no such file or directory
+
+
+Starting linting the current package at /home/coder/ui/crudusrs/pkg/plugins/crud_basic
+Error while running tool: /home/coder/go/bin/staticcheck
+err: exit status 1: stderr: go: open /home/coder/ui/crudusrs/pkg/plugins/user/go.mod: no such file or directory
+
+
+Starting linting the current package at /home/coder/ui/crudusrs/pkg/plugins/crud_basic
+Error while running tool: /home/coder/go/bin/staticcheck
+err: exit status 1: stderr: go: open /home/coder/ui/crudusrs/pkg/plugins/user/go.mod: no such file or directory
+
+
+Starting linting the current package at /home/coder/ui/crudusrs/pkg/plugins/crud_basic
+Error while running tool: /home/coder/go/bin/staticcheck
+err: exit status 1: stderr: go: open /home/coder/ui/crudusrs/pkg/plugins/user/go.mod: no such file or directory
+
+
+Starting linting the current package at /home/coder/ui/crudusrs/pkg/plugins/crud_basic
+Error while running tool: /home/coder/go/bin/staticcheck
+err: exit status 1: stderr: go: open /home/coder/ui/crudusrs/pkg/plugins/user/go.mod: no such file or directory
+
+
+Starting linting the current package at /home/coder/ui/crudusrs/pkg/plugins/crud_basic
+Error while running tool: /home/coder/go/bin/staticcheck
+err: exit status 1: stderr: go: open /home/coder/ui/crudusrs/pkg/plugins/user/go.mod: no such file or directory
+
+
+Starting linting the current package at /home/coder/ui/crudusrs/pkg/plugins/crud_basic
+Error while running tool: /home/coder/go/bin/staticcheck
+err: exit status 1: stderr: go: open /home/coder/ui/crudusrs/pkg/plugins/user/go.mod: no such file or directory
+
+
+Starting linting the current package at /home/coder/ui/crudusrs/pkg/plugins/crud_basic
+Error while running tool: /home/coder/go/bin/staticcheck
+err: exit status 1: stderr: go: open /home/coder/ui/crudusrs/pkg/plugins/user/go.mod: no such file or directory
+
+
+Starting linting the current package at /home/coder/ui/crudusrs/pkg/plugins/crud_basic
+Error while running tool: /home/coder/go/bin/staticcheck
+err: exit status 1: stderr: go: open /home/coder/ui/crudusrs/pkg/plugins/user/go.mod: no such file or directory
+
+
+Starting linting the current package at /home/coder/ui/crudusrs/pkg/plugins/crud_basic
+Error while running tool: /home/coder/go/bin/staticcheck
+err: exit status 1: stderr: go: open /home/coder/ui/crudusrs/pkg/plugins/user/go.mod: no such file or directory
+
+
+Starting linting the current package at /home/coder/ui/crudusrs/pkg/plugins/crud_basic
+Error while running tool: /home/coder/go/bin/staticcheck
+err: exit status 1: stderr: go: open /home/coder/ui/crudusrs/pkg/plugins/user/go.mod: no such file or directory
+
+
+Starting linting the current package at /home/coder/ui/crudusrs/pkg/plugins/crud_basic
+Error while running tool: /home/coder/go/bin/staticcheck
+err: exit status 1: stderr: go: open /home/coder/ui/crudusrs/pkg/plugins/user/go.mod: no such file or directory
+
+
+Starting linting the current package at /home/coder/ui/crudusrs/pkg/plugins/crud_basic/dgraph
+Error while running tool: /home/coder/go/bin/staticcheck
+err: exit status 1: stderr: go: open /home/coder/ui/crudusrs/pkg/plugins/user/go.mod: no such file or directory
+
+
+Starting linting the current package at /home/coder/ui/crudusrs/pkg/plugins/crud_basic/dgraph
+Error while running tool: /home/coder/go/bin/staticcheck
+err: exit status 1: stderr: go: open /home/coder/ui/crudusrs/pkg/plugins/user/go.mod: no such file or directory
+
+
+Starting linting the current package at /home/coder/ui/crudusrs/pkg/plugins/crud_basic/cmd/crudbasicd
+Error while running tool: /home/coder/go/bin/staticcheck
+err: exit status 1: stderr: go: open /home/coder/ui/crudusrs/pkg/plugins/user/go.mod: no such file or directory
+
+
+Starting linting the current package at /home/coder/ui/crudusrs/pkg/plugins/crud_basic/cmd/crudbasicd
+Error while running tool: /home/coder/go/bin/staticcheck
+err: exit status 1: stderr: go: open /home/coder/ui/crudusrs/pkg/plugins/user/go.mod: no such file or directory
+
+
+Starting linting the current package at /home/coder/ui/crudusrs/pkg/plugins/crud_basic/cmd/crudbasicd
+Error while running tool: /home/coder/go/bin/staticcheck
+err: exit status 1: stderr: go: open /home/coder/ui/crudusrs/pkg/plugins/user/go.mod: no such file or directory
+
+
+Starting linting the current package at /home/coder/ui/crudusrs/pkg/plugins/crud_basic/cmd/crudbasicd
+Error while running tool: /home/coder/go/bin/staticcheck
+err: exit status 1: stderr: go: open /home/coder/ui/crudusrs/pkg/plugins/user/go.mod: no such file or directory
+
+
+Starting linting the current package at /home/coder/ui/crudusrs/pkg/plugins/crud_basic/cmd/crudbasicd
+Error while running tool: /home/coder/go/bin/staticcheck
+err: exit status 1: stderr: go: open /home/coder/ui/crudusrs/pkg/plugins/user/go.mod: no such file or directory
+
+
+Starting linting the current package at /home/coder/ui/crudusrs/pkg/plugins/crud_basic/cmd/crudbasicd
+Error while running tool: /home/coder/go/bin/staticcheck
+err: exit status 1: stderr: go: open /home/coder/ui/crudusrs/pkg/plugins/user/go.mod: no such file or directory
+
+
+Starting linting the current package at /home/coder/ui/crudusrs/pkg/plugins/crud_basic/cmd/crudbasicd
+Error while running tool: /home/coder/go/bin/staticcheck
+err: exit status 1: stderr: go: open /home/coder/ui/crudusrs/pkg/plugins/user/go.mod: no such file or directory
+
+
+Starting linting the current package at /home/coder/ui/crudusrs/pkg/plugins/crud_basic/cmd/crudbasicd
+Error while running tool: /home/coder/go/bin/staticcheck
+err: exit status 1: stderr: go: open /home/coder/ui/crudusrs/pkg/plugins/user/go.mod: no such file or directory
+
+
+Starting linting the current package at /home/coder/ui/crudusrs/pkg/plugins/crud_basic/cmd/crudbasicd

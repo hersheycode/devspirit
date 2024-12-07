@@ -1,0 +1,4 @@
+#!/bin/bash
+pkill -f intentsysd
+go run -race ./cmd/intentsysd/intentsysd.go
+

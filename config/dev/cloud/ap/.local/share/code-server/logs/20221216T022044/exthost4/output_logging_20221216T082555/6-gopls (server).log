@@ -1,0 +1,101 @@
+[Info  - 8:27:58 AM] 2022/12/16 03:27:58 go env for /home/coder/ui
+(root /home/coder/ui)
+(go version go version go1.18 linux/amd64)
+(valid build configuration = false)
+(build flags: [])
+GOPROXY=https://proxy.golang.org,direct
+GOPRIVATE=
+GOWORK=
+GOSUMDB=sum.golang.org
+GOROOT=/usr/local/go
+GOPATH=/home/coder/go
+GONOSUMDB=
+GOCACHE=/home/coder/.cache/go-build
+GOMODCACHE=/home/coder/go/pkg/mod
+GOMOD=/dev/null
+GOFLAGS=
+GO111MODULE=
+GOINSECURE=
+GONOPROXY=
+
+
+[Info  - 8:27:58 AM] 2022/12/16 03:27:58 go/packages.Load #1
+	snapshot=0
+	directory=file:///home/coder/ui
+	query=[./ builtin]
+	packages=2
+
+[Info  - 8:27:58 AM] 2022/12/16 03:27:58 go/packages.Load #1: updating metadata for 0 packages
+
+[Info  - 8:28:07 AM] 2022/12/16 03:28:07 go/packages.Load #2
+	snapshot=8
+	directory=file:///home/coder/ui
+	query=[file=/home/coder/ui/crudusrs/config/up/cmd/root.go]
+	packages=1
+
+[Info  - 8:28:07 AM] 2022/12/16 03:28:07 go/packages.Load #2
+	snapshot=8
+	directory=file:///home/coder/ui
+	package="command-line-arguments"
+	files=[/home/coder/ui/crudusrs/config/up/cmd/root.go]
+
+[Info  - 8:28:07 AM] 2022/12/16 03:28:07 go/packages.Load #2: updating metadata for 40 packages
+
+[Info  - 8:28:07 AM] 2022/12/16 03:28:07 go/packages.Load #3
+	snapshot=8
+	directory=file:///home/coder/ui
+	query=[file=/home/coder/ui/crudusrs/config/up/cmd/root.go]
+	packages=1
+
+[Info  - 8:28:07 AM] 2022/12/16 03:28:07 go/packages.Load #3
+	snapshot=8
+	directory=file:///home/coder/ui
+	package="command-line-arguments"
+	files=[/home/coder/ui/crudusrs/config/up/cmd/root.go]
+
+[Info  - 8:28:07 AM] 2022/12/16 03:28:07 go/packages.Load #3: updating metadata for 0 packages
+
+[Error - 8:28:08 AM] 2022/12/16 03:28:08 errors loading workspace: You are outside of a module and outside of $GOPATH/src.
+If you are using modules, please open your editor to a directory in your module.
+If you believe this warning is incorrect, please file an issue: https://github.com/golang/go/issues/new.
+	snapshot=9
+	directory=file:///home/coder/ui
+
+[Info  - 8:28:14 AM] 2022/12/16 03:28:14 go/packages.Load #4
+	snapshot=11
+	directory=file:///home/coder/ui
+	query=[file=/home/coder/ui/crudusrs/config/up/cmd/shared.go]
+	packages=1
+
+[Info  - 8:28:14 AM] 2022/12/16 03:28:14 go/packages.Load #4
+	snapshot=11
+	directory=file:///home/coder/ui
+	package="command-line-arguments"
+	files=[/home/coder/ui/crudusrs/config/up/cmd/shared.go]
+
+[Info  - 8:28:14 AM] 2022/12/16 03:28:14 go/packages.Load #4: updating metadata for 8 packages
+
+[Info  - 8:28:14 AM] 2022/12/16 03:28:14 go/packages.Load #5
+	snapshot=11
+	directory=file:///home/coder/ui
+	query=[file=/home/coder/ui/crudusrs/config/up/cmd/shared.go]
+	packages=1
+
+[Info  - 8:28:14 AM] 2022/12/16 03:28:14 go/packages.Load #5
+	snapshot=11
+	directory=file:///home/coder/ui
+	package="command-line-arguments"
+	files=[/home/coder/ui/crudusrs/config/up/cmd/shared.go]
+
+[Info  - 8:28:14 AM] 2022/12/16 03:28:14 go/packages.Load #5: updating metadata for 0 packages
+
+[Error - 8:28:14 AM] 2022/12/16 03:28:14 errors loading workspace: You are outside of a module and outside of $GOPATH/src.
+If you are using modules, please open your editor to a directory in your module.
+If you believe this warning is incorrect, please file an issue: https://github.com/golang/go/issues/new.
+	snapshot=11
+	directory=file:///home/coder/ui
+
+[Info  - 8:28:37 AM] 2022/12/16 03:28:37 background imports cache refresh starting
+
+[Info  - 8:28:37 AM] 2022/12/16 03:28:37 background refresh finished after 6.485639ms
+

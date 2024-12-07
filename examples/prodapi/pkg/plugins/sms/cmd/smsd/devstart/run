@@ -1,0 +1,4 @@
+#!/bin/bash
+pkill -f smsd
+go run -race ./cmd/smsd/smsd.go
+

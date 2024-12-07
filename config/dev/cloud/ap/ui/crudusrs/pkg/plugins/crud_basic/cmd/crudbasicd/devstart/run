@@ -1,0 +1,4 @@
+#!/bin/bash
+pkill -f crudbasicd
+go run -race ./cmd/crudbasicd/crudbasicd.go
+
