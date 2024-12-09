@@ -18,7 +18,7 @@ Start from scratch on codespace:
 
 echo "alias dev='echo "entering devspace" && sudo docker exec -it devspace zsh && echo "exited devspace"'" >> ~/.bashrc
 
-git tok: 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
+
 
 > Replace  => /home/nate/code/app-pathway With  => /workspaces/devspirit
 
