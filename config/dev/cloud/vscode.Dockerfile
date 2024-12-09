@@ -2,7 +2,7 @@
 FROM codercom/code-server
 RUN sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get install wget
 RUN sudo usermod --shell /bin/zsh coder
-# COPY --from=ap /home/nate/code/app-pathway/pkg/cli/data/tokens.csv /usr/ap/tokens.csv
+# COPY --from=ap /workspaces/devspirit/pkg/cli/data/tokens.csv /usr/ap/tokens.csv
 # COPY --from=ap /etc/ssl/certs/ca.pem /etc/ssl/certs/ca.pem
 # COPY --from=ap /app/ap /usr/bin/ap
 

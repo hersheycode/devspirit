@@ -1,0 +1,34 @@
+Starting linting the current package at /home/coder/ui/crudusrs/config/up/cmd
+Starting building the current package at /home/coder/ui/crudusrs/config/up/cmd
+Starting "go vet" under the folder /home/coder/ui/crudusrs/config/up/cmd
+/home/coder/ui/crudusrs/config/up/cmd>Finished running tool: /usr/local/go/bin/go build -o /tmp/vscode-gorfSsL6/go-code-check .
+
+/home/coder/ui/crudusrs/config/up/cmd>Finished running tool: /usr/local/go/bin/go vet .
+
+Starting linting the current package at /home/coder/ui/starter5/pkg/orgs/intentsys/org
+Starting "go vet" under the folder /home/coder/ui/starter5/pkg/orgs/intentsys/org
+Starting building the current package at /home/coder/ui/starter5/pkg/orgs/intentsys/org
+Not able to determine import path of current package by using cwd: /home/coder/ui/starter5/pkg/orgs/intentsys/org and Go workspace: 
+/home/coder/ui/starter5/pkg/orgs/intentsys/org>Finished running tool: /usr/local/go/bin/go build -o /tmp/vscode-gorfSsL6/go-code-check .
+go: go.mod file not found in current directory or any parent directory; see 'go help modules'
+
+
+/home/coder/ui/starter5/pkg/orgs/intentsys/org>Finished running tool: /usr/local/go/bin/go vet .
+
+Tools environment: GOPATH=/home/coder/code/go, GOBIN=/home/coder/code/go/bin
+Installing 1 tool at the configured GOBIN: /home/coder/code/go/bin in module mode.
+  goimports
+
+Installing golang.org/x/tools/cmd/goimports@latest (/home/coder/code/go/bin/goimports) SUCCEEDED
+
+All tools successfully installed. You are ready to Go. :)
+Starting linting the current package at /home/coder/ui/starter5/pkg/orgs/intentsys/org
+Starting "go vet" under the folder /home/coder/ui/starter5/pkg/orgs/intentsys/org
+Starting building the current package at /home/coder/ui/starter5/pkg/orgs/intentsys/org
+Not able to determine import path of current package by using cwd: /home/coder/ui/starter5/pkg/orgs/intentsys/org and Go workspace: 
+/home/coder/ui/starter5/pkg/orgs/intentsys/org>Finished running tool: /usr/local/go/bin/go vet .
+
+/home/coder/ui/starter5/pkg/orgs/intentsys/org>Finished running tool: /usr/local/go/bin/go build -o /tmp/vscode-gorfSsL6/go-code-check .
+go: go.mod file not found in current directory or any parent directory; see 'go help modules'
+
+

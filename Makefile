@@ -1,2 +1,2 @@
 dev:
-	./scripts/build/dev/up
+	go run ./scripts/build/dev/up.go all

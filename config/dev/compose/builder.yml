@@ -5,17 +5,17 @@ networks:
     external: true
     
 services:
-    gonodes:
+    nodes:
       restart: always
-      container_name: gonodes
+      container_name: nodes
       build:
-        dockerfile: pkg/builder/gonodes/build/package/Dockerfile
+        dockerfile: pkg/builder/nodes/build/package/Dockerfile
         context: ../../../
       env_file:
-        - env/gonodes.env   
+        - env/nodes.env   
       volumes:
-        - $PKG/builder/gonodes/cmd/gonodesd/devstart/run:$PKG/builder/gonodes/run
-        - $PKG/builder/gonodes:$PKG/builder/gonodes
+        - $PKG/builder/nodes/cmd/nodesd/devstart/run:$PKG/builder/nodes/run
+        - $PKG/builder/nodes:$PKG/builder/nodes
         - $PKG/builder/spec:$PKG/builder/spec
         - $PKG/user:$PKG/user
         - $PKG/net:$PKG/net

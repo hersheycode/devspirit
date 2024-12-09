@@ -1,0 +1,4 @@
+Starting linting the current package at /home/coder/ui/crudusrs/pkg/plugins/crud_basic/cmd/crudbasicd
+Starting linting the current package at /home/coder/ui/crudusrs/pkg/plugins/crud_basic/cmd/crudbasicd
+/home/coder/ui/crudusrs/pkg/plugins/crud_basic/cmd/crudbasicd>Finished running tool: /home/coder/go/bin/staticcheck
+

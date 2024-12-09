@@ -1,0 +1,99 @@
+# d stack rm builder_db_stack
+# d volume rm app_builder_data
+
+# d volume create app_builder_data
+# d stack deploy -c docker-compose.db.yml builder_db_stack
+# d service logs builder_db_stack_alpha3
+# d service logs builder_db_stack_zero
+# d service logs builder_db_stack_alpha1
+# d service logs builder_db_stack_alpha2
+
+version: "3.9"
+
+networks:
+  app_pathway_network:
+    external: true
+
+volumes:
+  app_builder_data: 
+    external: true
+
+services:
+  zero:
+    image: dgraph/dgraph:v21.12.0
+    volumes:
+      - app_builder_data:/dgraph/zero
+    ports:
+      - 5160:5160
+      - 6160:6160
+    deploy:
+      placement:
+        constraints:
+          - node.hostname == apppathwayserver
+    command: dgraph zero --port_offset 80 --my=zero:5160 --replicas 3
+    networks:
+      - app_pathway_network
+
+  alpha1:
+    image: dgraph/dgraph:v21.12.0
+    volumes:
+      - app_builder_data:/dgraph/alpha1
+      - /home/nate/code/app-pathway/secrets/crt/dgraph:/secrets/crt/dgraph
+    ports:
+      - 8210:8210
+      - 9210:9210
+    deploy:
+      placement:
+        constraints:
+          - node.hostname == apppathwayserver
+    command: dgraph alpha --port_offset 130 --security whitelist=10.0.0.0:10.0.0.255 --my=alpha1:7210 --zero=zero:5160 --tls ca-cert=/secrets/crt/dgraph/ca.pem;server-cert=/secrets/crt/dgraph/cert.pem;server-key=/secrets/crt/dgraph/id_cert.pem
+    networks:
+      - app_pathway_network
+
+  alpha2:
+    image: dgraph/dgraph:v21.12.0
+    volumes:
+      - app_builder_data:/dgraph/alpha2
+    ports:
+      - 8220:8220
+      - 9220:9220
+    deploy:
+      replicas: 1
+      placement:
+        constraints:
+          - node.hostname == apppathwayserver
+    command: dgraph alpha --port_offset 140 --my=alpha2:7220 --zero=zero:5160 
+    networks:
+      - app_pathway_network
+
+  alpha3:
+    image: dgraph/dgraph:v21.12.0
+    volumes:
+      - app_builder_data:/dgraph/alpha3
+    ports:
+      - 8230:8230
+      - 9230:9230
+    deploy:
+      replicas: 1
+      placement:
+        constraints:
+          - node.hostname == apppathwayserver
+    command: dgraph alpha --port_offset 150 --my=alpha3:7230 --zero=zero:5160 
+    networks:
+      - app_pathway_network
+
+  # ratel:
+  #   image: dgraph/ratel
+  #   ports:
+  #     - 8001:8001
+  #   depends_on:
+  #     - zero
+  #   deploy:
+  #     replicas: 1
+  #     placement:
+  #       constraints:
+  #         - node.hostname == apppathwayserver
+  #   command: dgraph-ratel -port 8001
+  #   networks:
+  #     - app_pathway_network    
+        

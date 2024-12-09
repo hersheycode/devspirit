@@ -1,0 +1,42 @@
+userId: string .
+apiGenProjects: [uid] .
+
+goPkgGraphName: string @index(exact) .
+structName:  string @index(exact) .
+interfaceName:  string @index(exact) .
+userId:  string @index(exact) .
+
+# Uid List types
+imports: [uid] .
+structs: [uid] .
+interfaces: [uid] .
+selectorExprs: [uid] .
+varDecls: [uid] .
+typeDecls: [uid] .
+constDecls: [uid] .
+files: [uid] .
+packages: [uid] .
+
+
+# string types .
+alias: string .
+importPath: string .
+#   > file paths
+init:     string .
+abs:      string .
+dir:      string .
+relative: string .
+validate: string .
+
+
+# Uid types
+root: uid .
+paths: uid .
+decls: uid .
+importOverview: uid .
+structOverview: uid .
+interfaceOverview: uid .
+selectorExprOverview: uid .
+varDeclOverview: uid .
+constDeclOverview: uid .
+typeDeclOverview: uid .

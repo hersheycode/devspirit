@@ -1,0 +1,30 @@
+version: "3.9"
+
+networks:
+  app_pathway_network:
+    external: true
+    
+services:
+    intentd:
+      container_name: intentd
+      build:
+        dockerfile: $DOCKERFILE
+        context: $CONTEXT
+      env_file:
+        - $RUNTIME_ENV  
+      volumes:
+        # apppathway pkgs
+        - $ROOT/pkg/errors:$ROOT/pkg/errors
+        - $ROOT/pkg/debug:$ROOT/pkg/debug
+        # this service
+        - $MAIN/pkg/plugins/intent/cmd/intentd/devstart/run:$MAIN/pkg/plugins/intent/run
+        - $MAIN/pkg/plugins/intent:$MAIN/pkg/pkg/plugins/intent
+        # plugins
+        - $MAIN/pkg/plugins/intent:$MAIN/pkg/plugins/intent
+        - $MAIN/pkg/plugins/scheduler:$MAIN/pkg/plugins/scheduler
+        - $MAIN/pkg/plugins/sms:$MAIN/pkg/plugins/sms
+        # env
+        - $MAIN/config/dev/secrets/crt/auth:/etc/ssl/certs/auth
+        - $MAIN/config/dev/secrets/crt/dgraph:/etc/ssl/certs/dgraph
+      networks:
+        app_pathway_network:

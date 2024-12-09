@@ -1,0 +1,18 @@
+#!/bin/bash
+case $1 in 
+    is)
+        is/up $2
+    ;;
+    id)
+        intentsysd/up $2
+    ;;
+    in)
+        intentd/up $2
+    ;;
+    sc)
+        schedulerd/up $2
+    ;;
+    sm)
+        smsd/up $2
+    ;;
+esac

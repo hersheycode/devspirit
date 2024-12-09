@@ -1,0 +1,15 @@
+[2022-03-26 21:08:08.673] [exthost] [info] Extension host with pid 4085 started
+[2022-03-26 21:08:08.688] [exthost] [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/-5905bff9/vscode.lock': Lock acquired.
+[2022-03-26 21:08:09.102] [exthost] [info] ExtensionService#_doActivateExtension golang.go, startup: false, activationEvent: 'onWebviewPanel:welcomeGo'
+[2022-03-26 21:08:09.397] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-03-26 21:08:09.409] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2022-03-26 21:08:09.430] [exthost] [info] ExtensionService#_doActivateExtension cweijan.vscode-ssh, startup: true, activationEvent: '*'
+[2022-03-26 21:08:10.388] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-03-26 21:08:10.537] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-03-26 21:08:11.774] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 523
+[2022-03-26 21:08:16.509] [exthost] [info] Not activating extension 'golang.go': Timed out while searching for 'workspaceContains' pattern *.go,*/*.go,*/*/*.go
+[2022-03-26 21:08:19.510] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-26 21:08:19.543] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-26 21:13:22.618] [exthost] [info] extension host terminating: renderer disconnected for too long (2)
+[2022-03-26 21:13:22.623] [exthost] [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/-5905bff9/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-03-26 21:13:22.650] [exthost] [info] Extension host with pid 4085 exiting with code 0

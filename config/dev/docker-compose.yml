@@ -81,8 +81,8 @@ services:
         dockerfile: deployments/cloud/vscode.Dockerfile
         context: ../../
       volumes:
-        - /home/nate/code/app-pathway/deployments/cloud/ap:/home/coder
-        - /home/nate/code/app-pathway/scripts/cloud/zshrc:/home/coder/.zshrc
+        - /workspaces/devspirit/deployments/cloud/ap:/home/coder
+        - /workspaces/devspirit/scripts/cloud/zshrc:/home/coder/.zshrc
         - /etc/timezone:/etc/timezone 
         - /etc/localtime:/etc/localtime 
         - /var/run/docker.sock:/var/run/docker.sock 
@@ -96,8 +96,8 @@ services:
         dockerfile: deployments/cloud/vscode.Dockerfile
         context: ../../
       volumes:
-        - /home/nate/code/app-pathway/deployments/cloud/ap:/home/coder
-        - /home/nate/code/app-pathway:/home/coder/app-pathway 
+        - /workspaces/devspirit/deployments/cloud/ap:/home/coder
+        - /workspaces/devspirit:/home/coder/app-pathway 
       networks:
         app_pathway_network:
 

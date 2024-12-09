@@ -1,0 +1,172 @@
+{
+	crudGraph(func: eq(crudGraphName, "DATA_SOURCE_API_CRUD_TEMPLATES")){
+            uid
+		crudGraphName
+            root {
+			create {
+                        quantity
+                        grpcOverview {
+                              unary {
+                                    pkgName
+                                    quantity
+                                    funcs { 
+                                          funcName
+                                          string
+                                          bytes
+                                    }
+                              } 
+                              clientSideStream {
+                                    pkgName
+                                    quantity
+                                    funcs {
+                                          funcName
+                                          string
+                                          bytes
+                                    }
+                              }
+                              serverSideStream {
+                                    pkgName
+                                    quantity
+                                    funcs {
+                                          funcName
+                                          string
+                                          bytes
+                                    }
+                              }
+                              bidirectionalStream {
+                                    pkgName
+                                    quantity
+                                    funcs {
+                                          funcName
+                                          string
+                                          bytes
+                                    }
+                              }
+                        }
+                  }
+                  read {
+                        quantity
+                        grpcOverview {
+                              unary {
+                                    pkgName
+                                    quantity
+                                    funcs {
+                                          funcName
+                                          string
+                                          bytes
+                                    }
+                              } 
+                              clientSideStream {
+                                    pkgName
+                                    quantity
+                                    funcs {
+                                          funcName
+                                          string
+                                          bytes
+                                    }
+                              }
+                              serverSideStream {
+                                    pkgName
+                                    quantity
+                                    funcs {
+                                          funcName
+                                          string
+                                          bytes
+                                    }
+                              }
+                              bidirectionalStream {
+                                    pkgName
+                                    quantity
+                                    funcs {
+                                          funcName
+                                          string
+                                          bytes
+                                    }
+                              }
+                        }
+                  }
+                  update {
+                        quantity
+                        grpcOverview {
+                              unary {
+                                    pkgName
+                                    quantity
+                                    funcs {
+                                          funcName
+                                          string
+                                          bytes
+                                    }
+                              } 
+                              clientSideStream {
+                                    pkgName
+                                    quantity
+                                    funcs {
+                                          funcName
+                                          string
+                                          bytes
+                                    }
+                              }
+                              serverSideStream {
+                                    pkgName
+                                    quantity
+                                    funcs {
+                                          funcName
+                                          string
+                                          bytes
+                                    }
+                              }
+                              bidirectionalStream {
+                                    pkgName
+                                    quantity
+                                    funcs {
+                                          funcName
+                                          string
+                                          bytes
+                                    }
+                              }
+                        }
+                  }
+                  delete {
+                        quantity
+                        grpcOverview {
+                              unary {
+                                    pkgName
+                                    quantity
+                                    funcs {
+                                          funcName
+                                          string
+                                          bytes
+                                    }
+                              } 
+                              clientSideStream {
+                                    pkgName
+                                    quantity
+                                    funcs {
+                                          funcName
+                                          string
+                                          bytes
+                                    }
+                              }
+                              serverSideStream {
+                                    pkgName
+                                    quantity
+                                    funcs {
+                                          funcName
+                                          string
+                                          bytes
+                                    }
+                              }
+                              bidirectionalStream {
+                                    pkgName
+                                    quantity
+                                    funcs {
+                                          funcName
+                                          string
+                                          bytes
+                                    }
+                              }
+                        }
+                  }
+            }
+      }
+}

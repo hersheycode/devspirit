@@ -1,0 +1,15 @@
+[2022-04-06 08:25:58.086] [exthost] [info] Extension host with pid 8731 started
+[2022-04-06 08:25:58.100] [exthost] [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/11f69f61/vscode.lock': Lock acquired.
+[2022-04-06 08:25:58.189] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-04-06 08:25:58.198] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2022-04-06 08:25:58.205] [exthost] [info] ExtensionService#_doActivateExtension cweijan.vscode-ssh, startup: true, activationEvent: '*'
+[2022-04-06 08:25:58.397] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-04-06 08:25:58.527] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-04-06 08:25:58.733] [exthost] [info] ExtensionService#_doActivateExtension golang.go, startup: true, activationEvent: 'workspaceContains:*.go,*/*.go,*/*/*.go'
+[2022-04-06 08:25:59.139] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-06 08:25:59.169] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-06 08:25:59.176] [exthost] [info] Eager extensions activated
+[2022-04-09 18:15:12.509] [exthost] [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/11f69f61/vscode.lock': The lock was lost unexpectedly.
+[2022-04-10 17:45:58.649] [exthost] [info] extension host terminating: received terminate message from renderer
+[2022-04-10 17:45:58.664] [exthost] [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/11f69f61/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-04-10 17:45:58.726] [exthost] [info] Extension host with pid 8731 exiting with code 0

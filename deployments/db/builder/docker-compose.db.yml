@@ -38,7 +38,7 @@ services:
     image: dgraph/dgraph:v21.12.0
     volumes:
       - app_builder_data:/dgraph/alpha1
-      - /home/nate/code/app-pathway/secrets/crt/dgraph:/secrets/crt/dgraph
+      - /workspaces/devspirit/secrets/crt/dgraph:/secrets/crt/dgraph
     ports:
       - 8210:8210
       - 9210:9210

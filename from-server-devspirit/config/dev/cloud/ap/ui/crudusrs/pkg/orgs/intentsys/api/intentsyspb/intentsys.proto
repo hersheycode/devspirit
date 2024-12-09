@@ -1,0 +1,40 @@
+syntax = "proto3";
+package intentsyspb;
+
+option go_package = "apppathway.com/examples/prodapi/pkg/orgs/intentsys/api/intentsyspb";
+
+message SetIntentRequest {
+    optional Schedule schedule = 1; //handled automatically if empty
+    SMSInfo sms = 2;
+    Intent intent = 3;
+}
+
+message Intent {
+    string name = 1;
+}
+
+message Schedule {
+    string time = 1; //TODO add proper time type
+}
+
+message SMSInfo {
+    Recipient recipient = 1;
+    Message msg = 2;
+}
+
+message Message {
+    string body = 1;
+}
+
+message Recipient {
+    string phoneNum = 1;
+    string email = 2;
+}
+
+message SetIntentResponse {
+    string status = 1;
+}
+
+service IntentSys {
+    rpc SetIntent(SetIntentRequest) returns (SetIntentResponse);
+}

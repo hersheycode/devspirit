@@ -1,0 +1,11 @@
+# CrudFuncGraph
+crudGraphName: string @index(exact) .
+grpcOverview: uid .
+unary: [uid] . 
+clientSideStream: [uid] .
+serverSideStream: [uid] .
+bidirectionalStream: [uid] .
+create: uid .
+read:  uid .
+update: uid .
+delete: uid .

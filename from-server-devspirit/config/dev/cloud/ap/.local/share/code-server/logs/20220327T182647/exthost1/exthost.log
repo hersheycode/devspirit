@@ -1,0 +1,18 @@
+[2022-03-27 14:26:55.206] [exthost] [info] Extension host with pid 111 started
+[2022-03-27 14:26:55.210] [exthost] [error] Error: EEXIST: file already exists, open '/home/coder/.local/share/code-server/User/workspaceStorage/5be1ad9c/vscode.lock'
+[2022-03-27 14:26:55.213] [exthost] [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/5be1ad9c/vscode.lock': Could not acquire lock, checking if the file is stale.
+[2022-03-27 14:26:55.221] [exthost] [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/5be1ad9c/vscode.lock': The pid 568 appears to be gone.
+[2022-03-27 14:26:55.221] [exthost] [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/5be1ad9c/vscode.lock': Deleting a stale lock.
+[2022-03-27 14:26:55.228] [exthost] [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/5be1ad9c/vscode.lock': Lock acquired.
+[2022-03-27 14:26:55.323] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-03-27 14:26:55.365] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2022-03-27 14:26:55.389] [exthost] [info] ExtensionService#_doActivateExtension cweijan.vscode-ssh, startup: true, activationEvent: '*'
+[2022-03-27 14:26:55.542] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-03-27 14:26:55.766] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-03-27 14:26:56.097] [exthost] [info] ExtensionService#_doActivateExtension golang.go, startup: true, activationEvent: 'workspaceContains:*.go,*/*.go,*/*/*.go'
+[2022-03-27 14:26:56.572] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-27 14:26:56.622] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-27 14:26:56.638] [exthost] [info] Eager extensions activated
+[2022-03-28 07:27:01.684] [exthost] [info] extension host terminating: received terminate message from renderer
+[2022-03-28 07:27:01.806] [exthost] [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/5be1ad9c/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-03-28 07:27:02.259] [exthost] [info] Extension host with pid 111 exiting with code 0

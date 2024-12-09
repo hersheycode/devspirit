@@ -1,0 +1,98 @@
+# d stack rm auth_db_stack
+# d volume rm app_auth_data
+
+# d volume create app_auth_data
+# d stack deploy -c docker-compose.db.yml auth_db_stack
+# d service logs auth_db_stack_alpha3
+# d service logs auth_db_stack_zero
+# d service logs auth_db_stack_alpha1
+# d service logs auth_db_stack_alpha2
+
+version: "3.9"
+
+networks:
+  app_pathway_network:
+    external: true
+
+volumes:
+  app_auth_data: 
+    external: true
+
+services:
+  zero:
+    image: dgraph/dgraph:v21.12.0
+    volumes:
+      - app_auth_data:/dgraph/zero
+    ports:
+      - 5150:5150
+      - 6150:6150
+    deploy:
+      placement:
+        constraints:
+          - node.hostname == apppathwayserver
+    command: dgraph zero --port_offset 70 --my=zero:5150 --replicas 3
+    networks:
+      - app_pathway_network
+
+  alpha1:
+    image: dgraph/dgraph:v21.12.0
+    volumes:
+      - app_auth_data:/dgraph/alpha1
+    ports:
+      - 8200:8200
+      - 9200:9200
+    deploy:
+      placement:
+        constraints:
+          - node.hostname == apppathwayserver
+    command: dgraph alpha --port_offset 120 --security whitelist=10.0.0.0:10.0.0.255 --my=alpha1:7200 --zero=zero:5150
+    networks:
+      - app_pathway_network
+
+  alpha2:
+    image: dgraph/dgraph:v21.12.0
+    volumes:
+      - app_auth_data:/dgraph/alpha2
+    ports:
+      - 8180:8180
+      - 9180:9180
+    deploy:
+      replicas: 1
+      placement:
+        constraints:
+          - node.hostname == apppathwayserver
+    command: dgraph alpha --port_offset 100 --my=alpha2:7180 --zero=zero:5150 
+    networks:
+      - app_pathway_network
+
+  alpha3:
+    image: dgraph/dgraph:v21.12.0
+    volumes:
+      - app_auth_data:/dgraph/alpha3
+    ports:
+      - 8190:8190
+      - 9190:9190
+    deploy:
+      replicas: 1
+      placement:
+        constraints:
+          - node.hostname == apppathwayserver
+    command: dgraph alpha --port_offset 110 --my=alpha3:7190 --zero=zero:5150 
+    networks:
+      - app_pathway_network
+
+  ratel:
+    image: dgraph/ratel
+    ports:
+      - 8001:8001
+    depends_on:
+      - zero
+    deploy:
+      replicas: 1
+      placement:
+        constraints:
+          - node.hostname == apppathwayserver
+    command: dgraph-ratel -port 8001
+    networks:
+      - app_pathway_network    
+        

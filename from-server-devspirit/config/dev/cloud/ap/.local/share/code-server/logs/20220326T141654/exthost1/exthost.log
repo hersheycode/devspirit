@@ -1,0 +1,18 @@
+[2022-03-26 10:16:59.799] [exthost] [info] Extension host with pid 110 started
+[2022-03-26 10:16:59.803] [exthost] [error] Error: EEXIST: file already exists, open '/home/coder/.local/share/code-server/User/workspaceStorage/-5905bff9/vscode.lock'
+[2022-03-26 10:16:59.805] [exthost] [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/-5905bff9/vscode.lock': Could not acquire lock, checking if the file is stale.
+[2022-03-26 10:16:59.813] [exthost] [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/-5905bff9/vscode.lock': The pid 62 appears to be gone.
+[2022-03-26 10:16:59.813] [exthost] [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/-5905bff9/vscode.lock': Deleting a stale lock.
+[2022-03-26 10:16:59.820] [exthost] [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/-5905bff9/vscode.lock': Lock acquired.
+[2022-03-26 10:16:59.912] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-03-26 10:16:59.939] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2022-03-26 10:16:59.960] [exthost] [info] ExtensionService#_doActivateExtension cweijan.vscode-ssh, startup: true, activationEvent: '*'
+[2022-03-26 10:17:00.113] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-03-26 10:17:00.318] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-03-26 10:17:00.724] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-26 10:17:00.779] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-26 10:17:00.793] [exthost] [info] Eager extensions activated
+[2022-03-26 10:17:00.988] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 501
+[2022-03-26 10:19:16.685] [exthost] [info] extension host terminating: received terminate message from renderer
+[2022-03-26 10:19:16.686] [exthost] [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/-5905bff9/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-03-26 10:19:16.706] [exthost] [info] Extension host with pid 110 exiting with code 0

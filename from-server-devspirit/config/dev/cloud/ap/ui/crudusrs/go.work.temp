@@ -1,0 +1,15 @@
+go 1.18
+
+use (
+    // config/up
+	pkg/clients/crud_basic_cli
+	pkg/plugins/crud_basic
+	// pkg/orgs/intentsys
+	// pkg/orgs/intentsys/api/intentsyspb
+	// pkg/plugins/intent
+	// pkg/plugins/intent/api/intentpb
+	// pkg/plugins/scheduler
+	// pkg/plugins/scheduler/api/schedulerpb
+	// pkg/plugins/sms
+	// pkg/plugins/sms/api/smspb
+)

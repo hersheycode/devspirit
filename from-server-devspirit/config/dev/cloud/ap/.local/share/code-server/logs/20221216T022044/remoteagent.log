@@ -1,0 +1,192 @@
+[2022-12-15 21:21:23.585] [remoteagent] [info] Extension host agent started.
+[2022-12-15 21:21:23.585] [remoteagent] [error] ptyHost was unable to resolve shell environment {}
+[2022-12-15 21:21:32.387] [remoteagent] [info] [10.0.1.85][c6d402ea][ManagementConnection] New connection established.
+[2022-12-15 21:21:33.738] [remoteagent] [info] [10.0.1.85][6d8b803b][ExtensionHostConnection] New connection established.
+[2022-12-15 21:21:33.747] [remoteagent] [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed {}
+[2022-12-15 21:21:33.755] [remoteagent] [info] [10.0.1.85][6d8b803b][ExtensionHostConnection] <113> Launched Extension Host Process.
+[2022-12-15 21:22:31.104] [remoteagent] [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed {}
+[2022-12-15 21:23:14.260] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-12-15 21:23:14.434] [remoteagent] [info] [10.0.1.85][c6d402ea][ManagementConnection] The client has reconnected.
+[2022-12-15 21:23:14.573] [remoteagent] [info] [10.0.1.85][6d8b803b][ExtensionHostConnection] The client has reconnected.
+[2022-12-15 21:23:43.331] [remoteagent] [info] [10.0.1.85][6d8b803b][ExtensionHostConnection] The client has reconnected.
+[2022-12-15 21:23:55.130] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-12-15 21:24:15.417] [remoteagent] [info] [10.0.1.85][6d8b803b][ExtensionHostConnection] The client has reconnected.
+[2022-12-15 21:24:35.614] [remoteagent] [info] [10.0.1.85][6d8b803b][ExtensionHostConnection] The client has reconnected.
+[2022-12-15 21:25:05.116] [remoteagent] [info] [10.0.1.85][6d8b803b][ExtensionHostConnection] The client has reconnected.
+[2022-12-15 21:25:47.569] [remoteagent] [info] [10.0.1.85][6d8b803b][ExtensionHostConnection] The client has reconnected.
+[2022-12-15 21:26:26.639] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-12-15 21:26:26.831] [remoteagent] [info] [10.0.1.85][c6d402ea][ManagementConnection] The client has reconnected.
+[2022-12-15 21:26:26.832] [remoteagent] [info] [10.0.1.85][6d8b803b][ExtensionHostConnection] The client has reconnected.
+[2022-12-15 21:26:52.636] [remoteagent] [info] [10.0.1.85][6d8b803b][ExtensionHostConnection] The client has reconnected.
+[2022-12-15 21:27:09.391] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-12-15 21:27:30.543] [remoteagent] [info] [10.0.1.85][6d8b803b][ExtensionHostConnection] The client has reconnected.
+[2022-12-15 21:27:51.565] [remoteagent] [info] [10.0.1.85][6d8b803b][ExtensionHostConnection] The client has reconnected.
+[2022-12-15 21:28:18.553] [remoteagent] [info] [10.0.1.85][6d8b803b][ExtensionHostConnection] The client has reconnected.
+[2022-12-15 21:29:00.577] [remoteagent] [info] [10.0.1.85][6d8b803b][ExtensionHostConnection] The client has reconnected.
+[2022-12-15 21:29:43.535] [remoteagent] [info] [10.0.1.85][6d8b803b][ExtensionHostConnection] The client has reconnected.
+[2022-12-15 21:30:04.522] [remoteagent] [info] [10.0.1.85][6d8b803b][ExtensionHostConnection] The client has reconnected.
+[2022-12-15 21:33:26.372] [remoteagent] [info] [10.0.1.85][c6d402ea][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-12-15 21:33:26.442] [remoteagent] [info] [10.0.1.85][6d8b803b][ExtensionHostConnection] <113> Extension Host Process exited with code: 0, signal: null.
+[2022-12-16 01:03:18.250] [remoteagent] [info] [10.0.1.213][bb73f936][ManagementConnection] New connection established.
+[2022-12-16 01:03:19.368] [remoteagent] [info] [10.0.1.213][f3b0110e][ExtensionHostConnection] New connection established.
+[2022-12-16 01:03:19.374] [remoteagent] [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed {}
+[2022-12-16 01:03:19.391] [remoteagent] [info] [10.0.1.213][f3b0110e][ExtensionHostConnection] <384> Launched Extension Host Process.
+[2022-12-16 01:55:40.501] [remoteagent] [info] [10.0.1.213][bb73f936][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-12-16 02:00:42.463] [remoteagent] [info] [10.0.1.213][bb73f936][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2022-12-16 02:00:42.465] [remoteagent] [info] [10.0.1.213][e74c6cac][ManagementConnection] New connection established.
+[2022-12-16 02:00:43.890] [remoteagent] [info] [10.0.1.213][3270a1ca][ExtensionHostConnection] New connection established.
+[2022-12-16 02:00:43.892] [remoteagent] [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed {}
+[2022-12-16 02:00:43.901] [remoteagent] [info] [10.0.1.213][3270a1ca][ExtensionHostConnection] <642> Launched Extension Host Process.
+[2022-12-16 02:05:42.583] [remoteagent] [info] [10.0.1.213][f3b0110e][ExtensionHostConnection] <384> Extension Host Process exited with code: 0, signal: null.
+[2022-12-16 02:05:42.615] [remoteagent] [info] [10.0.1.213][bb73f936][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[2022-12-16 02:39:36.315] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: std::bad_alloc (EUNKNOWN) (path: /home/coder/ui)
+[2022-12-16 02:39:36.316] [remoteagent] [error] [File Watcher (parcel)] restarting watcher after error: std::bad_alloc
+[2022-12-16 02:49:06.353] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: std::bad_alloc (EUNKNOWN) (path: /home/coder/ui)
+[2022-12-16 02:49:06.354] [remoteagent] [error] [File Watcher (parcel)] restarting watcher after error: std::bad_alloc
+[2022-12-16 03:25:50.480] [remoteagent] [info] [10.0.1.213][e74c6cac][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-12-16 03:25:50.515] [remoteagent] [info] [10.0.1.213][3270a1ca][ExtensionHostConnection] <642> Extension Host Process exited with code: 0, signal: null.
+[2022-12-16 03:25:51.811] [remoteagent] [info] [10.0.1.213][1226887f][ManagementConnection] New connection established.
+[2022-12-16 03:25:53.077] [remoteagent] [info] [10.0.1.213][004a019a][ExtensionHostConnection] New connection established.
+[2022-12-16 03:25:53.091] [remoteagent] [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed {}
+[2022-12-16 03:25:53.104] [remoteagent] [info] [10.0.1.213][004a019a][ExtensionHostConnection] <2309> Launched Extension Host Process.
+[2022-12-16 03:27:34.059] [remoteagent] [info] [10.0.1.213][004a019a][ExtensionHostConnection] The client has reconnected.
+[2022-12-16 03:27:46.796] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-12-16 03:28:06.998] [remoteagent] [info] [10.0.1.213][004a019a][ExtensionHostConnection] The client has reconnected.
+[2022-12-16 03:29:03.576] [remoteagent] [info] [10.0.1.213][004a019a][ExtensionHostConnection] The client has reconnected.
+[2022-12-16 03:29:19.057] [remoteagent] [info] [10.0.1.213][1226887f][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-12-16 03:29:21.912] [remoteagent] [info] [10.0.1.213][004a019a][ExtensionHostConnection] <2309> Extension Host Process exited with code: 0, signal: null.
+[2022-12-16 03:29:23.289] [remoteagent] [info] [10.0.1.213][e5ad4c71][ManagementConnection] New connection established.
+[2022-12-16 03:29:24.263] [remoteagent] [info] [10.0.1.213][a0faf123][ExtensionHostConnection] New connection established.
+[2022-12-16 03:29:24.266] [remoteagent] [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed {}
+[2022-12-16 03:29:24.275] [remoteagent] [info] [10.0.1.213][a0faf123][ExtensionHostConnection] <7453> Launched Extension Host Process.
+[2022-12-16 03:29:58.470] [remoteagent] [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed {}
+[2022-12-16 03:32:42.464] [remoteagent] [error] RequestService#request resolving shell environment failed {}
+[2022-12-16 03:32:43.316] [remoteagent] [info] Installing extension: peterj.proto
+[2022-12-16 03:32:43.623] [remoteagent] [error] RequestService#request resolving shell environment failed {}
+[2022-12-16 03:32:51.987] [remoteagent] [info] Downloaded extension: peterj.proto /home/coder/.local/share/code-server/CachedExtensionVSIXs/peterj.proto-0.0.3-universal
+[2022-12-16 03:32:52.030] [remoteagent] [info] Extracted extension to /home/coder/.local/share/code-server/extensions/.5701e54e-f8a6-428a-b7cc-e749c089878b: peterj.proto
+[2022-12-16 03:32:52.040] [remoteagent] [info] Renamed to /home/coder/.local/share/code-server/extensions/peterj.proto-0.0.3
+[2022-12-16 03:32:52.042] [remoteagent] [info] Extracting completed. peterj.proto
+[2022-12-16 03:32:52.043] [remoteagent] [info] Extension installed successfully: peterj.proto
+[2022-12-16 03:56:34.600] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: std::bad_alloc (EUNKNOWN) (path: /home/coder/ui/crudusrs)
+[2022-12-16 03:56:34.601] [remoteagent] [error] [File Watcher (parcel)] restarting watcher after error: std::bad_alloc
+[2022-12-16 04:14:43.656] [remoteagent] [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed {}
+[2022-12-16 04:24:58.461] [remoteagent] [info] [10.0.1.213][a0faf123][ExtensionHostConnection] The client has reconnected.
+[2022-12-16 04:28:58.747] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-12-16 04:28:58.975] [remoteagent] [info] [10.0.1.213][e5ad4c71][ManagementConnection] The client has reconnected.
+[2022-12-16 04:28:59.027] [remoteagent] [info] [10.0.1.213][a0faf123][ExtensionHostConnection] The client has reconnected.
+[2022-12-16 04:47:34.760] [remoteagent] [info] [10.0.1.213][a0faf123][ExtensionHostConnection] The client has reconnected.
+[2022-12-16 04:47:49.360] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-12-16 04:47:49.369] [remoteagent] [info] [10.0.1.213][e5ad4c71][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-12-16 04:47:51.215] [remoteagent] [info] [10.0.1.213][cb1bb3ff][ManagementConnection] New connection established.
+[2022-12-16 04:47:52.895] [remoteagent] [info] [10.0.1.213][2f0cf7ef][ExtensionHostConnection] New connection established.
+[2022-12-16 04:47:52.907] [remoteagent] [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed {}
+[2022-12-16 04:47:52.917] [remoteagent] [info] [10.0.1.213][2f0cf7ef][ExtensionHostConnection] <29552> Launched Extension Host Process.
+[2022-12-16 04:50:34.954] [remoteagent] [info] [10.0.1.213][cb1bb3ff][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-12-16 04:50:35.001] [remoteagent] [info] [10.0.1.213][2f0cf7ef][ExtensionHostConnection] <29552> Extension Host Process exited with code: 0, signal: null.
+[2022-12-16 04:50:36.737] [remoteagent] [info] [10.0.1.213][daeba619][ManagementConnection] New connection established.
+[2022-12-16 04:50:38.256] [remoteagent] [info] [10.0.1.213][ba3e06e6][ExtensionHostConnection] New connection established.
+[2022-12-16 04:50:38.257] [remoteagent] [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed {}
+[2022-12-16 04:50:38.266] [remoteagent] [info] [10.0.1.213][ba3e06e6][ExtensionHostConnection] <30067> Launched Extension Host Process.
+[2022-12-16 04:52:51.316] [remoteagent] [info] [10.0.1.213][a0faf123][ExtensionHostConnection] <7453> Extension Host Process exited with code: 0, signal: null.
+[2022-12-16 05:01:45.942] [remoteagent] [info] [10.0.1.213][daeba619][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-12-16 05:01:45.983] [remoteagent] [info] [10.0.1.213][ba3e06e6][ExtensionHostConnection] <30067> Extension Host Process exited with code: 0, signal: null.
+[2022-12-16 05:01:47.427] [remoteagent] [info] [10.0.1.213][7cad2a9a][ManagementConnection] New connection established.
+[2022-12-16 05:01:49.184] [remoteagent] [info] [10.0.1.213][b9d2925e][ExtensionHostConnection] New connection established.
+[2022-12-16 05:01:49.189] [remoteagent] [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed {}
+[2022-12-16 05:01:49.205] [remoteagent] [info] [10.0.1.213][b9d2925e][ExtensionHostConnection] <30414> Launched Extension Host Process.
+[2022-12-16 05:18:09.657] [remoteagent] [info] [10.0.1.213][b9d2925e][ExtensionHostConnection] The client has reconnected.
+[2022-12-16 05:18:55.880] [remoteagent] [info] [10.0.1.213][b9d2925e][ExtensionHostConnection] The client has reconnected.
+[2022-12-16 05:20:03.876] [remoteagent] [info] [10.0.1.213][b9d2925e][ExtensionHostConnection] The client has reconnected.
+[2022-12-16 05:20:24.092] [remoteagent] [info] [10.0.1.213][b9d2925e][ExtensionHostConnection] The client has reconnected.
+[2022-12-16 06:15:58.372] [remoteagent] [info] [10.0.1.213][b9d2925e][ExtensionHostConnection] The client has reconnected.
+[2022-12-16 06:16:15.514] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-12-16 06:16:15.708] [remoteagent] [info] [10.0.1.213][7cad2a9a][ManagementConnection] The client has reconnected.
+[2022-12-16 06:16:35.821] [remoteagent] [info] [10.0.1.213][b9d2925e][ExtensionHostConnection] The client has reconnected.
+[2022-12-16 06:17:10.258] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-12-16 06:17:10.400] [remoteagent] [info] [10.0.1.213][7cad2a9a][ManagementConnection] The client has reconnected.
+[2022-12-16 06:17:10.850] [remoteagent] [info] [10.0.1.213][b9d2925e][ExtensionHostConnection] The client has reconnected.
+[2022-12-16 06:17:36.129] [remoteagent] [info] [10.0.1.213][b9d2925e][ExtensionHostConnection] The client has reconnected.
+[2022-12-16 06:17:50.100] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-12-16 06:18:10.389] [remoteagent] [info] [10.0.1.213][b9d2925e][ExtensionHostConnection] The client has reconnected.
+[2022-12-16 06:18:41.168] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-12-16 06:18:41.361] [remoteagent] [info] [10.0.1.213][7cad2a9a][ManagementConnection] The client has reconnected.
+[2022-12-16 06:18:45.452] [remoteagent] [info] [10.0.1.213][b9d2925e][ExtensionHostConnection] The client has reconnected.
+[2022-12-16 07:01:48.859] [remoteagent] [info] [10.0.1.213][b9d2925e][ExtensionHostConnection] The client has reconnected.
+[2022-12-16 07:02:09.090] [remoteagent] [info] [10.0.1.213][b9d2925e][ExtensionHostConnection] The client has reconnected.
+[2022-12-16 07:36:08.237] [remoteagent] [info] [10.0.1.213][b9d2925e][ExtensionHostConnection] The client has reconnected.
+[2022-12-16 07:36:22.494] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-12-16 07:36:42.719] [remoteagent] [info] [10.0.1.213][b9d2925e][ExtensionHostConnection] The client has reconnected.
+[2022-12-16 07:55:49.185] [remoteagent] [info] [10.0.1.213][b9d2925e][ExtensionHostConnection] The client has reconnected.
+[2022-12-16 09:18:49.575] [remoteagent] [info] [10.0.1.213][b9d2925e][ExtensionHostConnection] The client has reconnected.
+[2022-12-16 09:19:32.094] [remoteagent] [info] [10.0.1.213][b9d2925e][ExtensionHostConnection] The client has reconnected.
+[2022-12-16 09:19:52.325] [remoteagent] [info] [10.0.1.213][b9d2925e][ExtensionHostConnection] The client has reconnected.
+[2022-12-16 09:20:24.795] [remoteagent] [info] [10.0.1.213][b9d2925e][ExtensionHostConnection] The client has reconnected.
+[2022-12-16 09:20:45.057] [remoteagent] [info] [10.0.1.213][b9d2925e][ExtensionHostConnection] The client has reconnected.
+[2022-12-16 09:21:23.767] [remoteagent] [info] [10.0.1.213][b9d2925e][ExtensionHostConnection] The client has reconnected.
+[2022-12-16 09:22:46.761] [remoteagent] [info] [10.0.1.213][b9d2925e][ExtensionHostConnection] The client has reconnected.
+[2022-12-16 09:23:07.002] [remoteagent] [info] [10.0.1.213][b9d2925e][ExtensionHostConnection] The client has reconnected.
+[2022-12-16 09:25:26.016] [remoteagent] [info] [10.0.1.213][b9d2925e][ExtensionHostConnection] The client has reconnected.
+[2022-12-16 09:26:01.339] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-12-16 09:26:01.521] [remoteagent] [info] [10.0.1.213][7cad2a9a][ManagementConnection] The client has reconnected.
+[2022-12-16 09:26:01.522] [remoteagent] [info] [10.0.1.213][b9d2925e][ExtensionHostConnection] The client has reconnected.
+[2022-12-16 09:29:17.013] [remoteagent] [info] [10.0.1.213][b9d2925e][ExtensionHostConnection] The client has reconnected.
+[2022-12-16 09:29:57.736] [remoteagent] [info] [10.0.1.213][b9d2925e][ExtensionHostConnection] The client has reconnected.
+[2022-12-16 09:30:40.779] [remoteagent] [info] [10.0.1.213][b9d2925e][ExtensionHostConnection] The client has reconnected.
+[2022-12-16 09:31:01.006] [remoteagent] [info] [10.0.1.213][b9d2925e][ExtensionHostConnection] The client has reconnected.
+[2022-12-16 09:31:43.216] [remoteagent] [info] [10.0.1.213][b9d2925e][ExtensionHostConnection] The client has reconnected.
+[2022-12-16 09:32:03.448] [remoteagent] [info] [10.0.1.213][b9d2925e][ExtensionHostConnection] The client has reconnected.
+[2022-12-16 09:32:23.675] [remoteagent] [info] [10.0.1.213][b9d2925e][ExtensionHostConnection] The client has reconnected.
+[2022-12-16 09:32:52.929] [remoteagent] [info] [10.0.1.213][b9d2925e][ExtensionHostConnection] The client has reconnected.
+[2022-12-16 09:33:37.837] [remoteagent] [info] [10.0.1.213][b9d2925e][ExtensionHostConnection] The client has reconnected.
+[2022-12-16 09:34:05.173] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-12-16 09:34:05.468] [remoteagent] [info] [10.0.1.213][7cad2a9a][ManagementConnection] The client has reconnected.
+[2022-12-16 09:34:25.832] [remoteagent] [info] [10.0.1.213][b9d2925e][ExtensionHostConnection] The client has reconnected.
+[2022-12-16 09:34:48.420] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-12-16 09:34:48.614] [remoteagent] [info] [10.0.1.213][7cad2a9a][ManagementConnection] The client has reconnected.
+[2022-12-16 09:35:08.827] [remoteagent] [info] [10.0.1.213][b9d2925e][ExtensionHostConnection] The client has reconnected.
+[2022-12-16 09:35:29.850] [remoteagent] [info] [10.0.1.213][b9d2925e][ExtensionHostConnection] The client has reconnected.
+[2022-12-16 09:36:06.829] [remoteagent] [info] [10.0.1.213][b9d2925e][ExtensionHostConnection] The client has reconnected.
+[2022-12-16 09:36:49.817] [remoteagent] [info] [10.0.1.213][b9d2925e][ExtensionHostConnection] The client has reconnected.
+[2022-12-16 09:37:32.825] [remoteagent] [info] [10.0.1.213][b9d2925e][ExtensionHostConnection] The client has reconnected.
+[2022-12-16 09:37:53.828] [remoteagent] [info] [10.0.1.213][b9d2925e][ExtensionHostConnection] The client has reconnected.
+[2022-12-17 06:15:47.232] [remoteagent] [info] [10.0.1.213][b9d2925e][ExtensionHostConnection] The client has reconnected.
+[2022-12-17 07:48:04.519] [remoteagent] [info] [10.0.1.213][b9d2925e][ExtensionHostConnection] The client has reconnected.
+[2022-12-17 07:48:30.708] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-12-17 07:48:30.732] [remoteagent] [info] [10.0.1.213][7cad2a9a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-12-17 07:48:32.737] [remoteagent] [info] [10.0.1.213][5b8a0362][ManagementConnection] New connection established.
+[2022-12-17 07:48:33.961] [remoteagent] [info] [10.0.1.213][c3ffb7d6][ExtensionHostConnection] New connection established.
+[2022-12-17 07:48:33.966] [remoteagent] [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed {}
+[2022-12-17 07:48:33.980] [remoteagent] [info] [10.0.1.213][c3ffb7d6][ExtensionHostConnection] <35455> Launched Extension Host Process.
+[2022-12-17 07:50:08.585] [remoteagent] [info] [10.0.1.213][c3ffb7d6][ExtensionHostConnection] The client has reconnected.
+[2022-12-17 07:50:47.669] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-12-17 07:50:47.815] [remoteagent] [info] [10.0.1.213][c3ffb7d6][ExtensionHostConnection] The client has reconnected.
+[2022-12-17 07:50:47.816] [remoteagent] [info] [10.0.1.213][5b8a0362][ManagementConnection] The client has reconnected.
+[2022-12-17 07:53:32.832] [remoteagent] [info] [10.0.1.213][b9d2925e][ExtensionHostConnection] <30414> Extension Host Process exited with code: 0, signal: null.
+[2022-12-17 07:57:17.461] [remoteagent] [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed {}
+[2022-12-17 18:47:57.754] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-12-17 18:47:57.979] [remoteagent] [info] [10.0.1.213][5b8a0362][ManagementConnection] The client has reconnected.
+[2022-12-17 18:47:58.000] [remoteagent] [info] [10.0.1.213][c3ffb7d6][ExtensionHostConnection] The client has reconnected.
+[2022-12-17 18:48:56.826] [remoteagent] [info] [10.0.1.213][5b8a0362][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-12-17 18:48:56.885] [remoteagent] [info] [10.0.1.213][c3ffb7d6][ExtensionHostConnection] <35455> Extension Host Process exited with code: 0, signal: null.
+[2022-12-17 19:06:44.149] [remoteagent] [info] [10.0.1.213][9fc764ac][ManagementConnection] New connection established.
+[2022-12-17 19:06:45.462] [remoteagent] [info] [10.0.1.213][ea4e9deb][ExtensionHostConnection] New connection established.
+[2022-12-17 19:06:45.478] [remoteagent] [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed {}
+[2022-12-17 19:06:45.494] [remoteagent] [info] [10.0.1.213][ea4e9deb][ExtensionHostConnection] <48395> Launched Extension Host Process.
+[2022-12-17 19:27:02.289] [remoteagent] [info] [10.0.1.213][b5d8ac40][ManagementConnection] New connection established.
+[2022-12-17 19:27:03.457] [remoteagent] [info] [10.0.1.213][d86a284c][ExtensionHostConnection] New connection established.
+[2022-12-17 19:27:03.458] [remoteagent] [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed {}
+[2022-12-17 19:27:03.469] [remoteagent] [info] [10.0.1.213][d86a284c][ExtensionHostConnection] <49054> Launched Extension Host Process.
+[2022-12-17 19:27:28.446] [remoteagent] [info] [10.0.1.213][b5d8ac40][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-12-17 19:27:28.484] [remoteagent] [info] [10.0.1.213][d86a284c][ExtensionHostConnection] <49054> Extension Host Process exited with code: 0, signal: null.
+[2022-12-17 19:27:29.474] [remoteagent] [info] [10.0.1.213][cc259fcc][ManagementConnection] New connection established.
+[2022-12-17 19:27:30.347] [remoteagent] [info] [10.0.1.213][7397f77f][ExtensionHostConnection] New connection established.
+[2022-12-17 19:27:30.349] [remoteagent] [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed {}
+[2022-12-17 19:27:30.359] [remoteagent] [info] [10.0.1.213][7397f77f][ExtensionHostConnection] <49222> Launched Extension Host Process.
+[2022-12-18 05:49:28.648] [remoteagent] [info] [10.0.1.213][cc259fcc][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-12-18 05:49:28.655] [remoteagent] [info] [10.0.1.213][9fc764ac][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-12-18 08:49:24.835] [remoteagent] [info] [10.0.1.213][7397f77f][ExtensionHostConnection] <49222> Extension Host Process exited with code: 0, signal: null.
+[2022-12-18 08:49:24.836] [remoteagent] [info] [10.0.1.213][ea4e9deb][ExtensionHostConnection] <48395> Extension Host Process exited with code: 0, signal: null.
+[2022-12-18 08:49:36.409] [remoteagent] [info] [10.0.1.213][cc259fcc][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+[2022-12-18 08:49:36.413] [remoteagent] [info] [10.0.1.213][9fc764ac][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+[2022-12-18 09:13:24.007] [remoteagent] [error] ptyHost terminated unexpectedly with code null

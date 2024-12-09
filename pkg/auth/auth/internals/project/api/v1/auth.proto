@@ -1,0 +1,58 @@
+syntax = "proto3";
+package auth; 
+option go_package = "apppathway.com/pkg/user/auth/internals/project/api/v1";
+
+message User { 
+	string ID = 1;
+	string Name = 2;
+	string Username = 3;
+	string Email = 4;
+	string PhoneNum = 5;
+	string Password = 6;
+	string Role = 7;
+	string ProfileId = 8;
+	string AccountId = 9;
+}
+
+message RegisterUserRequest {
+	User user = 1;
+} 
+	
+message RegisterUserResponse {
+	User user = 1;
+}
+
+message LoginUserRequest {
+	User user = 1;
+} 
+	
+message LoginUserResponse {
+	User user = 1;
+	string accessToken = 2;
+	string refreshToken = 3;
+}
+
+message RefreshUserAuthRequest {
+	string accessToken = 1;
+	string refreshToken = 2;
+} 
+	
+message RefreshUserAuthResponse {
+	string authToken = 1;
+}
+
+message VerifyUserAuthRequest {
+	string authToken = 1;
+} 
+	
+message VerifyUserAuthResponse {
+	bool isAuthorized = 1;
+}
+
+service Auth {
+    rpc RegisterUser (RegisterUserRequest) returns (RegisterUserResponse);
+	rpc LoginUser (LoginUserRequest) returns (LoginUserResponse);
+	rpc RefreshUserAuth (RefreshUserAuthRequest) returns (RefreshUserAuthResponse);
+	rpc VerifyUserAuth (VerifyUserAuthRequest) returns (VerifyUserAuthResponse);
+} 
+		

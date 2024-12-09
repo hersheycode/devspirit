@@ -1,0 +1,14 @@
+./dump_linux.go
+./dump_linux_amd64.go
+./hwbreak_amd64.go
+./proc.go
+./proc_ebpf_linux.go
+./proc_linux.go
+./proc_unix.go
+./ptrace_linux.go
+./ptrace_linux_64bit.go
+./ptrace_linux_amd64.go
+./registers_linux_amd64.go
+./threads.go
+./threads_linux.go
+./threads_linux_amd64.go

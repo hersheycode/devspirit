@@ -1,0 +1,2591 @@
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/vendor/modules/code-oss-dev/out/bootstrap.js:1:370)
+    at process.emit (events.js:400:28)
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/vendor/modules/code-oss-dev/out/bootstrap.js:1:370)
+    at process.emit (events.js:400:28)
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/vendor/modules/code-oss-dev/out/bootstrap.js:1:370)
+    at process.emit (events.js:400:28)
+[02:03:14] RequestStore#acceptReply was called without receiving a matching request 205
+[02:03:14] RequestStore#acceptReply was called without receiving a matching request 206
+[02:03:15] RequestStore#acceptReply was called without receiving a matching request 207
+[02:03:15] RequestStore#acceptReply was called without receiving a matching request 208
+[02:03:15] RequestStore#acceptReply was called without receiving a matching request 209
+[02:03:15] RequestStore#acceptReply was called without receiving a matching request 210
+[02:03:17] RequestStore#acceptReply was called without receiving a matching request 211
+[02:03:17] RequestStore#acceptReply was called without receiving a matching request 212
+[02:03:17] RequestStore#acceptReply was called without receiving a matching request 213
+[02:03:17] RequestStore#acceptReply was called without receiving a matching request 214
+[02:03:17] RequestStore#acceptReply was called without receiving a matching request 215
+[02:03:21] RequestStore#acceptReply was called without receiving a matching request 216
+[02:03:21] RequestStore#acceptReply was called without receiving a matching request 217
+[02:03:22] RequestStore#acceptReply was called without receiving a matching request 218
+[02:03:22] RequestStore#acceptReply was called without receiving a matching request 219
+[02:03:22] RequestStore#acceptReply was called without receiving a matching request 220
+[02:03:22] RequestStore#acceptReply was called without receiving a matching request 221
+[02:03:22] RequestStore#acceptReply was called without receiving a matching request 222
+[02:03:22] RequestStore#acceptReply was called without receiving a matching request 223
+[02:03:22] RequestStore#acceptReply was called without receiving a matching request 224
+[02:03:22] RequestStore#acceptReply was called without receiving a matching request 225
+[02:03:23] RequestStore#acceptReply was called without receiving a matching request 226
+[02:03:23] RequestStore#acceptReply was called without receiving a matching request 227
+[02:03:23] RequestStore#acceptReply was called without receiving a matching request 228
+[02:03:23] RequestStore#acceptReply was called without receiving a matching request 229
+[02:03:23] RequestStore#acceptReply was called without receiving a matching request 230
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/vendor/modules/code-oss-dev/out/bootstrap.js:1:370)
+    at process.emit (events.js:400:28)
+[02:51:59] ptyHost terminated unexpectedly with code null
+[03:10:37] [10.0.1.160][03c1b4d1][ExtensionHostConnection] Unknown reconnection token (never seen).
+[03:10:37] [10.0.1.160][d165ef94][ManagementConnection] Unknown reconnection token (never seen).
+[03:22:45] [10.0.1.163][d6b8133e][ExtensionHostConnection] Unknown reconnection token (never seen).
+[03:22:46] [10.0.1.163][1eb8e2a0][ManagementConnection] Unknown reconnection token (never seen).
+[03:24:33] [10.0.1.165][909d186f][ExtensionHostConnection] Unknown reconnection token (never seen).
+[03:24:33] [10.0.1.165][afc839a5][ManagementConnection] Unknown reconnection token (never seen).
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/vendor/modules/code-oss-dev/out/bootstrap.js:1:370)
+    at process.emit (events.js:400:28)
+Error: Trying to add a disposable to a DisposableStore that has already been disposed of. The added object will be leaked!
+    at D.add (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostAgent.js:17:5218)
+    at l._register (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostAgent.js:17:5641)
+    at l.doRefreshRecursiveWatchers (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostAgent.js:88:12179)
+    at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostAgent.js:88:12025
+    at c.queue (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostAgent.js:77:12736)
+    at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostAgent.js:77:14243
+    at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostAgent.js:77:13704
+    at runNextTicks (internal/process/task_queues.js:60:5)
+    at listOnTimeout (internal/timers.js:526:9)
+    at processTimers (internal/timers.js:500:7)
+Error: Trying to add a disposable to a DisposableStore that has already been disposed of. The added object will be leaked!
+    at D.add (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostAgent.js:17:5218)
+    at l._register (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostAgent.js:17:5641)
+    at l.doRefreshRecursiveWatchers (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostAgent.js:88:12355)
+    at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostAgent.js:88:12025
+    at c.queue (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostAgent.js:77:12736)
+    at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostAgent.js:77:14243
+    at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostAgent.js:77:13704
+    at runNextTicks (internal/process/task_queues.js:60:5)
+    at listOnTimeout (internal/timers.js:526:9)
+    at processTimers (internal/timers.js:500:7)
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/vendor/modules/code-oss-dev/out/bootstrap.js:1:370)
+    at process.emit (events.js:400:28)
+Failed login attempt {"xForwardedFor":"134.88.131.23","remoteAddress":"10.0.1.16","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 Edg/99.0.1150.39","timestamp":1647329234}
+Failed login attempt {"xForwardedFor":"134.88.131.23","remoteAddress":"10.0.1.16","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 Edg/99.0.1150.39","timestamp":1647329252}
+[07:34:39] [File Watcher (parcel)] restarting watcher after error: terminated by itself with code null, signal: SIGTERM
+[07:34:39] ptyHost terminated unexpectedly with code null
+[07:41:47] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[07:41:47] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[07:41:48] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[07:41:48] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[07:52:20] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[07:52:20] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[07:52:21] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[07:52:21] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[07:53:08] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[07:53:08] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[07:53:08] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[07:53:09] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[07:53:09] RequestStore#acceptReply was called without receiving a matching request 31
+[07:53:09] RequestStore#acceptReply was called without receiving a matching request 32
+[07:53:09] RequestStore#acceptReply was called without receiving a matching request 33
+[07:53:10] RequestStore#acceptReply was called without receiving a matching request 34
+[07:53:10] RequestStore#acceptReply was called without receiving a matching request 35
+[07:53:11] RequestStore#acceptReply was called without receiving a matching request 36
+[07:53:11] RequestStore#acceptReply was called without receiving a matching request 37
+[07:53:11] RequestStore#acceptReply was called without receiving a matching request 38
+[07:53:11] RequestStore#acceptReply was called without receiving a matching request 39
+[07:53:11] RequestStore#acceptReply was called without receiving a matching request 40
+[07:53:13] RequestStore#acceptReply was called without receiving a matching request 41
+[07:53:13] RequestStore#acceptReply was called without receiving a matching request 42
+[07:53:13] RequestStore#acceptReply was called without receiving a matching request 43
+[07:53:13] RequestStore#acceptReply was called without receiving a matching request 44
+[07:53:13] RequestStore#acceptReply was called without receiving a matching request 45
+[07:57:06] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[07:57:06] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[07:57:07] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[07:57:07] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[07:57:14] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[07:57:14] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[07:57:14] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[07:57:15] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[07:58:14] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[07:58:14] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[07:58:14] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[07:58:14] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[07:58:21] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[07:58:21] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[07:58:22] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[07:58:22] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+Error: write EHOSTUNREACH
+    at afterWriteDispatched (internal/stream_base_commons.js:156:25)
+    at writeGeneric (internal/stream_base_commons.js:147:3)
+    at Socket._writeGeneric (net.js:798:11)
+    at Socket._write (net.js:810:8)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at Socket.Writable.write (internal/streams/writable.js:303:10)
+    at b.write (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostAgent.js:150:157979)
+    at w._write (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostAgent.js:150:161946)
+    at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostAgent.js:150:161164
+    at afterWrite (internal/streams/writable.js:466:5)
+    at onwrite (internal/streams/writable.js:446:7)
+    at DeflateRaw.afterTransform (internal/streams/transform.js:103:3)
+    at Zlib.processCallback (zlib.js:607:8) {
+  errno: -113,
+  code: 'EHOSTUNREACH',
+  syscall: 'write'
+}
+Error: write EHOSTUNREACH
+    at afterWriteDispatched (internal/stream_base_commons.js:156:25)
+    at writeGeneric (internal/stream_base_commons.js:147:3)
+    at Socket._writeGeneric (net.js:798:11)
+    at Socket._write (net.js:810:8)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at Socket.Writable.write (internal/streams/writable.js:303:10)
+    at b.write (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostAgent.js:150:157979)
+    at w._write (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostAgent.js:150:161946)
+    at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostAgent.js:150:161164
+    at afterWrite (internal/streams/writable.js:466:5)
+    at onwrite (internal/streams/writable.js:446:7)
+    at DeflateRaw.afterTransform (internal/streams/transform.js:103:3)
+    at Zlib.processCallback (zlib.js:607:8) {
+  errno: -113,
+  code: 'EHOSTUNREACH',
+  syscall: 'write'
+}
+[08:00:06] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[08:00:06] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[08:00:07] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[08:00:07] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[08:08:02] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[08:08:02] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[08:08:03] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[08:08:03] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[08:08:41] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[08:08:41] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[08:08:42] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[08:08:42] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[08:09:24] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[08:09:24] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[08:09:24] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[08:09:25] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[08:10:10] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[08:10:10] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[08:10:10] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[08:10:11] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[08:10:38] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[08:10:38] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[08:10:39] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[08:10:39] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[08:11:38] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[08:11:38] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[08:11:38] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[08:11:39] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[08:12:38] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[08:12:38] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[08:12:39] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[08:12:39] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[08:28:48] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[08:28:48] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[08:28:51] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[08:28:51] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[09:07:18] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[09:07:18] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[09:07:20] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[09:07:20] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[09:20:20] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[09:20:20] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[09:20:20] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[09:20:20] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[09:21:06] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[09:21:06] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[09:21:07] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[09:21:07] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[09:21:26] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[09:21:26] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[09:21:27] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[09:21:27] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[09:21:42] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[09:21:42] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[09:21:43] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[09:21:43] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[09:22:17] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[09:22:17] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[09:22:17] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[09:22:18] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[09:23:26] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[09:23:26] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[09:23:26] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[09:23:27] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[09:24:58] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[09:24:58] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[09:24:58] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[09:24:59] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[12:32:17] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[12:32:17] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[12:32:18] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[12:32:18] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[12:55:16] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[12:55:16] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[12:55:17] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[12:55:17] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[12:55:48] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[12:55:48] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[12:55:48] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[12:55:48] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[13:02:56] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[13:02:56] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[13:02:56] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[13:02:57] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[13:10:29] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[13:10:29] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[13:10:30] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[13:10:30] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[13:11:34] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[13:11:34] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[13:11:35] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[13:11:35] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[13:12:42] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[13:12:42] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[13:12:42] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[13:12:42] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[13:13:01] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[13:13:01] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[13:13:02] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[13:13:02] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[13:14:00] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[13:14:00] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[13:14:00] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[13:14:00] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[13:16:32] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[13:16:32] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[13:16:33] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[13:16:33] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[13:19:09] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[13:19:09] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[13:19:10] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[13:19:10] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[13:19:27] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[13:19:27] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[13:19:28] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[13:19:28] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[13:19:41] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[13:19:41] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[13:19:41] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[13:19:42] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[13:34:11] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[13:34:11] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[13:34:13] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[13:34:13] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[13:34:14] RequestStore#acceptReply was called without receiving a matching request 429
+[13:34:14] RequestStore#acceptReply was called without receiving a matching request 430
+[13:34:14] RequestStore#acceptReply was called without receiving a matching request 431
+[13:34:15] RequestStore#acceptReply was called without receiving a matching request 432
+[13:34:15] RequestStore#acceptReply was called without receiving a matching request 433
+[13:34:16] RequestStore#acceptReply was called without receiving a matching request 434
+[13:34:16] RequestStore#acceptReply was called without receiving a matching request 435
+[13:34:16] RequestStore#acceptReply was called without receiving a matching request 436
+[13:34:16] RequestStore#acceptReply was called without receiving a matching request 437
+[13:34:16] RequestStore#acceptReply was called without receiving a matching request 438
+[13:34:19] RequestStore#acceptReply was called without receiving a matching request 439
+[13:34:20] RequestStore#acceptReply was called without receiving a matching request 440
+[13:34:20] RequestStore#acceptReply was called without receiving a matching request 441
+[13:34:20] RequestStore#acceptReply was called without receiving a matching request 442
+[13:34:20] RequestStore#acceptReply was called without receiving a matching request 443
+[13:34:21] RequestStore#acceptReply was called without receiving a matching request 444
+[13:34:21] RequestStore#acceptReply was called without receiving a matching request 445
+[13:34:21] RequestStore#acceptReply was called without receiving a matching request 446
+[13:34:21] RequestStore#acceptReply was called without receiving a matching request 447
+[13:34:21] RequestStore#acceptReply was called without receiving a matching request 448
+[13:37:50] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[13:37:50] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[13:37:53] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[13:37:53] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[13:37:53] RequestStore#acceptReply was called without receiving a matching request 449
+[13:37:54] RequestStore#acceptReply was called without receiving a matching request 450
+[13:37:54] RequestStore#acceptReply was called without receiving a matching request 451
+[13:37:54] RequestStore#acceptReply was called without receiving a matching request 452
+[13:37:55] RequestStore#acceptReply was called without receiving a matching request 453
+[13:37:55] RequestStore#acceptReply was called without receiving a matching request 454
+[13:37:55] RequestStore#acceptReply was called without receiving a matching request 455
+[13:37:55] RequestStore#acceptReply was called without receiving a matching request 456
+[13:37:55] RequestStore#acceptReply was called without receiving a matching request 457
+[13:37:55] RequestStore#acceptReply was called without receiving a matching request 458
+[13:53:20] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[13:53:20] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[13:53:22] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[13:53:23] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[13:53:23] RequestStore#acceptReply was called without receiving a matching request 464
+[13:53:23] RequestStore#acceptReply was called without receiving a matching request 465
+[13:53:24] RequestStore#acceptReply was called without receiving a matching request 466
+[13:53:24] RequestStore#acceptReply was called without receiving a matching request 467
+[13:53:24] RequestStore#acceptReply was called without receiving a matching request 468
+[13:53:25] RequestStore#acceptReply was called without receiving a matching request 469
+[13:53:25] RequestStore#acceptReply was called without receiving a matching request 470
+[13:53:25] RequestStore#acceptReply was called without receiving a matching request 471
+[13:53:25] RequestStore#acceptReply was called without receiving a matching request 472
+[13:53:25] RequestStore#acceptReply was called without receiving a matching request 473
+[13:53:29] RequestStore#acceptReply was called without receiving a matching request 474
+[13:53:30] RequestStore#acceptReply was called without receiving a matching request 475
+[13:53:30] RequestStore#acceptReply was called without receiving a matching request 476
+[13:53:30] RequestStore#acceptReply was called without receiving a matching request 477
+[13:53:30] RequestStore#acceptReply was called without receiving a matching request 478
+[13:53:30] RequestStore#acceptReply was called without receiving a matching request 479
+[13:53:30] RequestStore#acceptReply was called without receiving a matching request 480
+[13:53:30] RequestStore#acceptReply was called without receiving a matching request 481
+[13:53:30] RequestStore#acceptReply was called without receiving a matching request 482
+[13:53:30] RequestStore#acceptReply was called without receiving a matching request 483
+[13:55:53] RequestStore#acceptReply was called without receiving a matching request 484
+[13:55:53] RequestStore#acceptReply was called without receiving a matching request 485
+[13:55:53] RequestStore#acceptReply was called without receiving a matching request 486
+[13:55:53] RequestStore#acceptReply was called without receiving a matching request 487
+[13:55:53] RequestStore#acceptReply was called without receiving a matching request 488
+[13:55:55] RequestStore#acceptReply was called without receiving a matching request 489
+[13:55:55] RequestStore#acceptReply was called without receiving a matching request 490
+[13:55:55] RequestStore#acceptReply was called without receiving a matching request 491
+[13:55:55] RequestStore#acceptReply was called without receiving a matching request 492
+[13:55:55] RequestStore#acceptReply was called without receiving a matching request 493
+[14:05:56] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[14:05:56] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[14:05:59] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[14:06:00] [10.0.1.92][d05ed2cb][ExtensionHostConnection] Unknown reconnection token (never seen).
+[14:06:02] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[14:10:37] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[14:10:37] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[14:10:39] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[14:10:44] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[14:11:45] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[14:11:45] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[14:11:48] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[14:11:52] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/vendor/modules/code-oss-dev/out/bootstrap.js:1:370)
+    at process.emit (events.js:400:28)
+[21:24:32] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[21:24:32] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[21:24:34] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[21:24:39] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/vendor/modules/code-oss-dev/out/bootstrap.js:1:370)
+    at process.emit (events.js:400:28)
+[21:25:22] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[21:25:22] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[21:25:25] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[21:25:30] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/vendor/modules/code-oss-dev/out/bootstrap.js:1:370)
+    at process.emit (events.js:400:28)
+[21:48:10] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[21:48:10] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[21:48:14] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[21:48:18] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/vendor/modules/code-oss-dev/out/bootstrap.js:1:370)
+    at process.emit (events.js:400:28)
+[22:38:12] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[22:38:12] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[18:47:34] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/extensions for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/extensions')
+[18:47:41] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[18:47:41] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[18:47:44] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[18:47:49] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/vendor/modules/code-oss-dev/out/bootstrap.js:1:370)
+    at process.emit (events.js:400:28)
+[18:58:30] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[18:58:30] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[18:58:40] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[18:58:47] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/vendor/modules/code-oss-dev/out/bootstrap.js:1:370)
+    at process.emit (events.js:400:28)
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/vendor/modules/code-oss-dev/out/bootstrap.js:1:370)
+    at process.emit (events.js:400:28)
+[20:15:11] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[20:15:11] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[20:15:14] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[20:15:19] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[20:17:24] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[20:17:24] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[20:17:25] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[20:17:25] RequestStore#acceptReply was called without receiving a matching request 43
+[20:17:25] RequestStore#acceptReply was called without receiving a matching request 44
+[20:17:25] RequestStore#acceptReply was called without receiving a matching request 45
+[20:17:25] RequestStore#acceptReply was called without receiving a matching request 46
+[20:17:25] RequestStore#acceptReply was called without receiving a matching request 47
+[20:17:27] RequestStore#acceptReply was called without receiving a matching request 48
+[20:17:27] RequestStore#acceptReply was called without receiving a matching request 49
+[20:17:27] RequestStore#acceptReply was called without receiving a matching request 50
+[20:17:27] RequestStore#acceptReply was called without receiving a matching request 51
+[20:17:27] RequestStore#acceptReply was called without receiving a matching request 52
+[20:17:27] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[20:17:29] RequestStore#acceptReply was called without receiving a matching request 53
+[20:17:29] RequestStore#acceptReply was called without receiving a matching request 54
+[20:17:29] RequestStore#acceptReply was called without receiving a matching request 55
+[20:17:29] RequestStore#acceptReply was called without receiving a matching request 56
+[20:17:29] RequestStore#acceptReply was called without receiving a matching request 57
+[20:17:51] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[20:17:51] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[20:17:56] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[20:17:56] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[20:17:56] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[20:17:56] RequestStore#acceptReply was called without receiving a matching request 58
+[20:17:56] RequestStore#acceptReply was called without receiving a matching request 59
+[20:17:57] RequestStore#acceptReply was called without receiving a matching request 60
+[20:17:57] RequestStore#acceptReply was called without receiving a matching request 61
+[20:17:57] RequestStore#acceptReply was called without receiving a matching request 62
+[20:17:58] RequestStore#acceptReply was called without receiving a matching request 63
+[20:17:58] RequestStore#acceptReply was called without receiving a matching request 64
+[20:17:58] RequestStore#acceptReply was called without receiving a matching request 65
+[20:17:58] RequestStore#acceptReply was called without receiving a matching request 66
+[20:17:58] RequestStore#acceptReply was called without receiving a matching request 67
+[20:17:59] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[20:18:00] RequestStore#acceptReply was called without receiving a matching request 68
+[20:18:00] RequestStore#acceptReply was called without receiving a matching request 69
+[20:18:00] RequestStore#acceptReply was called without receiving a matching request 70
+[20:18:00] RequestStore#acceptReply was called without receiving a matching request 71
+[20:18:00] RequestStore#acceptReply was called without receiving a matching request 72
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/vendor/modules/code-oss-dev/out/bootstrap.js:1:370)
+    at process.emit (events.js:400:28)
+[20:18:08] RequestStore#acceptReply was called without receiving a matching request 73
+[20:18:08] RequestStore#acceptReply was called without receiving a matching request 74
+[20:18:08] RequestStore#acceptReply was called without receiving a matching request 75
+[20:18:08] RequestStore#acceptReply was called without receiving a matching request 76
+[20:18:08] RequestStore#acceptReply was called without receiving a matching request 77
+[20:18:10] RequestStore#acceptReply was called without receiving a matching request 78
+[20:18:10] RequestStore#acceptReply was called without receiving a matching request 79
+[20:18:10] RequestStore#acceptReply was called without receiving a matching request 80
+[20:18:10] RequestStore#acceptReply was called without receiving a matching request 81
+[20:18:10] RequestStore#acceptReply was called without receiving a matching request 82
+[20:23:44] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[20:23:44] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[20:23:45] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[20:23:47] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[20:24:16] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[20:24:16] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[20:24:17] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[20:24:19] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/vendor/modules/code-oss-dev/out/bootstrap.js:1:370)
+    at process.emit (events.js:400:28)
+[23:41:26] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[23:41:26] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[23:41:29] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[23:41:33] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/vendor/modules/code-oss-dev/out/bootstrap.js:1:370)
+    at process.emit (events.js:400:28)
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/vendor/modules/code-oss-dev/out/bootstrap.js:1:370)
+    at process.emit (events.js:400:28)
+[03:45:26] [10.0.1.94][5d7dc9c4][ManagementConnection] Unknown reconnection token (seen before).
+[03:45:26] [10.0.1.94][1f16b6c6][ExtensionHostConnection] Unknown reconnection token (seen before).
+[15:11:05] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[15:11:05] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[15:11:08] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[15:11:14] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/vendor/modules/code-oss-dev/out/bootstrap.js:1:370)
+    at process.emit (events.js:400:28)
+[18:03:57] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[18:03:57] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[18:03:59] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[18:04:04] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[18:21:23] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[18:21:23] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[18:21:25] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[18:21:30] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/vendor/modules/code-oss-dev/out/bootstrap.js:1:370)
+    at process.emit (events.js:400:28)
+[12:41:46] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[12:41:46] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[12:41:48] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[12:41:53] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/vendor/modules/code-oss-dev/out/bootstrap.js:1:370)
+    at process.emit (events.js:400:28)
+[16:28:50] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[16:28:50] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[16:28:51] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[16:28:53] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[16:32:26] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[16:32:26] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[16:32:27] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[16:32:29] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[16:36:00] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[16:36:00] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[16:36:01] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[16:36:03] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[16:59:35] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[16:59:35] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[16:59:35] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[16:59:38] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[23:45:35] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[23:45:35] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[23:45:35] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[23:45:38] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[23:47:52] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[23:47:52] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[23:47:53] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[23:47:56] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[23:49:41] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[23:49:41] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[23:49:41] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[23:49:45] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[23:50:01] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[23:50:01] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[23:50:02] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[23:50:06] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20) {
+  errno: -104,
+  code: 'ECONNRESET',
+  syscall: 'read'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at new NodeError (internal/errors.js:322:7)
+    at afterWrite (internal/streams/writable.js:470:24)
+    at onwrite (internal/streams/writable.js:446:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:89:12) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+[00:02:30] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[00:02:30] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[00:02:30] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[00:02:33] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[00:03:56] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User')
+[00:03:56] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/settings.json for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/settings.json')
+[00:03:56] [File Watcher (node.js)] Failed to watch /home/coder/.local/share/code-server/User/snippets for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/.local/share/code-server/User/snippets')
+[00:04:00] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[21:04:50] ptyHost terminated unexpectedly with code null
+[21:04:50] ptyHost terminated unexpectedly with code null
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+[13:56:20] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[14:12:25] ptyHost terminated unexpectedly with code null
+[14:17:14] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[18:08:23] [File Watcher (parcel)] Unexpected error: std::bad_alloc (EUNKNOWN) (path: /home/coder/ui)
+[18:08:23] [File Watcher (parcel)] restarting watcher after error: std::bad_alloc
+[18:31:01] No ptyHost heartbeat after 6 seconds
+[01:07:33] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[01:08:06] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/vendor/modules/code-oss-dev/out/bootstrap.js:1:370)
+    at process.emit (events.js:400:28)
+[01:08:37] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/vendor/modules/code-oss-dev/out/bootstrap.js:1:370)
+    at process.emit (events.js:400:28)
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/vendor/modules/code-oss-dev/out/bootstrap.js:1:370)
+    at process.emit (events.js:400:28)
+[13:52:20] [10.0.1.246][a58a520d][ManagementConnection] Unknown reconnection token (never seen).
+[13:52:20] [10.0.1.246][0ddf2775][ExtensionHostConnection] Unknown reconnection token (never seen).
+[13:54:46] [10.0.1.32][ed726be3][ExtensionHostConnection] Unknown reconnection token (never seen).
+[02:20:54] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration.
+    at Timeout.<anonymous> (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostAgent.js:85:58342)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+[02:21:33] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration.
+    at Timeout.<anonymous> (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostAgent.js:85:58342)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+[02:22:31] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration.
+    at Timeout.<anonymous> (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostAgent.js:85:58342)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+[02:23:14] No ptyHost heartbeat after 6 seconds
+[02:23:55] No ptyHost heartbeat after 6 seconds
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/vendor/modules/code-oss-dev/out/bootstrap.js:1:370)
+    at process.emit (events.js:400:28)
+[02:26:26] No ptyHost heartbeat after 6 seconds
+[02:27:09] No ptyHost heartbeat after 6 seconds
+[06:03:19] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration.
+    at Timeout.<anonymous> (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostAgent.js:85:58342)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/vendor/modules/code-oss-dev/out/bootstrap.js:1:370)
+    at process.emit (events.js:400:28)
+[07:00:43] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration.
+    at Timeout.<anonymous> (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostAgent.js:85:58342)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+[07:39:36] [File Watcher (parcel)] Unexpected error: std::bad_alloc (EUNKNOWN) (path: /home/coder/ui)
+[07:39:36] [File Watcher (parcel)] restarting watcher after error: std::bad_alloc
+[07:49:06] [File Watcher (parcel)] Unexpected error: std::bad_alloc (EUNKNOWN) (path: /home/coder/ui)
+[07:49:06] [File Watcher (parcel)] restarting watcher after error: std::bad_alloc
+[08:25:53] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration.
+    at Timeout.<anonymous> (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostAgent.js:85:58342)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+[08:27:46] No ptyHost heartbeat after 6 seconds
+[08:29:24] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration.
+    at Timeout.<anonymous> (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostAgent.js:85:58342)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+[08:29:58] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration.
+    at Timeout.<anonymous> (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostAgent.js:85:58342)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+[08:32:42] RequestService#request resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration.
+    at Timeout.<anonymous> (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostAgent.js:85:58342)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+[08:32:43] RequestService#request resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration.
+    at Timeout.<anonymous> (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostAgent.js:85:58342)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+[08:56:34] [File Watcher (parcel)] Unexpected error: std::bad_alloc (EUNKNOWN) (path: /home/coder/ui/crudusrs)
+[08:56:34] [File Watcher (parcel)] restarting watcher after error: std::bad_alloc
+[09:14:43] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration.
+    at Timeout.<anonymous> (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostAgent.js:85:58342)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+[09:28:58] No ptyHost heartbeat after 6 seconds
+[09:47:49] No ptyHost heartbeat after 6 seconds
+[09:47:52] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration.
+    at Timeout.<anonymous> (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostAgent.js:85:58342)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+[09:50:38] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration.
+    at Timeout.<anonymous> (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostAgent.js:85:58342)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+[10:01:49] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration.
+    at Timeout.<anonymous> (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostAgent.js:85:58342)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+[11:16:15] No ptyHost heartbeat after 6 seconds
+[11:17:10] No ptyHost heartbeat after 6 seconds
+[11:17:50] No ptyHost heartbeat after 6 seconds
+[11:18:41] No ptyHost heartbeat after 6 seconds
+[12:36:22] No ptyHost heartbeat after 6 seconds
+[14:26:01] No ptyHost heartbeat after 6 seconds
+[14:34:05] No ptyHost heartbeat after 6 seconds
+[14:34:48] No ptyHost heartbeat after 6 seconds
+[12:48:30] No ptyHost heartbeat after 6 seconds
+[12:48:33] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration.
+    at Timeout.<anonymous> (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostAgent.js:85:58342)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+[12:50:47] No ptyHost heartbeat after 6 seconds
+[12:57:17] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration.
+    at Timeout.<anonymous> (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostAgent.js:85:58342)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+[23:47:57] No ptyHost heartbeat after 6 seconds
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/vendor/modules/code-oss-dev/out/bootstrap.js:1:370)
+    at process.emit (events.js:400:28)
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/vendor/modules/code-oss-dev/out/bootstrap.js:1:370)
+    at process.emit (events.js:400:28)
+[00:06:45] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration.
+    at Timeout.<anonymous> (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostAgent.js:85:58342)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+[00:27:03] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration.
+    at Timeout.<anonymous> (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostAgent.js:85:58342)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+[00:27:30] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration.
+    at Timeout.<anonymous> (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostAgent.js:85:58342)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/vendor/modules/code-oss-dev/out/bootstrap.js:1:370)
+    at process.emit (events.js:400:28)
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/vendor/modules/code-oss-dev/out/bootstrap.js:1:370)
+    at process.emit (events.js:400:28)
+[14:13:24] ptyHost terminated unexpectedly with code null
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+[14:19:21] No ptyHost heartbeat after 6 seconds
+[14:50:07] No ptyHost heartbeat after 6 seconds
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/vendor/modules/code-oss-dev/out/bootstrap.js:1:370)
+    at process.emit (events.js:400:28)
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/vendor/modules/code-oss-dev/out/bootstrap.js:1:370)
+    at process.emit (events.js:400:28)
+[17:42:43] No ptyHost heartbeat after 6 seconds
+[20:20:16] No ptyHost heartbeat after 6 seconds

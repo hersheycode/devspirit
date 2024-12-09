@@ -1,0 +1,343 @@
+# sudo docker swarm init --advertise-addr 10.0.0.186
+# sudo docker network create --driver=overlay --attachable app_pathway_network
+
+version: "3.9"
+
+networks:
+  app_pathway_network:
+    external: true
+    
+services:
+    devcluster:
+      container_name: devcluster
+      build:
+          dockerfile: cluster/Dockerfile
+          context: ./k8s
+
+    hub:
+      image: registry:2
+      environment:
+        REGISTRY_AUTH: htpasswd
+        REGISTRY_HTTP_ADDR: 0.0.0.0:5000
+        REGISTRY_AUTH_HTPASSWD_REALM: Registry Realm
+        REGISTRY_AUTH_HTPASSWD_PATH: /auth/.htpasswd
+        REGISTRY_STORAGE_FILESYSTEM_ROOTDIRECTORY: /data
+      restart: always
+      volumes:
+        - ./auth:/auth
+        - ./data:/data
+      networks:
+        app_pathway_network:
+        
+    ui:
+      container_name: ui
+      build:
+        dockerfile: web/test/build/package/Dockerfile
+        context: ../../
+      volumes:
+        - $WEB/test:/app/test
+      networks:
+        app_pathway_network:
+
+    # nhershey_ui:
+    #   container_name: nhershey_ui
+    #   build:
+    #     context: ../../examples/portfolio/nhershey
+    #   volumes:
+    #     - $PKG/examples/portfolio/nhershey:/app
+    #     - /app/node_modules
+    #     - /app/.next
+    #   networks:
+    #     - app_pathway_network
+
+    nginx:
+      container_name: app_pathway_nginx
+      restart: always
+      build:
+        context: ../../web/nginx
+      ports:
+          - 80:80
+          - 443:443
+      networks:
+        - app_pathway_network
+
+    # ui:
+    #   container_name: ui
+    #   build:
+    #     dockerfile: web/ui/Dockerfile
+    #     context: ../../
+    #   volumes:
+    #     - $WEB/ui/package.json:/app/package.json
+    #     - $WEB/ui:/app
+    #     - /app/node_modules
+    #     - /app/.next
+    #   networks:
+    #     app_pathway_network:
+
+    cloud:
+      container_name: cloud
+      image: cloud:latest
+      build:
+        dockerfile: deployments/cloud/vscode.Dockerfile
+        context: ../../
+      volumes:
+        - /home/nate/code/app-pathway/deployments/cloud/ap:/home/coder
+        - /home/nate/code/app-pathway/scripts/cloud/zshrc:/home/coder/.zshrc
+        - /etc/timezone:/etc/timezone 
+        - /etc/localtime:/etc/localtime 
+        - /var/run/docker.sock:/var/run/docker.sock 
+        - /var/lib/docker:/var/lib/docker 
+      networks:
+        app_pathway_network:
+    
+    vscode:
+      container_name: vscode
+      build:
+        dockerfile: deployments/cloud/vscode.Dockerfile
+        context: ../../
+      volumes:
+        - /home/nate/code/app-pathway/deployments/cloud/ap:/home/coder
+        - /home/nate/code/app-pathway:/home/coder/app-pathway 
+      networks:
+        app_pathway_network:
+
+    ap:
+      container_name: ap
+      build:
+        dockerfile: pkg/adminctl/build/package/Dockerfile
+        context: ../../
+      env_file:
+        - env/ap.env   
+      volumes:
+        - $ROOT/config/dev/cloud/ap/ui:/cloud/data
+        - $PKG/adminctl:$PKG/adminctl
+        - $PKG/client:$PKG/client
+        - $PKG/adminctl/go.mod:$PKG/adminctl/go.mod
+        - $PKG/adminctl/go.sum:$PKG/adminctl/go.sum
+        - $PKG/builder/nodes:$PKG/builder/nodes
+        - $PKG/builder/spec:$PKG/builder/spec
+        - $PKG/builder/cplugin:$PKG/builder/cplugin
+        - $PKG/builder/ci:$PKG/builder/ci
+        - $PKG/builder/cd:$PKG/builder/cd
+        - $PKG/user/behavior:$PKG/user/behavior
+        - $PKG/user/auth:$PKG/user/auth
+        - $PKG/net:$PKG/net
+        - $PKG/errors:$PKG/errors
+        - $PKG/debug:$PKG/debug
+        - $ROOT/secrets/crt/auth:/etc/ssl/certs/auth
+      networks:
+        app_pathway_network:
+
+    auth:
+      container_name: app_auth
+      build:
+        dockerfile: pkg/user/auth/build/package/Dockerfile
+        context: ../../
+      env_file:
+        - env/auth.env   
+      volumes:
+        - $PKG/user/auth/cmd/server/main.go:$PKG/user/auth/main.go
+        - $PKG/user/auth:$PKG/user/auth
+        - $PKG/db_api:$PKG/db_api
+        - $PKG/net:$PKG/net
+        - $PKG/errors:$PKG/errors
+        - $PKG/debug:$PKG/debug
+        - $ROOT/secrets/crt/auth:/etc/ssl/certs/auth
+        - $ROOT/secrets/crt/dgraph:/etc/ssl/certs/dgraph
+      networks:
+        app_pathway_network:
+
+    auth_db_api:
+        container_name: app_auth_db_api
+        build:
+          dockerfile: pkg/db_api/build/package/Dockerfile
+          context: ../../
+        env_file:
+          - env/auth.env   
+        volumes:
+          - $PKG/db_api/internals:/app/internals
+          - $PKG/db_api/go.mod:/app/go.mod
+          - $PKG/db_api/go.sum:/app/go.sum
+          - $PKG/db_api/cmd/server/main.go:/app/main.go
+          - $PKG/errors:$PKG/errors
+        networks:
+          app_pathway_network:
+
+    api_generator:
+        container_name: app_api_generator
+        build:
+          dockerfile: pkg/cert/build/package/server/Dockerfile
+          context: ../../
+        env_file:
+          - env/api_generator.env   
+        volumes:
+          - $PKG/cert/internals:/app/internals
+          - $PKG/cert/go.mod:/app/go.mod
+          - $PKG/cert/go.sum:/app/go.sum
+          - $PKG/cert/cmd/server/main.go:/app/main.go
+          - $PKG/multipass/id_rsa:/etc/ssl/id_main_vm
+          - $PKG/multipass/main_shared/templates:/host/templates
+          - $PKG/multipass/main_shared/config_examples:/host/config_examples
+          - $PKG/cert/third_party:/app/third_party
+        networks:
+          app_pathway_network:
+
+    nodes:
+      restart: always
+      container_name: nodes
+      build:
+        dockerfile: pkg/builder/nodes/build/package/Dockerfile
+        context: ../../
+      env_file:
+        - env/nodes.env   
+      volumes:
+        - $PKG/builder/nodes/cmd/nodesd/devstart/run:$PKG/builder/nodes/run
+        - $PKG/builder/nodes:$PKG/builder/nodes
+        - $PKG/builder/spec:$PKG/builder/spec
+        - $PKG/user:$PKG/user
+        - $PKG/net:$PKG/net
+        - $PKG/errors:$PKG/errors
+        - $PKG/debug:$PKG/debug
+        - $ROOT/secrets/crt/auth:/etc/ssl/certs/auth
+        - $ROOT/secrets/crt/dgraph:/etc/ssl/certs/dgraph
+      networks:
+        app_pathway_network:
+
+
+    cplugind:
+      restart: always
+      container_name: cplugind
+      build:
+        dockerfile: pkg/builder/cplugin/build/package/Dockerfile
+        context: ../../
+      env_file:
+        - env/cplugin.env   
+      volumes:
+        - $PKG/builder/cplugin/cmd/cplugind/devstart/run:$PKG/builder/cplugin/run
+        - $PKG/builder/cplugin:$PKG/builder/cplugin
+        - $PKG/user:$PKG/user
+        - $PKG/net:$PKG/net
+        - $PKG/errors:$PKG/errors
+        - $PKG/debug:$PKG/debug
+        - $ROOT/secrets/crt/auth:/etc/ssl/certs/auth
+        - $ROOT/secrets/crt/dgraph:/etc/ssl/certs/dgraph
+      networks:
+        app_pathway_network:
+
+    behaviord:
+      restart: always
+      container_name: behaviord
+      build:
+        dockerfile: pkg/user/behavior/build/package/Dockerfile
+        context: ../../
+      env_file:
+        - env/behavior.env   
+      volumes:
+        - $PKG/user/behavior/cmd/behaviord/devstart/run:$PKG/user/behavior/run
+        - $PKG/user/behavior:$PKG/user/behavior
+        - $PKG/user:$PKG/user
+        - $PKG/net:$PKG/net
+        - $PKG/errors:$PKG/errors
+        - $PKG/debug:$PKG/debug
+        - $ROOT/secrets/crt/auth:/etc/ssl/certs/auth
+        - $ROOT/secrets/crt/dgraph:/etc/ssl/certs/dgraph
+      networks:
+        app_pathway_network:
+
+    cid:
+      restart: always
+      container_name: cid
+      build:
+        dockerfile: pkg/builder/ci/build/package/Dockerfile
+        context: ../../
+      env_file:
+        - env/ci.env   
+      volumes:
+        - $PKG/builder/ci/cmd/cid/devstart/run:$PKG/builder/ci/run
+        - $PKG/builder/ci:$PKG/builder/ci
+        - $PKG/user:$PKG/user
+        - $PKG/net:$PKG/net
+        - $PKG/errors:$PKG/errors
+        - $PKG/debug:$PKG/debug
+        - $ROOT/secrets/crt/auth:/etc/ssl/certs/auth
+        - $ROOT/secrets/crt/dgraph:/etc/ssl/certs/dgraph
+        - /var/run/docker.sock:/var/run/docker.sock
+        - /var/lib/docker:/var/lib/docker
+      networks:
+        app_pathway_network:
+
+    cdd:
+      restart: always
+      container_name: cdd
+      build:
+        dockerfile: pkg/builder/cd/build/package/Dockerfile
+        context: ../../
+      env_file:
+        - env/cd.env   
+      volumes:
+        - $PKG/builder/cd/cmd/cdd/devstart/run:$PKG/builder/cd/run
+        - $PKG/builder/cd:$PKG/builder/cd
+        - $PKG/user:$PKG/user
+        - $PKG/net:$PKG/net
+        - $PKG/errors:$PKG/errors
+        - $PKG/debug:$PKG/debug
+        - $ROOT/secrets/crt/auth:/etc/ssl/certs/auth
+        - $ROOT/secrets/crt/dgraph:/etc/ssl/certs/dgraph
+      networks:
+        app_pathway_network:
+
+    api_generator_db_api:
+        container_name: app_api_generator_db_api
+        build:
+          dockerfile: submodules/db_api/build/package/Dockerfile
+          context: ../../
+        env_file:
+          - env/api_generator.env     
+        volumes:
+          - $PKG/submodules/db_api/internals:/app/internals
+          - $PKG/submodules/db_api/go.mod:/app/go.mod
+          - $PKG/submodules/db_api/go.sum:/app/go.sum
+          - $PKG/submodules/db_api/cmd/server/main.go:/app/main.go
+        networks:
+          app_pathway_network:
+    
+    gitea:
+      # image: datadrivenpath/gitea
+      build:
+          context: ../../third_party/gitea
+      container_name: gitea
+      restart: unless-stopped
+      environment:
+        # - PKG_URL=https://apppathway.com/pkg
+        # - DOMAIN=apppathway.com/pkg
+        - PKG_URL=http://localhost/pkg
+        - DOMAIN=localhost/pkg
+        - PROTOCOL=http
+        - USER_UID=1000
+        - USER_GID=1000
+      volumes:
+        - ../third_party/gitea/data:/data
+        - ../third_party/gitea:/go/src/code.gitea.io/gitea/gitea
+      ports:
+        - 222:22
+      networks:
+        app_pathway_network:
+
+    hoppscotch:
+      container_name: hoppscotch
+      build:
+        context: ../../third_party/hoppscotch
+      environment:
+        HOST: 0.0.0.0
+      networks:
+        app_pathway_network:
+
+    mysql:
+      image: mariadb:10.4.24-focal
+      container_name: mysql
+      env_file:
+        - env/mysql.env
+      ports: 
+        - 127.0.0.1:3306:3306
+      networks:
+        app_pathway_network:

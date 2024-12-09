@@ -1,0 +1,10 @@
+/submodules/api_generator
+/submodules/api_gen_cli
+/submodules/db_api
+/submodules/auth
+/third_party
+/pkg
+/deployments
+go.mod
+go.sum
+dockerignores

@@ -1,0 +1,11 @@
+type FuncSpec {
+    scope:      string
+    funcName:  string   
+    string:     string        
+    bytes:      string
+}
+
+type FuncOverview {
+    quanity: int 
+    funcs: [FuncSpec]
+}

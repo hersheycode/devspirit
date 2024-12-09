@@ -1,0 +1,40 @@
+go 1.18
+
+use (
+	config/dev
+	// examples/prodapi/pkg/plugins/user
+	// examples/prodapi/pkg/orgs/intentsys
+	// examples/prodapi/pkg/orgs/intentsys/api/intentsyspb
+	// examples/prodapi/pkg/plugins/intent
+	// examples/prodapi/pkg/plugins/intent/api/intentpb
+	// examples/prodapi/pkg/plugins/scheduler
+	// examples/prodapi/pkg/plugins/scheduler/api/schedulerpb
+	// examples/prodapi/pkg/plugins/sms
+	// examples/prodapi/pkg/plugins/sms/api/smspb
+	pkg/adminctl
+	pkg/app
+	pkg/builder/cd
+	pkg/builder/cd/api/templatepb
+	pkg/builder/ci
+	pkg/builder/ci/api/cipb
+	pkg/builder/cplugin
+	pkg/builder/cplugin/api/cpluginpb
+	pkg/builder/cplugin/multipass/example
+	pkg/builder/cplugin/vm/expect
+	pkg/builder/nodes
+	pkg/builder/spec
+	pkg/client
+	pkg/db_api
+	pkg/debug
+	pkg/errors
+	pkg/net
+	pkg/user/behavior
+	pkg/user/behavior/api/behaviorpb
+	third_party/termdash
+	web/go-stripe
+	web/test
+	examples/prodapi/pkg/clients/is
+	config/up
+	// config/dev/cloud/ap/ui/crudusrs/pkg/clients/crud_basic_cli
+// scripts
+)

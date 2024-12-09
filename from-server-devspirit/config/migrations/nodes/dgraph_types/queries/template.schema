@@ -1,0 +1,18 @@
+{
+  root(func: eq(name, "app_pathway")) {
+			name 
+      modules {
+        name 
+        groups {
+          name 
+          dirs {
+            name {
+              files {
+                name
+              }
+            }
+          }
+        }
+      }
+  }
+}

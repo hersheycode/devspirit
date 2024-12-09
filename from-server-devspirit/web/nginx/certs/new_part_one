@@ -1,0 +1,96 @@
+#!/bin/bash
+
+ 
+echo "Prereqs: "
+echo "0) KILL NGINX RUNNING ON 443"
+echo "1) point new domain to ip in cloudflare (TURN OFF PROXY IN CLOUDFLARE FOR NEW DOMAIN)"
+echo "2) Edit info inside script before running."
+echo "3) Run ./new_part_one on server. DO NOT RUN THIS SCRIPT IN CONTAINER (Wrong IP)"
+ 
+
+EMAIL=datadrivenpath@gmail.com
+WD=$(pwd)
+NEW=nhershey.com
+NEW_DOMAIN=nhershey.com
+ROOT=$WD/$NEW
+
+sudo mkdir $ROOT 
+sudo chmod -R 777 $ROOT
+sudo mkdir $ROOT/public_html $ROOT/conf.d $ROOT/dhparam
+sudo chmod 777 $ROOT/public_html
+sudo chmod 777 $ROOT/conf.d
+sudo chmod 777 $ROOT/dhparam
+
+
+echo "STEP (1/10) - Made dirs for new domain: ${NEW}..."
+
+sudo cat <<EOT > $ROOT/public_html/index.html 
+<html lang='en-us' charset="utf-8">
+<body>
+<h1>Hello World!</h1>
+<i>Sincerely, $NEW </i>
+</body>
+</html>
+EOT
+
+echo "STEP (2/10) - Made index.html for new domain: ${NEW}..."
+
+sudo cat <<EOT > $ROOT/conf.d/default.conf
+server {
+    listen 80;
+    server_name $NEW;
+    root /public_html;
+
+    location ~ /.well-known/acme-challenge{
+        allow all;
+        root /usr/share/nginx/html/letsencrypt;
+    }
+
+}
+EOT
+
+echo "STEP (3/10) - Made default.conf for new domain: ${NEW}..."
+
+echo "STEP (4/10) - Making dhparam for new domain: ${NEW}..."
+
+sudo openssl dhparam -out $ROOT/dhparam/dhparam-2048.pem 2048
+
+sudo cat <<EOT > $ROOT/docker-compose.yml 
+version: '3.9'
+
+services:
+  new:
+    image: nginx:latest
+    restart: always
+    volumes:
+      - ./public_html:/public_html
+      - ./conf.d:/etc/nginx/conf.d/
+      - ./dhparam:/etc/nginx/dhparam
+      - ./certbot/conf/:/etc/nginx/ssl/
+      - ./certbot/data:/usr/share/nginx/html/letsencrypt
+    ports:
+      - 80:80
+      - 443:443
+
+  certbot:
+     image: certbot/certbot:latest
+     command: certonly --webroot --webroot-path=/usr/share/nginx/html/letsencrypt --email $EMAIL --agree-tos --no-eff-email -d $NEW_DOMAIN
+     volumes:
+       - ./certbot/conf/:/etc/letsencrypt
+       - ./certbot/logs/:/var/log/letsencrypt
+       - ./certbot/data:/usr/share/nginx/html/letsencrypt
+EOT
+
+echo "STEP (5/10) - Made docker-compose.yml for requesting cert for new domain: ${NEW}..."
+
+echo "STEP (6/10) Requesting cert for new domain: ${NEW}..."
+
+sudo docker-compose -f $ROOT/docker-compose.yml up --build
+sudo docker-compose -f $ROOT/docker-compose.yml up --build
+
+sleep 3s
+
+sudo docker-compose down
+
+echo "Now, run new_part_two inside dev container. (run sudo chown -R -h nate:nate $ROOT if you cant see live cert folder inside dev container)"
+sudo chown -R -h nate:nate $ROOT

@@ -1,10 +1,10 @@
 module codestore.localhost/crudusrs/crud_basic/api/crudbasic
 
-replace codestore.localhost/crudusrs/crud_basic/api/crudbasic/api/intentpb => /home/nate/code/app-pathway/examples/prodapi/pkg/plugins/intent/api/intentpb
+replace codestore.localhost/crudusrs/crud_basic/api/crudbasic/api/intentpb => /workspaces/devspirit/examples/prodapi/pkg/plugins/intent/api/intentpb
 
-replace apppathway.com/pkg/errors => /home/nate/code/app-pathway/pkg/errors
+replace apppathway.com/pkg/errors => /workspaces/devspirit/pkg/errors
 
-replace apppathway.com/pkg/debug => /home/nate/code/app-pathway/pkg/debug
+replace apppathway.com/pkg/debug => /workspaces/devspirit/pkg/debug
 
 go 1.18
 

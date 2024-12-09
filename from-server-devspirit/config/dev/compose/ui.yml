@@ -1,0 +1,16 @@
+version: "3.9"
+
+networks:
+  app_pathway_network:
+    external: true
+    
+services:
+    ui:
+      container_name: ui
+      build:
+        dockerfile: web/test/build/package/Dockerfile
+        context: ../../../
+      volumes:
+        - $WEB/test:/app/test
+      networks:
+        app_pathway_network:

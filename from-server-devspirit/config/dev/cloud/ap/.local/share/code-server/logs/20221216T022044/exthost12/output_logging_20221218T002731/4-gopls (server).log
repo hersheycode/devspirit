@@ -1,0 +1,29 @@
+[Info  - 12:27:32 AM] 2022/12/17 19:27:32 go env for /home/coder/ui
+(root /home/coder/ui)
+(go version go version go1.18 linux/amd64)
+(valid build configuration = false)
+(build flags: [])
+GOMODCACHE=/home/coder/go/pkg/mod
+GOPATH=/home/coder/go
+GOROOT=/usr/local/go
+GONOPROXY=
+GOPROXY=https://proxy.golang.org,direct
+GOMOD=/dev/null
+GONOSUMDB=
+GOSUMDB=sum.golang.org
+GOWORK=
+GOCACHE=/home/coder/.cache/go-build
+GOFLAGS=
+GOPRIVATE=
+GO111MODULE=
+GOINSECURE=
+
+
+[Info  - 12:27:32 AM] 2022/12/17 19:27:32 go/packages.Load #1
+	snapshot=0
+	directory=file:///home/coder/ui
+	query=[./ builtin]
+	packages=2
+
+[Info  - 12:27:32 AM] 2022/12/17 19:27:32 go/packages.Load #1: updating metadata for 0 packages
+

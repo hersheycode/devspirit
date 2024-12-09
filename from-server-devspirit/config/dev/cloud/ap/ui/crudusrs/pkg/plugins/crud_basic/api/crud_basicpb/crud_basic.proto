@@ -1,0 +1,43 @@
+syntax = "proto3";
+package crudbasicpb;
+
+option go_package = "codestore.localhost/crudusrs/crud_basic/api/crudbasicpb";
+
+message CreateRequest {
+    string name = 1;
+}
+
+message CreateResponse {
+    string status = 1;
+}
+
+message PhenomenonRequest {
+    string id = 1;
+}
+
+message PhenomenonResponse {
+    string name = 1;
+}
+
+message UpdateRequest {
+    string id = 1;
+}
+
+message UpdateResponse {
+    string status = 1;
+}
+
+message DeleteRequest {
+    string id = 1;
+}
+
+message DeleteResponse {
+    string status = 1;
+}
+
+service Phenomena {
+    rpc Create(CreateRequest) returns (CreateResponse);
+    rpc Phenomenon(PhenomenonRequest) returns (PhenomenonResponse);
+    rpc Update(UpdateRequest) returns (UpdateResponse);
+    rpc Delete(DeleteRequest) returns (DeleteResponse);
+}

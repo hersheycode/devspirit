@@ -1,0 +1,10 @@
+name: string @index(exact) .
+username: string @index(exact) .
+phoneNum: string @index(exact) .
+role: string @index(exact) .
+accountId: string @index(exact) .
+profileId: string @index(exact) .
+email: string @index(exact) .
+
+# pass
+password: password . 

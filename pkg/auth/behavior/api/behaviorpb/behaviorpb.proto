@@ -1,0 +1,16 @@
+syntax = "proto3";
+package behavior;
+
+option go_package = "apppathway.com/pkg/user/behavior/api/behaviorpb";
+
+message LogCmdRequest {
+    string command = 1;
+}
+
+message LogCmdResponse {
+    string status = 1;
+}
+
+service BehaviorService {
+    rpc LogCmd(LogCmdRequest) returns (LogCmdResponse);
+}

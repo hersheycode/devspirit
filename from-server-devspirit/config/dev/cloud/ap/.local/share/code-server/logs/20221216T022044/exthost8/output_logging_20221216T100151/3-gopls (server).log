@@ -1,0 +1,133 @@
+[Info  - 10:01:52 AM] 2022/12/16 05:01:52 go env for /home/coder/ui/crudusrs
+(root /home/coder/ui/crudusrs)
+(go version go version go1.18 linux/amd64)
+(valid build configuration = true)
+(build flags: [])
+GONOSUMDB=
+GOMODCACHE=/home/coder/go/pkg/mod
+GOINSECURE=
+GONOPROXY=
+GOPATH=/home/coder/go
+GO111MODULE=
+GOMOD=/dev/null
+GOWORK=/home/coder/ui/crudusrs/go.work
+GOPROXY=https://proxy.golang.org,direct
+GOFLAGS=
+GOSUMDB=sum.golang.org
+GOCACHE=/home/coder/.cache/go-build
+GOPRIVATE=
+GOROOT=/usr/local/go
+
+
+[Error - 10:11:52 AM] 2022/12/16 05:11:52 initial workspace load failed: context deadline exceeded
+
+[Error - 10:11:52 AM] 2022/12/16 05:11:52 workspace packages: diagnosing file:///home/coder/ui/crudusrs/pkg/clients/crud_basic_cli/go.mod: context deadline exceeded
+
+[Error - 10:11:52 AM] 2022/12/16 05:11:52 workspace packages: diagnosing file:///home/coder/ui/crudusrs/pkg/plugins/crud_basic/go.mod: context deadline exceeded
+
+[Error - 10:11:52 AM] 2022/12/16 05:11:52 errors loading workspace: context deadline exceeded
+	snapshot=0
+	directory=file:///home/coder/ui/crudusrs
+
+[Error - 10:11:52 AM] 2022/12/16 05:11:52 MetadataForFile: packages.Load error: err: exit status 1: stderr: build flag -mod=readonly only valid when using modules
+
+
+[Error - 10:11:52 AM] 2022/12/16 05:11:52 go/packages.Load #15: err: exit status 1: stderr: build flag -mod=readonly only valid when using modules
+
+	snapshot=14
+	directory=file:///home/coder/ui/crudusrs
+	query=[file=/home/coder/ui/crudusrs/pkg/orgs/intentsys/org/set_intent.go]
+	packages=0
+
+[Error - 10:11:52 AM] 2022/12/16 05:11:52 workspace packages: diagnosing file:///home/coder/ui/crudusrs/pkg/clients/crud_basic_cli/go.mod: context deadline exceeded
+
+[Error - 10:11:52 AM] 2022/12/16 05:11:52 workspace packages: diagnosing file:///home/coder/ui/crudusrs/pkg/plugins/crud_basic/go.mod: context deadline exceeded
+
+[Error - 10:11:52 AM] 2022/12/16 05:11:52 errors loading workspace: context deadline exceeded
+	snapshot=14
+	directory=file:///home/coder/ui/crudusrs
+
+[Error - 10:22:03 AM] 2022/12/16 05:22:03 workspace packages: diagnosing file:///home/coder/ui/crudusrs/pkg/clients/crud_basic_cli/go.mod: context deadline exceeded
+
+[Error - 10:22:03 AM] 2022/12/16 05:22:03 DocumentSymbols failed: getting file for DocumentSymbols: cannot parse non-Go file file:///home/coder/ui/crudusrs/pkg/clients/crud_basic_cli/go.mod
+	URI=file:///home/coder/ui/crudusrs/pkg/clients/crud_basic_cli/go.mod
+
+[Error - 10:22:04 AM] 2022/12/16 05:22:04 workspace packages: diagnosing file:///home/coder/ui/crudusrs/pkg/clients/crud_basic_cli/go.mod: context deadline exceeded
+
+[Error - 10:22:04 AM] 2022/12/16 05:22:04 workspace packages: diagnosing file:///home/coder/ui/crudusrs/pkg/plugins/crud_basic/go.mod: context deadline exceeded
+
+[Error - 10:22:04 AM] 2022/12/16 05:22:04 errors loading workspace: context deadline exceeded
+	snapshot=15
+	directory=file:///home/coder/ui/crudusrs
+
+[Error - 10:22:04 AM] 2022/12/16 05:22:04 workspace packages: diagnosing file:///home/coder/ui/crudusrs/pkg/clients/crud_basic_cli/go.mod: context deadline exceeded
+
+[Error - 10:22:06 AM] 2022/12/16 05:22:06 workspace packages: diagnosing file:///home/coder/ui/crudusrs/pkg/clients/crud_basic_cli/go.mod: context deadline exceeded
+
+[Error - 10:22:07 AM] 2022/12/16 05:22:07 workspace packages: diagnosing file:///home/coder/ui/crudusrs/pkg/clients/crud_basic_cli/go.mod: context deadline exceeded
+
+[Error - 10:22:07 AM] 2022/12/16 05:22:07 workspace packages: diagnosing file:///home/coder/ui/crudusrs/pkg/clients/crud_basic_cli/go.mod: context deadline exceeded
+
+[Error - 10:23:15 AM] 2022/12/16 05:23:15 go/packages.Load #16: err: exit status 1: stderr: build flag -mod=readonly only valid when using modules
+
+	snapshot=16
+	directory=file:///home/coder/ui/crudusrs
+	query=[builtin codestore.localhost/crudusrs/crud_basic/api/crudbasic/... codestore.localhost/crudusrs/crud_basic/pkg/clients/crudbasiccli/...]
+	packages=0
+
+[Error - 10:23:15 AM] 2022/12/16 05:23:15 initial workspace load failed: packages.Load error: err: exit status 1: stderr: build flag -mod=readonly only valid when using modules
+
+
+[Error - 10:23:15 AM] 2022/12/16 05:23:15 go/packages.Load #17: err: exit status 1: stderr: build flag -mod=readonly only valid when using modules
+
+	snapshot=17
+	directory=file:///home/coder/ui/crudusrs
+	query=[builtin codestore.localhost/crudusrs/crud_basic/api/crudbasic/... codestore.localhost/crudusrs/crud_basic/pkg/clients/crudbasiccli/...]
+	packages=0
+
+[Error - 10:23:15 AM] 2022/12/16 05:23:15 initial workspace load failed: packages.Load error: err: exit status 1: stderr: build flag -mod=readonly only valid when using modules
+
+
+[Error - 10:23:15 AM] 2022/12/16 05:23:15 workspace packages: diagnosing file:///home/coder/ui/crudusrs/pkg/clients/crud_basic_cli/go.mod: packages.Load error: err: exit status 1: stderr: build flag -mod=readonly only valid when using modules
+
+
+[Error - 10:23:15 AM] 2022/12/16 05:23:15 workspace packages: diagnosing file:///home/coder/ui/crudusrs/pkg/plugins/crud_basic/go.mod: packages.Load error: err: exit status 1: stderr: build flag -mod=readonly only valid when using modules
+
+
+[Error - 10:23:15 AM] 2022/12/16 05:23:15 errors loading workspace: packages.Load error: err: exit status 1: stderr: build flag -mod=readonly only valid when using modules
+
+	snapshot=17
+	directory=file:///home/coder/ui/crudusrs
+
+[Error - 10:23:15 AM] 2022/12/16 05:23:15 DocumentSymbols failed: getting file for DocumentSymbols: cannot parse non-Go file file:///home/coder/ui/crudusrs/pkg/clients/crud_basic_cli/go.mod
+	URI=file:///home/coder/ui/crudusrs/pkg/clients/crud_basic_cli/go.mod
+
+[Error - 11:01:49 AM] 2022/12/16 06:01:49 workspace packages: diagnosing file:///home/coder/ui/crudusrs/pkg/clients/crud_basic_cli/go.mod: packages.Load error: err: exit status 1: stderr: build flag -mod=readonly only valid when using modules
+
+
+[Error - 11:01:51 AM] 2022/12/16 06:01:51 workspace packages: diagnosing file:///home/coder/ui/crudusrs/pkg/clients/crud_basic_cli/go.mod: packages.Load error: err: exit status 1: stderr: build flag -mod=readonly only valid when using modules
+
+
+[Error - 11:01:52 AM] 2022/12/16 06:01:52 workspace packages: diagnosing file:///home/coder/ui/crudusrs/pkg/clients/crud_basic_cli/go.mod: packages.Load error: err: exit status 1: stderr: build flag -mod=readonly only valid when using modules
+
+
+[Error - 11:01:54 AM] 2022/12/16 06:01:54 workspace packages: diagnosing file:///home/coder/ui/crudusrs/pkg/clients/crud_basic_cli/go.mod: packages.Load error: err: exit status 1: stderr: build flag -mod=readonly only valid when using modules
+
+
+[Error - 11:02:02 AM] 2022/12/16 06:02:02 workspace packages: diagnosing file:///home/coder/ui/crudusrs/pkg/clients/crud_basic_cli/go.mod: packages.Load error: err: exit status 1: stderr: build flag -mod=readonly only valid when using modules
+
+
+[Error - 11:02:02 AM] Request textDocument/definition failed.
+  Message: no packages for non-Go file file:///home/coder/ui/crudusrs/pkg/clients/crud_basic_cli/go.mod (go.mod)
+  Code: 0 
+[Error - 9:36:25 AM] 2022/12/17 04:36:25 workspace packages: diagnosing file:///home/coder/ui/crudusrs/pkg/clients/crud_basic_cli/go.mod: packages.Load error: err: exit status 1: stderr: build flag -mod=readonly only valid when using modules
+
+
+[Error - 9:36:25 AM] 2022/12/17 04:36:25 workspace packages: diagnosing file:///home/coder/ui/crudusrs/pkg/plugins/crud_basic/go.mod: packages.Load error: err: exit status 1: stderr: build flag -mod=readonly only valid when using modules
+
+
+[Error - 9:36:25 AM] 2022/12/17 04:36:25 errors loading workspace: packages.Load error: err: exit status 1: stderr: build flag -mod=readonly only valid when using modules
+
+	snapshot=18
+	directory=file:///home/coder/ui/crudusrs
+

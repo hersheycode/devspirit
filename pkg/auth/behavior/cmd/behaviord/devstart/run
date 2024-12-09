@@ -1,0 +1,4 @@
+#!/bin/bash
+pkill -f behaviord
+go run -race ./cmd/behaviord/behaviord.go
+

@@ -1,0 +1,14 @@
+Tools environment: GOPATH=/home/coder/go
+Installing 1 tool at /home/coder/go/bin in module mode.
+  gopls
+
+Installing golang.org/x/tools/gopls@latest (/home/coder/go/bin/gopls) SUCCEEDED
+
+All tools successfully installed. You are ready to Go. :)
+Tools environment: GOPATH=/home/coder/go
+Installing 3 tools at /home/coder/go/bin in module mode.
+  dlv
+  staticcheck
+  gopls
+
+Installing github.com/go-delve/delve/cmd/dlv@latest (/home/coder/go/bin/dlv) SUCCEEDED

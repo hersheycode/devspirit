@@ -63,7 +63,7 @@ to quickly create a Cobra application.`,
 
 		var willBuild string
 
-		command := fmt.Sprintf("sudo cp /home/nate/code/app-pathway/config/up/dockerignore/%s /home/nate/code/app-pathway/.dockerignore", srv.name)
+		command := fmt.Sprintf("sudo cp /workspaces/devspirit/config/up/dockerignore/%s /workspaces/devspirit/.dockerignore", srv.name)
 		fmt.Println(term.Green(command))
 		run(command, wd)
 
@@ -71,13 +71,13 @@ to quickly create a Cobra application.`,
 			willBuild = "--build"
 
 			if abbr == "ng" {
-				command := fmt.Sprintf("sudo docker-compose -f /home/nate/code/app-pathway/config/dev/compose/%s up --force-recreate %s", srv.compose, willBuild)
+				command := fmt.Sprintf("sudo docker-compose -f /workspaces/devspirit/config/dev/compose/%s up --force-recreate %s", srv.compose, willBuild)
 				run(command, wd)
 				return
 			}
 		}
 
-		command = fmt.Sprintf("sudo docker-compose -f /home/nate/code/app-pathway/config/dev/compose/%s up %s %s", srv.compose, willBuild, srv.name)
+		command = fmt.Sprintf("sudo docker-compose -f /workspaces/devspirit/config/dev/compose/%s up %s %s", srv.compose, willBuild, srv.name)
 		run(command, wd)
 	},
 }

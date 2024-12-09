@@ -1,10 +1,10 @@
 module apppathway.com/examples/prodapi/pkg/plugins/sms
 
-replace apppathway.com/examples/prodapi/pkg/plugins/sms/api/smspb => /home/nate/code/app-pathway/examples/prodapi/pkg/plugins/sms/api/smspb
+replace apppathway.com/examples/prodapi/pkg/plugins/sms/api/smspb => /workspaces/devspirit/examples/prodapi/pkg/plugins/sms/api/smspb
 
-replace apppathway.com/pkg/errors => /home/nate/code/app-pathway/pkg/errors
+replace apppathway.com/pkg/errors => /workspaces/devspirit/pkg/errors
 
-replace apppathway.com/pkg/debug => /home/nate/code/app-pathway/pkg/debug
+replace apppathway.com/pkg/debug => /workspaces/devspirit/pkg/debug
 
 go 1.18
 

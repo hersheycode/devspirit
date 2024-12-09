@@ -14,9 +14,9 @@ import (
 	"time"
 )
 
-var databases = map[string]database{"au": {dbType: "dgraph", compose: "/home/nate/code/app-pathway/deployments/db/auth/docker-compose.db.yml", name: "auth_db_stack"}, "cd": {dbType: "dgraph", compose: "/home/nate/code/app-pathway/deployments/db/builder/insecure/docker-compose.db.yml", name: "no_tls_builder_db_stack"}, "cd-tls": {dbType: "dgraph", compose: "/home/nate/code/app-pathway/deployments/db/builder/docker-compose.db.yml", name: "builder_db_stack"}}
+var databases = map[string]database{"au": {dbType: "dgraph", compose: "/workspaces/devspirit/deployments/db/auth/docker-compose.db.yml", name: "auth_db_stack"}, "cd": {dbType: "dgraph", compose: "/workspaces/devspirit/deployments/db/builder/insecure/docker-compose.db.yml", name: "no_tls_builder_db_stack"}, "cd-tls": {dbType: "dgraph", compose: "/workspaces/devspirit/deployments/db/builder/docker-compose.db.yml", name: "builder_db_stack"}}
 var services = map[string]service{"is": {cmd: "is/up", root: composeRoot}, "id": {cmd: "intentsysd/up", root: composeRoot}, "in": {cmd: "intentd/up", root: composeRoot}, "sch": {cmd: "schedulerd/up", root: composeRoot}, "sms": {cmd: "smsd/up", root: composeRoot}}
-var composeRoot = "/home/nate/code/app-pathway/config/dev/cloud/ap/ui/crudusrs/config/compose"
+var composeRoot = "/workspaces/devspirit/config/dev/cloud/ap/ui/crudusrs/config/compose"
 var wd string
 
 type service struct {
@@ -72,7 +72,7 @@ func (rt remote) execute() {
 	timeout := 10 * time.Minute
 	user := "nate"
 	host := "10.0.0.186" + ":22"
-	cloudKey := "/home/nate/code/app-pathway/secrets/ssh/id_apppathway"
+	cloudKey := "/workspaces/devspirit/secrets/ssh/id_apppathway"
 	key, err := ioutil.ReadFile(cloudKey)
 	if err != nil {
 		log.Fatalf("unable to read private key: %v", err)

@@ -1,0 +1,29 @@
+[Info  - 12:49:14 PM] 2022/12/17 07:49:14 go env for /home/coder/ui/crudusrs
+(root /home/coder/ui/crudusrs)
+(go version go version go1.18 linux/amd64)
+(valid build configuration = false)
+(build flags: [])
+GOSUMDB=sum.golang.org
+GONOPROXY=
+GOPATH=/home/coder/go
+GOINSECURE=
+GOMODCACHE=/home/coder/go/pkg/mod
+GOCACHE=/home/coder/.cache/go-build
+GOPROXY=https://proxy.golang.org,direct
+GOROOT=/usr/local/go
+GOMOD=/dev/null
+GOPRIVATE=
+GONOSUMDB=
+GOFLAGS=
+GO111MODULE=
+GOWORK=
+
+
+[Info  - 12:49:14 PM] 2022/12/17 07:49:14 go/packages.Load #1
+	snapshot=0
+	directory=file:///home/coder/ui/crudusrs
+	query=[./ builtin]
+	packages=2
+
+[Info  - 12:49:14 PM] 2022/12/17 07:49:14 go/packages.Load #1: updating metadata for 0 packages
+

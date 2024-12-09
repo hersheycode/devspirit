@@ -1,0 +1,46 @@
+version: "3.9"
+
+networks:
+  app_pathway_network:
+    external: true
+    
+services:
+    auth_db_api:
+        container_name: app_auth_db_api
+        build:
+          dockerfile: pkg/db_api/build/package/Dockerfile
+          context: ../../../
+        env_file:
+          - env/auth.env   
+        volumes:
+          - $PKG/db_api/internals:/app/internals
+          - $PKG/db_api/go.mod:/app/go.mod
+          - $PKG/db_api/go.sum:/app/go.sum
+          - $PKG/db_api/cmd/server/main.go:/app/main.go
+          - $PKG/errors:$PKG/errors
+        networks:
+          app_pathway_network:
+
+    # api_generator_db_api:
+    #     container_name: app_api_generator_db_api
+    #     build:
+    #       dockerfile: submodules/db_api/build/package/Dockerfile
+    #       context: ../../../
+    #     env_file:
+    #       - env/api_generator.env     
+    #     volumes:
+    #       - $PKG/submodules/db_api/internals:/app/internals
+    #       - $PKG/submodules/db_api/go.mod:/app/go.mod
+    #       - $PKG/submodules/db_api/go.sum:/app/go.sum
+    #       - $PKG/submodules/db_api/cmd/server/main.go:/app/main.go
+    #     networks:
+    #       app_pathway_network:
+    # mysql:
+    #   image: mariadb:10.4.24-focal
+    #   container_name: mysql
+    #   env_file:
+    #     - env/mysql.env
+    #   ports: 
+    #     - 127.0.0.1:3306:3306
+    #   networks:
+    #     app_pathway_network:

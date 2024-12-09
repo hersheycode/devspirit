@@ -1,0 +1,11 @@
+[2022-12-20 12:41:51.833] [exthost] [info] Extension host with pid 1030 started
+[2022-12-20 12:41:51.847] [exthost] [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/-f304635/vscode.lock': Lock acquired.
+[2022-12-20 12:41:51.952] [exthost] [info] ExtensionService#_doActivateExtension golang.go, startup: false, activationEvent: 'onLanguage:go'
+[2022-12-20 12:41:52.250] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-12-20 12:41:52.259] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2022-12-20 12:41:52.266] [exthost] [info] ExtensionService#_doActivateExtension cweijan.vscode-ssh, startup: true, activationEvent: '*'
+[2022-12-20 12:41:52.421] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-12-20 12:41:52.555] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-12-20 12:41:53.099] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-12-20 12:41:53.131] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-12-20 12:41:53.138] [exthost] [info] Eager extensions activated

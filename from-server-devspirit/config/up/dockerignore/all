@@ -1,0 +1,15 @@
+/app
+/deployments
+/doc
+/examples
+/multipass
+/scripts
+/temp
+/web/nginx
+/web/go-stripe
+.vscode
+.gitignore
+*.work
+*.work.sum
+Makefile
+*.md

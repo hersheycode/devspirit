@@ -37,7 +37,7 @@ services:
     image: dgraph/dgraph:latest
     volumes:
       - intentsys_data:/dgraph/alpha1
-      - /home/nate/code/app-pathway/examples/prodapi/config/dev/secrets/crt/dgraph:/dgraph-tls
+      - /workspaces/devspirit/examples/prodapi/config/dev/secrets/crt/dgraph:/dgraph-tls
     ports:
       - 8170:8170
       - 9170:9170

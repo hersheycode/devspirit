@@ -1,0 +1,178 @@
+[2022-12-16 04:50:40.313] [exthost] [info] Extension host with pid 30067 started
+[2022-12-16 04:50:40.316] [exthost] [error] Error: EEXIST: file already exists, open '/home/coder/.local/share/code-server/User/workspaceStorage/11975561/vscode.lock'
+[2022-12-16 04:50:40.319] [exthost] [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/11975561/vscode.lock': Could not acquire lock, checking if the file is stale.
+[2022-12-16 04:50:40.330] [exthost] [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/11975561/vscode.lock': The lock does not look stale, elapsed: 328 ms, giving up.
+[2022-12-16 04:50:40.337] [exthost] [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/11975561-1/vscode.lock': Lock acquired.
+[2022-12-16 04:50:40.446] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-12-16 04:50:40.456] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2022-12-16 04:50:40.463] [exthost] [info] ExtensionService#_doActivateExtension cweijan.vscode-ssh, startup: true, activationEvent: '*'
+[2022-12-16 04:50:40.603] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-12-16 04:50:40.753] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-12-16 04:50:41.034] [exthost] [info] ExtensionService#_doActivateExtension golang.go, startup: true, activationEvent: 'workspaceContains:*.go,*/*.go,*/*/*.go'
+[2022-12-16 04:50:41.636] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-12-16 04:50:41.668] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-12-16 04:50:41.675] [exthost] [info] Eager extensions activated
+[2022-12-16 05:00:41.733] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 05:00:41.748] [exthost] [error] Canceled: Canceled
+	at LanguageClient2.makeCancelError (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12133:24)
+	at LanguageClient2.handleFailedRequest (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12124:24)
+	at /home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:10677:31
+	at async l.provideDocumentSymbols (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:87701)
+[2022-12-16 05:00:41.750] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 05:00:41.751] [exthost] [error] Canceled: Canceled
+	at LanguageClient2.makeCancelError (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12133:24)
+	at LanguageClient2.handleFailedRequest (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12124:24)
+	at /home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:10787:31
+	at async A.provideCodeActions (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:93155)
+[2022-12-16 05:00:41.751] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 05:00:41.751] [exthost] [error] Canceled: Canceled
+	at LanguageClient2.makeCancelError (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12133:24)
+	at LanguageClient2.handleFailedRequest (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12124:24)
+	at /home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:11056:31
+	at async V.provideLinks (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:106180)
+[2022-12-16 05:00:41.752] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 05:00:41.752] [exthost] [error] Canceled: Canceled
+	at LanguageClient2.makeCancelError (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12133:24)
+	at LanguageClient2.handleFailedRequest (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12124:24)
+	at /home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12506:31
+	at async Object.provideFoldingRanges (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:73649:24)
+	at async te.provideFoldingRanges (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:107724)
+[2022-12-16 05:00:41.753] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 05:00:41.754] [exthost] [error] Canceled: Canceled
+	at LanguageClient2.makeCancelError (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12133:24)
+	at LanguageClient2.handleFailedRequest (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12124:24)
+	at /home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:10836:31
+	at async Object.provideCodeLenses (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:73656:26)
+	at async s.provideCodeLenses (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:88818)
+[2022-12-16 05:00:41.754] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 05:00:41.754] [exthost] [error] Canceled: Canceled
+	at LanguageClient2.makeCancelError (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12133:24)
+	at LanguageClient2.handleFailedRequest (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12124:24)
+	at /home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:10787:31
+	at async A.provideCodeActions (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:93155)
+[2022-12-16 05:00:41.755] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 05:00:41.755] [exthost] [error] Canceled: Canceled
+	at LanguageClient2.makeCancelError (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12133:24)
+	at LanguageClient2.handleFailedRequest (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12124:24)
+	at /home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:11056:31
+	at async V.provideLinks (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:106180)
+[2022-12-16 05:00:41.757] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 05:00:41.757] [exthost] [error] Canceled: Canceled
+	at LanguageClient2.makeCancelError (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12133:24)
+	at LanguageClient2.handleFailedRequest (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12124:24)
+	at /home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:10677:31
+	at async l.provideDocumentSymbols (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:87701)
+[2022-12-16 05:00:41.757] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 05:00:41.758] [exthost] [error] Canceled: Canceled
+	at LanguageClient2.makeCancelError (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12133:24)
+	at LanguageClient2.handleFailedRequest (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12124:24)
+	at /home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:10836:31
+	at async Object.provideCodeLenses (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:73656:26)
+	at async s.provideCodeLenses (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:88818)
+[2022-12-16 05:00:41.758] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 05:00:41.758] [exthost] [error] Canceled: Canceled
+	at LanguageClient2.makeCancelError (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12133:24)
+	at LanguageClient2.handleFailedRequest (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12124:24)
+	at /home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:10787:31
+	at async A.provideCodeActions (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:93155)
+[2022-12-16 05:00:41.759] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 05:00:41.759] [exthost] [error] Canceled: Canceled
+	at LanguageClient2.makeCancelError (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12133:24)
+	at LanguageClient2.handleFailedRequest (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12124:24)
+	at /home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12506:31
+	at async Object.provideFoldingRanges (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:73649:24)
+	at async te.provideFoldingRanges (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:107724)
+[2022-12-16 05:00:41.759] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 05:00:41.760] [exthost] [error] Canceled: Canceled
+	at LanguageClient2.makeCancelError (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12133:24)
+	at LanguageClient2.handleFailedRequest (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12124:24)
+	at /home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:10483:31
+	at async c.provideHover (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:90873)
+[2022-12-16 05:00:41.760] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 05:00:41.760] [exthost] [error] Canceled: Canceled
+	at LanguageClient2.makeCancelError (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12133:24)
+	at LanguageClient2.handleFailedRequest (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12124:24)
+	at /home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:10483:31
+	at async c.provideHover (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:90873)
+[2022-12-16 05:00:41.761] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 05:00:41.761] [exthost] [error] Canceled: Canceled
+	at LanguageClient2.makeCancelError (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12133:24)
+	at LanguageClient2.handleFailedRequest (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12124:24)
+	at /home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:10836:31
+	at async Object.provideCodeLenses (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:73656:26)
+	at async s.provideCodeLenses (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:88818)
+[2022-12-16 05:00:41.762] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 05:00:41.762] [exthost] [error] Canceled: Canceled
+	at LanguageClient2.makeCancelError (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12133:24)
+	at LanguageClient2.handleFailedRequest (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12124:24)
+	at /home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:10787:31
+	at async A.provideCodeActions (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:93155)
+[2022-12-16 05:00:41.762] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 05:00:41.762] [exthost] [error] Canceled: Canceled
+	at LanguageClient2.makeCancelError (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12133:24)
+	at LanguageClient2.handleFailedRequest (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12124:24)
+	at /home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:10787:31
+	at async A.provideCodeActions (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:93155)
+[2022-12-16 05:00:41.763] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 05:00:41.763] [exthost] [error] Canceled: Canceled
+	at LanguageClient2.makeCancelError (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12133:24)
+	at LanguageClient2.handleFailedRequest (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12124:24)
+	at /home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:10483:31
+	at async c.provideHover (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:90873)
+[2022-12-16 05:00:41.763] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 05:00:41.764] [exthost] [error] Canceled: Canceled
+	at LanguageClient2.makeCancelError (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12133:24)
+	at LanguageClient2.handleFailedRequest (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12124:24)
+	at /home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:10624:31
+	at async h.provideDocumentHighlights (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:91799)
+[2022-12-16 05:00:41.764] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 05:00:41.764] [exthost] [error] Canceled: Canceled
+	at LanguageClient2.makeCancelError (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12133:24)
+	at LanguageClient2.handleFailedRequest (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12124:24)
+	at /home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:10787:31
+	at async A.provideCodeActions (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:93155)
+[2022-12-16 05:00:41.765] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 05:00:41.765] [exthost] [error] Canceled: Canceled
+	at LanguageClient2.makeCancelError (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12133:24)
+	at LanguageClient2.handleFailedRequest (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12124:24)
+	at /home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:10787:31
+	at async A.provideCodeActions (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:93155)
+[2022-12-16 05:00:41.766] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 05:00:41.766] [exthost] [error] Canceled: Canceled
+	at LanguageClient2.makeCancelError (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12133:24)
+	at LanguageClient2.handleFailedRequest (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12124:24)
+	at /home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:10787:31
+	at async A.provideCodeActions (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:93155)
+[2022-12-16 05:00:41.767] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 05:00:41.767] [exthost] [error] Canceled: Canceled
+	at LanguageClient2.makeCancelError (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12133:24)
+	at LanguageClient2.handleFailedRequest (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12124:24)
+	at /home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:10483:31
+	at async c.provideHover (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:90873)
+[2022-12-16 05:00:41.767] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 05:00:41.768] [exthost] [error] Canceled: Canceled
+	at LanguageClient2.makeCancelError (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12133:24)
+	at LanguageClient2.handleFailedRequest (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12124:24)
+	at /home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:10564:31
+	at async o.provideDefinition (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:89996)
+[2022-12-16 05:00:41.768] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 05:00:41.768] [exthost] [error] Canceled: Canceled
+	at LanguageClient2.makeCancelError (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12133:24)
+	at LanguageClient2.handleFailedRequest (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12124:24)
+	at /home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:10564:31
+	at async o.provideDefinition (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:89996)
+[2022-12-16 05:00:41.769] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 05:00:41.769] [exthost] [error] Canceled: Canceled
+	at LanguageClient2.makeCancelError (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12133:24)
+	at LanguageClient2.handleFailedRequest (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12124:24)
+	at /home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:10564:31
+	at async o.provideDefinition (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:89996)
+[2022-12-16 05:00:41.769] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 05:00:41.769] [exthost] [error] Canceled: Canceled
+	at LanguageClient2.makeCancelError (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12133:24)
+	at LanguageClient2.handleFailedRequest (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12124:24)
+	at /home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:10564:31
+	at async o.provideDefinition (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:89996)
+[2022-12-16 05:01:45.945] [exthost] [info] extension host terminating: received terminate message from renderer
+[2022-12-16 05:01:45.946] [exthost] [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/11975561-1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-12-16 05:01:45.973] [exthost] [info] Extension host with pid 30067 exiting with code 0

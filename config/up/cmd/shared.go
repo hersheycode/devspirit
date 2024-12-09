@@ -40,8 +40,8 @@ type database struct {
 }
 
 var wd string
-var builderRoot = "/home/nate/code/app-pathway/pkg/builder"
-var userRoot = "/home/nate/code/app-pathway/pkg/user"
+var builderRoot = "/workspaces/devspirit/pkg/builder"
+var userRoot = "/workspaces/devspirit/pkg/user"
 
 func init() {
 	var err error
@@ -54,39 +54,39 @@ func init() {
 var databases = map[string]database{
 	"au": {
 		dbType:  "dgraph",
-		compose: "/home/nate/code/app-pathway/deployments/db/auth/docker-compose.db.yml",
+		compose: "/workspaces/devspirit/deployments/db/auth/docker-compose.db.yml",
 		name:    "auth_db_stack",
 	},
 	"cd": {
 		dbType:  "dgraph",
-		compose: "/home/nate/code/app-pathway/deployments/db/builder/insecure/docker-compose.db.yml",
+		compose: "/workspaces/devspirit/deployments/db/builder/insecure/docker-compose.db.yml",
 		name:    "no_tls_builder_db_stack",
 	},
 	"cd-tls": {
 		dbType:  "dgraph",
-		compose: "/home/nate/code/app-pathway/deployments/db/builder/docker-compose.db.yml",
+		compose: "/workspaces/devspirit/deployments/db/builder/docker-compose.db.yml",
 		name:    "builder_db_stack",
 	},
 }
 
 var services = map[string]service{
 
-	"no": {builderRoot + "/gonodes", "gonodes", "builder.yml", "go"},
+	"no": {builderRoot + "/nodes", "nodes", "builder.yml", "go"},
 	"cp": {builderRoot + "/cplugin", "cplugind", "builder.yml", "go"},
-	"ci": {builderRoot + "/ci", "cid", "builder.yml", "go"},
+	// "ci": {builderRoot + "/ci", "cid", "builder.yml", "go"},
 	"cd": {builderRoot + "/cd", "cdd", "builder.yml", "go"},
 	"be": {userRoot + "/behavior", "behaviord", "user.yml", "go"},
-	"co": {"/home/nate/code/app-pathway/config/dev/cloud/ap", "code", "third_party.yml", "mix"},
+	// "co": {"/workspaces/devspirit/config/dev/cloud/ap", "code", "third_party.yml", "mix"},
 
 	// "hoppscotch":    "docker-compose.yml",
 	// "gitea":         "docker-compose.yml",
 	"au":  {userRoot + "/auth", "auth", "user.yml", "go"},
-	"aub": {"/home/nate/code/app-pathway/pkg/db_api", "auth_db_api", "db.yml", "go"},
+	"aub": {"/workspaces/devspirit/pkg/db_api", "auth_db_api", "db.yml", "go"},
 	// "api_generator": "docker-compose.yml",
-	"ap": {"/home/nate/code/app-pathway/pkg/adminctl", "ap", "ctl.yml", "go"},
+	"ap": {"/workspaces/devspirit/pkg/adminctl", "ap", "ctl.yml", "go"},
 	// "ui":            "docker-compose.yml",
 	// "envoy":         "docker-compose.yml",
-	"ng": {"/home/nate/code/app-pathway/config/dev", "nginx", "cert.yml", "mix"},
+	// "ng": {"/workspaces/devspirit/config/dev", "nginx", "cert.yml", "mix"},
 }
 
 // func containerIP() string {
@@ -136,7 +136,7 @@ func (rt remote) execute() {
 	timeout := 10 * time.Minute
 	user := "nate"
 	host := "10.0.0.186" + ":22"
-	cloudKey := "/home/nate/code/app-pathway/secrets/ssh/id_apppathway"
+	cloudKey := "/workspaces/devspirit/secrets/ssh/id_apppathway"
 	key, err := ioutil.ReadFile(cloudKey)
 	if err != nil {
 		log.Fatalf("unable to read private key: %v", err)

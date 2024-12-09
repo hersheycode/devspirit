@@ -1,0 +1,16 @@
+syntax = "proto3";
+package schedulerpb;
+
+option go_package = "apppathway.com/examples/prodapi/pkg/plugins/scheduler/api/schedulerpb";
+
+message RegisterRequest {
+    string time = 1; //TODO add proper time type
+}
+
+message RegisterResponse {
+    string status = 1;
+}
+
+service Scheduler {
+    rpc Register(RegisterRequest) returns (RegisterResponse);
+}

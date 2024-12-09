@@ -1,0 +1,17 @@
+[2022-12-15 08:52:24.277] [exthost] [info] Extension host with pid 94 started
+[2022-12-15 08:52:24.281] [exthost] [error] Error: EEXIST: file already exists, open '/home/coder/.local/share/code-server/User/workspaceStorage/-54c99a28/vscode.lock'
+[2022-12-15 08:52:24.283] [exthost] [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/-54c99a28/vscode.lock': Could not acquire lock, checking if the file is stale.
+[2022-12-15 08:52:24.287] [exthost] [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/-54c99a28/vscode.lock': The pid 120 appears to be gone.
+[2022-12-15 08:52:24.287] [exthost] [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/-54c99a28/vscode.lock': Deleting a stale lock.
+[2022-12-15 08:52:24.302] [exthost] [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/-54c99a28/vscode.lock': Lock acquired.
+[2022-12-15 08:52:24.378] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-12-15 08:52:24.388] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2022-12-15 08:52:24.395] [exthost] [info] ExtensionService#_doActivateExtension cweijan.vscode-ssh, startup: true, activationEvent: '*'
+[2022-12-15 08:52:24.585] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-12-15 08:52:24.737] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-12-15 08:52:24.966] [exthost] [info] ExtensionService#_doActivateExtension golang.go, startup: true, activationEvent: 'workspaceContains:*.go,*/*.go,*/*/*.go'
+[2022-12-15 08:52:25.359] [exthost] [error] Activating extension golang.go failed due to an error:
+[2022-12-15 08:52:25.359] [exthost] [error] undefined
+[2022-12-15 08:52:25.360] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-12-15 08:52:25.391] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-12-15 08:52:25.398] [exthost] [info] Eager extensions activated

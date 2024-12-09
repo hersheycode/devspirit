@@ -1,0 +1,31 @@
+[Info  - 9:50:41 AM] 2022/12/16 04:50:41 go env for /home/coder/ui/crudusrs
+(root /home/coder/ui/crudusrs)
+(go version go version go1.18 linux/amd64)
+(valid build configuration = true)
+(build flags: [])
+GONOSUMDB=
+GOPRIVATE=
+GOCACHE=/home/coder/.cache/go-build
+GOFLAGS=
+GOMODCACHE=/home/coder/go/pkg/mod
+GOPROXY=https://proxy.golang.org,direct
+GOPATH=/home/coder/go
+GOROOT=/usr/local/go
+GOSUMDB=sum.golang.org
+GOWORK=/home/coder/ui/crudusrs/go.work
+GO111MODULE=
+GOINSECURE=
+GONOPROXY=
+GOMOD=/dev/null
+
+
+[Error - 10:00:41 AM] 2022/12/16 05:00:41 initial workspace load failed: context deadline exceeded
+
+[Error - 10:00:41 AM] 2022/12/16 05:00:41 workspace packages: diagnosing file:///home/coder/ui/crudusrs/pkg/clients/crud_basic_cli/go.mod: context deadline exceeded
+
+[Error - 10:00:41 AM] 2022/12/16 05:00:41 workspace packages: diagnosing file:///home/coder/ui/crudusrs/pkg/plugins/crud_basic/go.mod: context deadline exceeded
+
+[Error - 10:00:41 AM] 2022/12/16 05:00:41 errors loading workspace: context deadline exceeded
+	snapshot=0
+	directory=file:///home/coder/ui/crudusrs
+

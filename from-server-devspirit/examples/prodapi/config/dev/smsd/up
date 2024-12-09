@@ -1,0 +1,12 @@
+#!/bin/bash
+ROOT=/home/nate/code/app-pathway
+DEV=${ROOT}/examples/prodapi/config/dev
+DOCKER_IGNORE=${ROOT}/.dockerignore 
+
+SERVICE=smsd 
+UP_FLAGS=$1
+SERVICE_IGNORES=${DEV}/smsd/.dockerignore 
+DOCKER_COMPOSE=${DEV}/smsd/docker-compose.yml 
+
+sudo cat ${SERVICE_IGNORES} > ${DOCKER_IGNORE} 
+sudo docker-compose -f ${DOCKER_COMPOSE} up ${UP_FLAGS} ${SERVICE} 

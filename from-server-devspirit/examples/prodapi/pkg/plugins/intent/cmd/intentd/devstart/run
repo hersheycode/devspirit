@@ -1,0 +1,4 @@
+#!/bin/bash
+pkill -f intentd
+go run -race ./cmd/intentd/intentd.go
+

@@ -1,20 +1,20 @@
 module apppathway.com/examples/prodapi/pkg/orgs/intentsys
 
-// replace apppathway.com/pkg/user/auth => /home/nate/code/app-pathway/pkg/user/auth
+// replace apppathway.com/pkg/user/auth => /workspaces/devspirit/pkg/user/auth
 
-replace apppathway.com/pkg/net => /home/nate/code/app-pathway/pkg/net
+replace apppathway.com/pkg/net => /workspaces/devspirit/pkg/net
 
-replace apppathway.com/pkg/errors => /home/nate/code/app-pathway/pkg/errors
+replace apppathway.com/pkg/errors => /workspaces/devspirit/pkg/errors
 
-replace apppathway.com/pkg/debug => /home/nate/code/app-pathway/pkg/debug
+replace apppathway.com/pkg/debug => /workspaces/devspirit/pkg/debug
 
-replace apppathway.com/examples/prodapi/pkg/orgs/intentsys/api/intentsyspb => /home/nate/code/app-pathway/examples/prodapi/pkg/orgs/intentsys/api/intentsyspb
+replace apppathway.com/examples/prodapi/pkg/orgs/intentsys/api/intentsyspb => /workspaces/devspirit/examples/prodapi/pkg/orgs/intentsys/api/intentsyspb
 
-replace codestore.localhost/crudusrs/crud_basic/api/crudbasic/api/intentpb => /home/nate/code/app-pathway/examples/prodapi/pkg/plugins/intent/api/intentpb
+replace codestore.localhost/crudusrs/crud_basic/api/crudbasic/api/intentpb => /workspaces/devspirit/examples/prodapi/pkg/plugins/intent/api/intentpb
 
-replace apppathway.com/examples/prodapi/pkg/plugins/scheduler/api/schedulerpb => /home/nate/code/app-pathway/examples/prodapi/pkg/plugins/scheduler/api/schedulerpb
+replace apppathway.com/examples/prodapi/pkg/plugins/scheduler/api/schedulerpb => /workspaces/devspirit/examples/prodapi/pkg/plugins/scheduler/api/schedulerpb
 
-replace apppathway.com/examples/prodapi/pkg/plugins/sms/api/smspb => /home/nate/code/app-pathway/examples/prodapi/pkg/plugins/sms/api/smspb
+replace apppathway.com/examples/prodapi/pkg/plugins/sms/api/smspb => /workspaces/devspirit/examples/prodapi/pkg/plugins/sms/api/smspb
 
 go 1.18
 

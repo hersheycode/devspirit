@@ -1,0 +1,17 @@
+syntax = "proto3";
+package intentpb;
+
+option go_package = "apppathway.com/examples/prodapi/pkg/plugins/intent/api/intentpb";
+
+
+message RegisterRequest {
+    string name = 1;
+}
+
+message RegisterResponse {
+    string status = 1;
+}
+
+service Intent {
+    rpc Register(RegisterRequest) returns (RegisterResponse);
+}

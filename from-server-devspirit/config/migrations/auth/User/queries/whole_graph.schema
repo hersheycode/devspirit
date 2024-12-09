@@ -1,0 +1,39 @@
+{
+		goPkgGraph(func: eq(goPkgGraphName, "DATA_SOURCE_API_INIT_TEMPLATE")){
+      uid
+			goPkgGraphName
+      root {
+				packages {
+          uid
+					pkgName
+          files {
+            string
+            bytes
+            imports {
+							alias
+              importPath
+            }
+            paths {
+                uid
+								init
+								abs
+								dir
+								relative
+								validate	
+							} 
+            decls {
+              funcOverview {
+                quantity
+								funcs {
+                  funcName
+                  string
+                  bytes
+                }
+              }
+             
+            }
+          }
+        }
+      }
+  }
+}

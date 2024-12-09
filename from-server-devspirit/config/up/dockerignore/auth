@@ -1,0 +1,24 @@
+/config
+/pkg/builder
+/pkg/adminctl
+# /pkg/db_api
+# /pkg/debug
+# /pkg/errors
+# /pkg/net
+# /pkg/user
+/third_party
+/web
+/certs
+/examples
+/deployments
+/doc
+/examples
+/multipass
+/scripts
+/temp
+.vscode
+.gitignore
+*.work
+*.work.sum
+Makefile
+*.md

@@ -14,7 +14,7 @@ COPY $DEV/secrets/netrc /root/.netrc
 RUN go env -w GOPRIVATE=apppathway.com/pkg/*
 
 # prodapi modules: this needs to match go.mod replace directives
-WORKDIR /home/nate/code/app-pathway/examples/prodapi/pkg
+WORKDIR /workspaces/devspirit/examples/prodapi/pkg
 COPY $PKG/clients/is ./clients/is
 COPY $PKG/orgs/intentsys ./orgs/intentsys
 COPY $PKG/plugins/intent ./plugins/intent
@@ -22,13 +22,13 @@ COPY $PKG/plugins/scheduler ./plugins/scheduler
 COPY $PKG/plugins/sms ./plugins/sms
 
 # apppathway shared modules: this needs to match go.mod replace directives
-WORKDIR /home/nate/code/app-pathway/pkg
+WORKDIR /workspaces/devspirit/pkg
 COPY $SHARED/net ./net
 COPY $SHARED/errors ./errors
 COPY $SHARED/debug ./debug
 
 # build 
-WORKDIR /home/nate/code/app-pathway/examples/prodapi/pkg/clients/is
+WORKDIR /workspaces/devspirit/examples/prodapi/pkg/clients/is
 RUN go mod tidy -compat=1.18
 
 # reload run script when files are edited

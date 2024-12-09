@@ -1,0 +1,437 @@
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
+export LANG='en_US.UTF-8'
+export LANGUAGE='en_US:en'
+export LC_ALL='en_US.UTF-8'
+export TERM=xterm
+
+##### Zsh/Oh-my-Zsh Configuration
+export ZSH="/home/coder/.oh-my-zsh"
+source $HOME/powerlevel10k/powerlevel10k.zsh-theme
+plugins+=()
+source $ZSH/oh-my-zsh.sh
+
+export PATH="$PATH:/opt/conda/bin"
+
+# GO ENV VARS
+export GOROOT=/usr/local/go
+export GOPATH=/home/coder/code/go
+export GOBIN=/home/coder/code/go/bin
+export GOPRIVATE="apppathway.com/pkg/*"
+export PATH="$PATH:$GOROOT/bin:$GOBIN"
+
+#grpc-web
+export PATH="$PATH:$HOME/code/app-pathway/submodules/api_generator/internals/project/api/repogen/v1/bin"
+
+# VISUALLY-ORIENTATED ALIASES
+alias c="clear"
+
+# DOCKER-ORIENTATED ALIASES
+alias d="sudo docker"
+alias dc="sudo docker-compose"
+alias dc-b='sudo docker-compose up --build'
+alias dc-u='sudo docker-compose up'
+alias ds='sudo docker ps'
+
+#     NAVIGATION ALIASES - SHORTCUTS FOR CHANGING WORKDIR
+
+#          1) 'UP' SHORTCUTS
+
+#****************************************************************
+#                      LINKED                                   #
+#****************************************************************
+
+# > Docker 
+alias ud='cd ~/code/app-pathway/deployments && echo "You have arrived at your destination"'
+
+# > Lib
+alias ul='cd ~/code/go/src/up/dev_env/src/app-pathway/pkg/lib && echo "You have arrived at your destination"'
+
+# > Auth-Lib
+alias ula='cd ~/code/go/src/up/dev_env/src/app-pathway/pkg/lib/auth && echo "You have arrived at your destination"'
+
+# > DDP-CODE-Lib
+alias uld='cd ~/code/go/src/up/dev_env/src/app-pathway/pkg/lib/ddpcode && echo "You have arrived at your destination"'
+
+# Auth Template
+alias uta='cd ~/code/go/src/up/dev_env/src/app-pathway/pkg/templates/grpc_rest/auth && echo "You have arrived at your destination"'
+
+# Resource Template
+alias utr='cd ~/code/go/src/up/dev_env/src/app-pathway/pkg/templates/grpc_rest/resources && echo "You have arrived at your destination"' 
+
+
+alias auth-b='cd /home/coder/code/app-pathway/deployments \
+            && sudo cat /home/coder/code/app-pathway/dockerignore/auth > /home/coder/code/app-pathway/.dockerignore \
+            && sudo docker-compose up --build auth'
+
+alias auth-u='cd /home/coder/code/app-pathway/deployments \
+            && sudo cat /home/coder/code/app-pathway/dockerignore/auth > /home/coder/code/app-pathway/.dockerignore \
+            && sudo docker-compose up auth'
+
+# App Agent Template
+
+#alias utca ='cd ~/code/go/src/up/dev_env/src/app-pathway/pkg/templates/grpc_rest/agents && echo "You have arrived at your destination"' 
+
+
+
+
+
+#****************************************************************
+# GO --> SRC --> UP: DIR DEDICATED TO AUTOMATING TASKS FOR DEVELOPMENT
+# *** u is the shortcut to the 'ddp-up' repo 
+alias u='cd ~/code/go/src/up && echo "You have arrived at your destination"'
+
+# GO --> SRC --> UP --> DEV_ENV/SRC:
+
+# MAIN DEVELOPMENT ENVIRONMENT FOR BUILDING THE APP PATHWAY PLATEFORM
+
+# udev is the shortcut to App-Pathway's Ecosystem of Files for all its 
+# microservices 
+alias udev='cd ~/code/go/src/up/dev_env/src && echo "You have arrived at your destination"'
+
+#                 AppPathway.com's Directories
+       
+#            *                  *                   *
+
+#        It's Microservices, Library and Configuration Repositories
+
+
+#                           Database
+
+alias udb='cd ~/code/go/src/up/dev_env/src/db && echo "You have arrived at your destination"'
+
+
+#     Data Driven Path Technology: The App Pathway Code Generator  
+
+alias udp='cd ~/code/go/src/up/dev_env/src/tools/ddp && echo "You have arrived at your destination"'
+
+#     DDP CLI: Data Driven Path Commandline Interface
+
+alias udc='cd ~/code/go/src/up/dev_env/src/tools/ddpcli && echo "You have arrived at your destination"'
+
+#     NGINX: Proxy, Cert, Load-Balancer, Gateway to Microservices
+
+alias un='cd ~/code/go/src/up/dev_env/src/share && echo "You have arrived at your destination"' 
+
+
+#     CODE GEN API 
+
+#      >  ddp/internal/pkg
+
+alias uga='cd ~/code/go/src/up/dev_env/src/tools/ddp/internal/pkg && echo "You have arrived at your destination"'
+
+#     CODE GEN DOMAIN
+
+#       > pkg/server/domain/gen
+
+alias ug='cd ~/code/go/src/up/dev_env/src/tools/ddp/internal/pkg/server/domain/gen && echo "You have arrived at your destination"' 
+
+alias uu-as='cd ~/code/go/src/up/dev_env/src/ui/appsmith/source/app/client  && echo "You have arrived at your destination"'
+
+#          2) CODE PLAYGROUND SHORTCUTS 
+
+# GO --> SRC --> PLAY: DIR FOR EXAMPLE-ORIENTATED LEARNING
+# *** s-p Shortcut -> to PlayGround for Learning new code architectures, frameworks and features by studying working examples
+alias p='cd ~/code/go/src/play && echo "You have arrived at your destination"'
+
+# *** s-p-a Shortcut -> to Auth Example Services Directory
+alias pa='cd ~/code/go/src/play/auth-example/auth-starter && echo "You have arrived at your destination"'
+
+
+#         3) STRUCTURED LEARNING DIRECTORIES  
+
+# Learn GO 
+alias lgo='cd ~/code/learn/go && echo "You have arrived at your destination"'
+#   > CSP
+alias lgo-c='cd ~/code/learn/go/csp && echo "You have arrived at your destination"'
+# Learn Vim
+alias lv='cd ~/code/learn/vim && echo "You have arrived at your destination"'
+# Learn React 
+alias lr='cd ~/code/learn/react && echo "You have arrived at your destination"'
+# Learn Typescript 
+alias lt='cd ~/code/learn/typescript && echo "You have arrived at your destination"'
+# Learn Phone Optimized Coding 
+alias lp='cd ~/code/learn/phone-coding && echo "You have arrived at your destination"'
+
+# EDIT CONFIG FILES
+alias ev='nvim ~/.config/nvim/init.vim' 
+alias ez='nvim ~/.zshrc && source ~/.zshrc'
+
+# ENTER nvim 
+alias n="nvim"
+
+s() {
+  echo ' Aliases:
+  EDIT CONFIG FILES:
+    
+   > ev // nvim ~/.config/nvim/init.vim && source ~/.config/nvim/init.vim
+   > ez // nvim ~/.zshrc && source ~/.zshrc
+  NAVIGATION:
+    
+   UP:
+    > u    // up 
+    > udev // src &&...
+    > udb  // db &&...
+    > ul   // lib &&...
+    > ud   // docker &&...
+    > udp  // ddp &&...
+    > udc  // ddpcli &&...
+    > un   // nginx &&...
+    > uta  // grpc_rest_auth_template &&...
+    > utr  // cd ~/code/go/src/up/dev_env/src/tools/ddp/design/grpc_rest_resource_template &&...
+    > uga  // cd ~/code/go/src/up/dev_env/src/tools/ddp/internal/pkg &&...
+    > ug   // cd ~/code/go/src/up/dev_env/src/tools/ddp/internal/pkg/server/domain/gen &&...
+    > uu-as //appsmith client 
+    
+   Play: 
+    > p   // cd ~/code/go/src/play &&... 
+    > pa  // cd ~/code/go/src/play/auth-example &&...
+   
+  Learn:
+  
+  # GO 
+      home: lgo // cd ~/code/learn/go &&...
+      
+        # CSP
+            home: lgo-c  // cd ~/code/learn/go/csp &&...
+  # Vim
+      home: lv // cd ~/code/learn/vim &&...
+
+  # React
+      home: lr // cd ~/code/learn/react &&...
+  
+  # Typescript 
+      home: lt // cd ~/code/learn/typescript &&...
+  
+  # Optimizing The Phone Coding ENV 
+     home: lp // cd ~/code/learn/phone-coding &&...
+
+  '
+}
+
+
+# Git Functions
+m() { 
+  if [ $1 = '' ]
+  then
+    echo 'no git commit message given'
+  else 
+    echo 'commiting...'
+    currentDir=$(pwd)
+    git add .
+    git commit -m $1
+    git push -u origin main 
+    git push -u github main
+      case $currentDir in 
+        /home/coder/code/app-pathway/pkg/user)
+          cd /home/coder/code/app-pathway/pkg/cli
+          go get apppathway.com/pkg/user
+          cd apppathway.com/pkg/net
+          go get apppathway.com/pkg/user
+          cd apppathway.com/pkg/cert
+          go get apppathway.com/pkg/user
+          cd $currentDir
+        ;;
+        apppathway.com/pkg/net)
+          cd /home/coder/code/app-pathway/pkg/cli
+          go get apppathway.com/pkg/net
+          cd apppathway.com/pkg/net
+          go get apppathway.com/pkg/net
+          cd apppathway.com/pkg/cert
+          go get apppathway.com/pkg/net
+          cd /home/coder/code/app-pathway/pkg/user
+          go get apppathway.com/pkg/net
+          cd apppathway.com/pkg/db_api
+          go get apppathway.com/pkg/net
+          cd $currentDir
+        ;;
+        apppathway.com/pkg/errors)
+          
+        ;;
+        apppathway.com/pkg/net)
+          cd apppathway.com/pkg/cert
+          go get apppathway.com/pkg/net
+          cd $currentDir
+        ;;
+        apppathway.com/pkg/db_api)
+          cd apppathway.com/pkg/cert
+          go get apppathway.com/pkg/db_api
+          cd /home/coder/code/app-pathway/pkg/user
+          go get apppathway.com/pkg/db_api
+          cd $currentDir
+        ;;
+        apppathway.com/pkg/cert)
+          cd /home/coder/code/app-pathway/pkg/cli
+          go get apppathway.com/pkg/cert
+          cd $currentDir
+        ;;
+        apppathway.com/pkg/debugger)
+          cd apppathway.com/pkg/net
+          go get apppathway.com/pkg/debug
+          cd /home/coder/code/app-pathway/pkg/cli
+          go get apppathway.com/pkg/debug
+          cd apppathway.com/pkg/net
+          go get apppathway.com/pkg/debug
+          cd apppathway.com/pkg/cert
+          go get apppathway.com/pkg/debug
+          cd /home/coder/code/app-pathway/pkg/user
+          go get apppathway.com/pkg/debug
+          cd apppathway.com/pkg/db_api
+          go get apppathway.com/pkg/debug
+          cd $currentDir 
+        ;;
+    esac
+  fi
+}
+
+up() {
+  args=''
+  is_stack=false
+  ignore=''
+  service=''
+  service_flag=$1
+  build_flag=''
+  is_nginx=false
+
+  if [ $service_flag = 'b' ]
+  then
+       build_flag="--build"
+       service_flag=$2
+  elif [ $service_flag = 's' ]
+  then
+    is_stack=true
+    service_flag=$2
+  fi
+
+  case $service_flag in 
+      cl)
+        is_nginx=true
+        service='cloud'
+        ignore=$service
+      ;;
+      ng)
+        is_nginx=true
+        service='nginx'
+        ignore=$service
+      ;;
+      gi)
+        service='gitea'
+        ignore=$service
+      ;;
+      au)
+        service='auth'
+        ignore=$service
+      ;;
+      aud)
+        ignore='db_api'
+        service='auth_db_api'
+      ;;
+      ag)
+        service='api_generator'
+        ignore=$service
+      ;;
+      agd)
+        ignore='db_api'
+        service='api_generator_db_api'
+      ;;
+      ap)
+        service='ap'
+        ignore=$service
+      ;;
+      ui)
+        service='ui'
+        ignore=$service
+      ;;
+      en)
+        service='envoy'
+        ignore=$service
+      ;;
+      re)
+        service='relay'
+        ignore=$service
+      ;;
+      no)
+        service='nodes'
+        ignore=$service
+      ;;
+  esac
+  echo $ignore $build_flag $service db_stack: $is_stack
+
+  if [ $is_stack = true ] 
+  then
+    sudo docker stack deploy -c $HOME/code/app-pathway/submodules/$service/deployments/docker-compose.db.yml app_${service}_db_stack
+  # elif [ $is_nginx = true ] 
+  # then
+  #   cd $HOME/code/app-pathway/examples/portfolio/v2 \
+  #           && sudo chmod 777 $HOME/code/app-pathway/.dockerignore \
+  #           && sudo cat $HOME/code/app-pathway/scripts/dockerignore/$ignore > $HOME/code/app-pathway/.dockerignore \
+  #           && sudo docker-compose up $build_flag $service
+  else 
+    cd $HOME/code/app-pathway/deployments \
+            && sudo chmod 777 $HOME/code/app-pathway/.dockerignore \
+            && sudo cat $HOME/code/app-pathway/scripts/dockerignore/$ignore > $HOME/code/app-pathway/.dockerignore \
+            && sudo docker-compose up $build_flag $service 
+  fi    
+
+}
+alias app='d exec -it ap go run main.go'
+alias apr='d exec -it ap go run -race main.go'
+
+dx() {
+  container=''
+  case $1 in 
+      n)
+       container='nodes'
+      ;;
+      ng)
+       container='app_pathway_nginx'
+      ;;
+      gi)
+        container='gitea'
+      ;;
+      au)
+        container='app_auth'
+      ;;
+      aud)
+        container='app_auth_db_api'
+      ;;
+      ag)
+        container='app_api_generator'
+      ;;
+      agd)
+        container='app_api_generator_db_api'
+      ;;
+      up)
+        container=''
+      ;;
+      re)
+        container='dev-relay'
+      ;;
+      po)
+        container='portfolio_ui'
+      ;;
+      my)
+        container='mysql'
+      ;;
+      ui)
+        container='ui'
+      ;;
+  esac
+  shift 1
+  d exec $container "$@"
+}
+# #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+# export SDKMAN_DIR="$HOME/.sdkman"
+# [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

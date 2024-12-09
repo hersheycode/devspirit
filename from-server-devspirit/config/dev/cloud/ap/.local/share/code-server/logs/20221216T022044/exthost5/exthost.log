@@ -1,0 +1,1536 @@
+[2022-12-16 03:29:26.319] [exthost] [info] Extension host with pid 7453 started
+[2022-12-16 03:29:26.338] [exthost] [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/11975561/vscode.lock': Lock acquired.
+[2022-12-16 03:29:26.410] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-12-16 03:29:26.419] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2022-12-16 03:29:26.426] [exthost] [info] ExtensionService#_doActivateExtension cweijan.vscode-ssh, startup: true, activationEvent: '*'
+[2022-12-16 03:29:26.673] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-12-16 03:29:26.830] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-12-16 03:29:26.845] [exthost] [info] ExtensionService#_doActivateExtension golang.go, startup: true, activationEvent: 'workspaceContains:*.go,*/*.go,*/*/*.go'
+[2022-12-16 03:29:27.490] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-12-16 03:29:27.523] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-12-16 03:29:27.530] [exthost] [info] Eager extensions activated
+[2022-12-16 03:53:04.780] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 03:53:04.788] [exthost] [error] Error: context canceled
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 03:53:04.789] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 03:53:04.792] [exthost] [error] Canceled: Canceled
+	at LanguageClient2.makeCancelError (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12133:24)
+	at LanguageClient2.handleFailedRequest (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12124:24)
+	at /home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:11056:31
+	at async V.provideLinks (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:106180)
+[2022-12-16 03:53:04.794] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 03:53:04.794] [exthost] [error] Canceled: Canceled
+	at LanguageClient2.makeCancelError (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12133:24)
+	at LanguageClient2.handleFailedRequest (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12124:24)
+	at /home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:10836:31
+	at async Object.provideCodeLenses (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:73656:26)
+	at async s.provideCodeLenses (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:88818)
+[2022-12-16 03:53:04.794] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 03:53:04.794] [exthost] [error] Canceled: Canceled
+	at LanguageClient2.makeCancelError (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12133:24)
+	at LanguageClient2.handleFailedRequest (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12124:24)
+	at /home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12506:31
+	at async Object.provideFoldingRanges (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:73649:24)
+	at async te.provideFoldingRanges (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:107724)
+[2022-12-16 04:31:04.545] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:31:04.547] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:31:12.001] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:31:12.001] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:31:12.459] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:31:12.460] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:31:12.989] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:31:12.989] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:31:18.005] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:31:18.005] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:31:18.981] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:31:18.982] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:31:19.599] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:31:19.600] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:31:28.507] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:31:28.508] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:31:30.486] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:31:30.486] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:31:31.097] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:31:31.097] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:31:33.958] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:31:33.959] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:32:04.969] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:32:04.970] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:32:05.198] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:32:05.198] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:32:08.035] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:32:08.035] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:32:12.675] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:32:12.676] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:32:13.568] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:32:13.568] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:32:14.014] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:32:14.014] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:32:14.088] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:32:14.088] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:32:14.217] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:32:14.217] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:32:14.397] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:32:14.397] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:32:14.503] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:32:14.503] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:32:15.482] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:32:15.482] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:32:17.180] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:32:17.181] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:32:17.525] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:32:17.525] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:32:19.382] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:32:19.382] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:32:20.800] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:32:20.800] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:32:21.349] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:32:21.350] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:32:22.045] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:32:22.045] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:32:23.786] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:32:23.787] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:32:24.660] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:32:24.661] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:32:26.405] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:32:26.406] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:32:30.018] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:32:30.019] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:33:01.487] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:33:01.487] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:33:03.098] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:33:03.100] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:33:08.655] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:33:08.656] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:33:09.516] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:33:09.516] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:33:12.754] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:33:12.754] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:33:20.027] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:33:20.027] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:33:20.493] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:33:20.493] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:33:25.137] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:33:25.138] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:33:29.127] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:33:29.127] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:33:29.454] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:33:29.454] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:33:29.980] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:33:29.980] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:33:30.531] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:33:30.531] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:33:32.665] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:33:32.666] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:33:33.526] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:33:33.527] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:33:34.436] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:33:34.437] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:33:34.955] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:33:34.956] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:33:36.195] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:33:36.196] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:33:37.919] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:33:37.919] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:33:40.201] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:33:40.201] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:33:41.756] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:33:41.756] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:33:41.868] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:33:41.869] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:33:45.168] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:33:45.168] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:33:45.568] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:33:45.568] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:33:46.005] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:33:46.005] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:33:46.209] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:33:46.209] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:34:02.503] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:34:02.503] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:34:02.704] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:34:02.704] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:34:06.313] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:34:06.313] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:34:13.919] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:34:13.920] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:34:18.048] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:34:18.048] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:34:20.254] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:34:20.254] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:34:25.159] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:34:25.159] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:34:32.281] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:34:32.281] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:34:34.778] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:34:34.778] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:34:36.065] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:34:36.066] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:34:39.807] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:34:39.807] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:34:40.814] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:34:40.815] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:34:46.821] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:34:46.821] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:34:48.788] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:34:48.788] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:34:50.384] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:34:50.385] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:34:51.088] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:34:51.088] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:34:51.804] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:34:51.804] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:34:55.034] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:34:55.035] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:35:03.036] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:35:03.036] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:35:04.182] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:35:04.182] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:35:05.489] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:35:05.490] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:35:07.569] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:35:07.569] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:35:08.051] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:35:08.052] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:35:09.729] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:35:09.729] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:35:10.869] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:35:10.869] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:35:20.212] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:35:20.212] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:35:21.194] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:35:21.196] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:35:22.148] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:35:22.149] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:35:22.841] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:35:22.842] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:35:24.033] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:35:24.034] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:36:07.488] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:36:07.488] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:36:10.816] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:36:10.816] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:36:11.430] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:36:11.430] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:36:13.205] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:36:13.206] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:36:13.534] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:36:13.534] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:36:16.535] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:36:16.535] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:36:16.609] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:36:16.611] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:36:21.393] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:36:21.394] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:36:21.915] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:36:21.915] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:36:22.398] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:36:22.398] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:36:22.605] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:36:22.605] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:36:24.732] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:36:24.733] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:36:25.373] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:36:25.373] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:36:25.657] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:36:25.658] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:36:30.361] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:36:30.361] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:36:31.837] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:36:31.837] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:36:32.655] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:36:32.656] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:36:33.392] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:36:33.392] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:36:33.665] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:36:33.666] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:36:34.276] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:36:34.277] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:36:34.484] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:36:34.484] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:36:34.511] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:36:34.512] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:36:35.833] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:36:35.833] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:36:39.693] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:36:39.694] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:36:40.122] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:36:40.123] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:36:40.685] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:36:40.686] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:36:41.797] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:36:41.797] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:36:42.065] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:36:42.065] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:36:42.332] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:36:42.332] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:36:42.757] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:36:42.757] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:36:42.957] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:36:42.958] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:36:47.447] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:36:47.448] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:36:50.695] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:36:50.695] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:36:53.169] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:36:53.169] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:36:53.265] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:36:53.266] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:36:55.967] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:36:55.967] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:36:56.460] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:36:56.460] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:36:56.978] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:36:56.979] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:36:57.237] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:36:57.237] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:36:57.649] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:36:57.649] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:37:01.354] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:37:01.354] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:37:02.046] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:37:02.046] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:37:02.838] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:37:02.838] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:37:03.185] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:37:03.186] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:37:03.863] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:37:03.863] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:37:03.910] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:37:03.910] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:37:04.831] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:37:04.831] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:37:07.890] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:37:07.890] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:37:13.319] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:37:13.320] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:37:24.750] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:37:24.750] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:37:27.492] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:37:27.492] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:37:27.940] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:37:27.940] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:37:28.632] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:37:28.632] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:37:30.777] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:37:30.777] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:37:32.164] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:37:32.164] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:37:33.240] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:37:33.240] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:37:33.883] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:37:33.884] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:37:52.466] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:37:52.467] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:37:53.354] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:37:53.354] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:37:53.838] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:37:53.838] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:37:54.539] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:37:54.539] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:37:54.638] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:37:54.638] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:37:57.430] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:37:57.430] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:37:58.512] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:37:58.512] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:37:58.611] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:37:58.611] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:37:58.713] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:37:58.714] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:37:58.776] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:37:58.777] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:37:58.817] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:37:58.818] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:37:58.917] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:37:58.918] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:37:59.641] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:37:59.642] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:37:59.878] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:37:59.878] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:38:00.686] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:38:00.689] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:38:00.768] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:38:00.769] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:38:03.945] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:38:03.945] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:38:04.294] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:38:04.294] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:38:06.651] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:38:06.652] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:38:07.181] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:38:07.181] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:38:07.280] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:38:07.280] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:38:08.340] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:38:08.341] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:38:09.675] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:38:09.675] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:38:10.556] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:38:10.557] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:38:11.398] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:38:11.398] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:38:11.455] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:38:11.455] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:38:17.403] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:38:17.404] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:38:18.839] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:38:18.840] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:38:22.942] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:38:22.942] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:38:23.590] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:38:23.590] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:38:24.434] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:38:24.434] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:38:25.575] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:38:25.576] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:38:25.608] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:38:25.608] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:38:27.469] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:38:27.469] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:38:27.858] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:38:27.859] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:38:28.667] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:38:28.667] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:38:29.504] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:38:29.504] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:38:32.337] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:38:32.338] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:38:34.097] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:38:34.097] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:38:34.396] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:38:34.396] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:38:35.693] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:38:35.693] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:38:41.793] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:38:41.793] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:38:42.656] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:38:42.656] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:38:43.077] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:38:43.078] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:38:45.697] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:38:45.697] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:38:45.886] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:38:45.886] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:38:47.610] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:38:47.611] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:38:47.989] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:38:47.990] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:38:48.941] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:38:48.941] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:38:53.387] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:38:53.388] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:38:53.849] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:38:53.849] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:38:56.586] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:38:56.586] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:38:57.192] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:38:57.193] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:38:57.290] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:38:57.290] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:38:57.505] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:38:57.505] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:38:58.018] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:38:58.019] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:38:59.107] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:38:59.107] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:39:00.139] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:39:00.139] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:39:02.579] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:39:02.579] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:39:33.063] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:39:33.063] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:41:37.406] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:41:37.406] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:41:37.793] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:41:37.794] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:41:38.966] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:41:38.967] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:41:38.995] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:41:38.995] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:41:40.958] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:41:40.958] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:41:42.410] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:41:42.411] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:42:12.722] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:42:12.723] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:42:35.453] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:42:35.454] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:42:56.533] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:42:56.534] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:43:21.985] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:43:21.986] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:43:50.217] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:43:50.217] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:43:50.745] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:43:50.746] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:43:51.238] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:43:51.239] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:43:51.403] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:43:51.403] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:43:53.532] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:43:53.533] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:43:54.489] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:43:54.489] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:43:54.505] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:43:54.506] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:43:57.202] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:43:57.202] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:43:58.665] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:43:58.665] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:43:58.944] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:43:58.944] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:43:59.667] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:43:59.667] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:44:00.640] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:44:00.641] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:44:14.460] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:44:14.460] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:44:15.781] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:44:15.782] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:44:33.809] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:44:33.810] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:44:38.027] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:44:38.028] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:44:39.598] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:44:39.599] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:44:40.645] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:44:40.645] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:44:42.501] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:44:42.502] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:44:45.280] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:44:45.281] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:44:46.198] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:44:46.198] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:44:47.430] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:44:47.431] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:44:47.940] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:44:47.940] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:44:52.831] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:44:52.832] [exthost] [error] Error: getting modfile handle: stat /home/coder/ui/crudusrs/pkg/plugins/user/go.mod: no such file or directory
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:45:34.479] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:45:34.482] [exthost] [error] Error: no packages for non-Go file file:///home/coder/ui/crudusrs/go.work (go.work)
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:45:34.970] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:45:34.970] [exthost] [error] Error: no packages for non-Go file file:///home/coder/ui/crudusrs/go.work (go.work)
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:45:36.620] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:45:36.621] [exthost] [error] Error: no packages for non-Go file file:///home/coder/ui/crudusrs/go.work (go.work)
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:45:53.745] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:45:53.745] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:45:53.928] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:45:53.929] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:46:16.129] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:46:16.129] [exthost] [error] Error: no packages
+	at handleResponse (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:464:21)
+[2022-12-16 04:46:43.003] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:46:43.003] [exthost] [error] Canceled: Canceled
+	at LanguageClient2.makeCancelError (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12133:24)
+	at LanguageClient2.handleFailedRequest (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12124:24)
+	at /home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:11056:31
+	at async V.provideLinks (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:106180)
+[2022-12-16 04:46:43.003] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:46:43.004] [exthost] [error] Canceled: Canceled
+	at LanguageClient2.makeCancelError (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12133:24)
+	at LanguageClient2.handleFailedRequest (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12124:24)
+	at /home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12506:31
+	at async Object.provideFoldingRanges (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:73649:24)
+	at async te.provideFoldingRanges (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:107724)
+[2022-12-16 04:46:43.004] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:46:43.004] [exthost] [error] Canceled: Canceled
+	at LanguageClient2.makeCancelError (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12133:24)
+	at LanguageClient2.handleFailedRequest (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12124:24)
+	at /home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:10787:31
+	at async A.provideCodeActions (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:93155)
+[2022-12-16 04:46:43.004] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:46:43.004] [exthost] [error] Canceled: Canceled
+	at LanguageClient2.makeCancelError (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12133:24)
+	at LanguageClient2.handleFailedRequest (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12124:24)
+	at /home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:10836:31
+	at async Object.provideCodeLenses (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:73656:26)
+	at async s.provideCodeLenses (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:88818)
+[2022-12-16 04:46:43.005] [exthost] [error] [golang.go] provider FAILED
+[2022-12-16 04:46:43.005] [exthost] [error] Canceled: Canceled
+	at LanguageClient2.makeCancelError (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12133:24)
+	at LanguageClient2.handleFailedRequest (/home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:12124:24)
+	at /home/coder/.local/share/code-server/extensions/golang.go-0.33.1/dist/goMain.js:10677:31
+	at async l.provideDocumentSymbols (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:87701)
+[2022-12-16 04:52:51.269] [exthost] [info] extension host terminating: renderer disconnected for too long (2)
+[2022-12-16 04:52:51.270] [exthost] [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/11975561/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-12-16 04:52:51.301] [exthost] [info] Extension host with pid 7453 exiting with code 0

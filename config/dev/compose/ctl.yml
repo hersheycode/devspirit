@@ -19,7 +19,7 @@ services:
         - $PKG/adminctl/go.mod:$PKG/adminctl/go.mod
         - $PKG/adminctl/go.sum:$PKG/adminctl/go.sum
         - $PKG/builder/nodes:$PKG/builder/nodes
-        - $PKG/builder/gonodes:$PKG/builder/gonodes
+        - $PKG/builder/nodes:$PKG/builder/nodes
         - $PKG/builder/spec:$PKG/builder/spec
         - $PKG/builder/cplugin:$PKG/builder/cplugin
         - $PKG/builder/ci:$PKG/builder/ci

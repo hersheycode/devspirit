@@ -1,0 +1,10 @@
+[2022-12-15 08:45:15.984] [remoteagent] [info] Extension host agent started.
+[2022-12-15 08:46:46.063] [remoteagent] [info] [10.0.1.154][a58a520d][ManagementConnection] New connection established.
+[2022-12-15 08:46:47.390] [remoteagent] [info] [10.0.1.154][0ddf2775][ExtensionHostConnection] New connection established.
+[2022-12-15 08:46:47.401] [remoteagent] [info] [10.0.1.154][0ddf2775][ExtensionHostConnection] <120> Launched Extension Host Process.
+[2022-12-15 08:46:52.416] [remoteagent] [info] Installing extension: golang.go
+[2022-12-15 08:46:53.970] [remoteagent] [info] Downloaded extension: golang.go /home/coder/.local/share/code-server/CachedExtensionVSIXs/golang.go-0.33.1-universal
+[2022-12-15 08:46:54.095] [remoteagent] [info] Extracted extension to /home/coder/.local/share/code-server/extensions/.fa9e04a5-6062-4d14-b432-8da91940b59b: golang.go
+[2022-12-15 08:46:54.114] [remoteagent] [info] Renamed to /home/coder/.local/share/code-server/extensions/golang.go-0.33.1
+[2022-12-15 08:46:54.119] [remoteagent] [info] Extracting completed. golang.go
+[2022-12-15 08:46:54.127] [remoteagent] [info] Extension installed successfully: golang.go

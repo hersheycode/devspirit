@@ -1,0 +1,86 @@
+# d stack rm intentsys_db_stack
+# d volume rm intentsys_data
+# d volume create intentsys_data
+
+# d stack deploy -c docker-compose.db.yml intentsys_db_stack
+# d service logs intentsys_db_stack_alpha3
+# d service logs intentsys_db_stack_zero
+# d service logs intentsys_db_stack_alpha1
+# d service logs intentsys_db_stack_alpha2
+version: "3.9"
+
+networks:
+  app_pathway_network:
+    external: true
+
+volumes:
+  intentsys_data:
+    external: true
+
+services:  
+  zero:
+    image: dgraph/dgraph:latest
+    volumes:
+      - intentsys_data:/dgraph/zero
+    ports:
+      - 5140:5140
+      - 6140:6140
+    deploy:
+      placement:
+        constraints:
+          - node.hostname == apppathwayserver
+    command: dgraph zero --port_offset 60 --my=zero:5140 --replicas 3
+    networks:
+      - app_pathway_network
+
+  alpha1:
+    image: dgraph/dgraph:latest
+    volumes:
+      - intentsys_data:/dgraph/alpha1
+      - /home/nate/code/app-pathway/examples/prodapi/config/dev/secrets/crt/dgraph:/dgraph-tls
+    ports:
+      - 8170:8170
+      - 9170:9170
+    deploy:
+      placement:
+        constraints:
+          - node.hostname == apppathwayserver
+    command: dgraph alpha --tls "ca-cert=/dgraph-tls/ca.pem; server-cert=/dgraph-tls/cert.pem; server-key=/dgraph-tls/id_cert.pem" 
+                          --port_offset 90 
+                          --security whitelist=10.0.0.0:10.0.0.170 
+                          --my=alpha1:7170 
+                          --zero=zero:5140
+    networks:
+      - app_pathway_network
+
+  alpha2:
+    image: dgraph/dgraph:latest
+    volumes:
+      - intentsys_data:/dgraph/alpha2
+    ports:
+      - 8180:8180
+      - 9180:9180
+    deploy:
+      replicas: 1
+      placement:
+        constraints:
+          - node.hostname == apppathwayserver
+    command: dgraph alpha --port_offset 100 --my=alpha2:7180 --zero=zero:5140
+    networks:
+      - app_pathway_network
+
+  alpha3:
+    image: dgraph/dgraph:latest
+    volumes:
+      - intentsys_data:/dgraph/alpha3
+    ports:
+      - 8190:8190
+      - 9190:9190
+    deploy:
+      replicas: 1
+      placement:
+        constraints:
+          - node.hostname == apppathwayserver
+    command: dgraph alpha --port_offset 110 --my=alpha3:7190 --zero=zero:5140
+    networks:
+      - app_pathway_network

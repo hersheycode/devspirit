@@ -1,0 +1,2 @@
+# 1) kill containers on ports 80 and 443
+# 2) RUN docker-compose up in the folder

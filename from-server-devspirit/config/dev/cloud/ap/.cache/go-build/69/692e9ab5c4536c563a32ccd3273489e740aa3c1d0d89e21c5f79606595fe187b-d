@@ -1,0 +1,7 @@
+./all.go
+./cert.go
+./db.go
+./reset.go
+./root.go
+./shared.go
+./tidy.go

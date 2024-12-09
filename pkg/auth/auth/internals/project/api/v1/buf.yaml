@@ -1,0 +1,4 @@
+version: v1
+name: buf.build/app_pathway/auth
+deps:
+  - buf.build/googleapis/googleapis

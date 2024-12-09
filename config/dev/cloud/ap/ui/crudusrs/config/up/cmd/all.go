@@ -42,9 +42,9 @@ to quickly create a Cobra application.`,
 		// run(command, wd)
 		fmt.Println("Deploy databases? ")
 		if ask() {
-			command := "sudo docker stack deploy -c /home/nate/code/app-pathway/pkg/user/auth/deployments/docker-compose.db.yml auth_db_stack"
+			command := "sudo docker stack deploy -c /workspaces/devspirit/pkg/user/auth/deployments/docker-compose.db.yml auth_db_stack"
 			run(command, wd)
-			command = "sudo docker stack deploy -c /home/nate/code/app-pathway/pkg/cert/deployments/docker-compose.db.yml app_api_generator_db_stack"
+			command = "sudo docker stack deploy -c /workspaces/devspirit/pkg/cert/deployments/docker-compose.db.yml app_api_generator_db_stack"
 			run(command, wd)
 		}
 		fmt.Println("Bring up services? ")
@@ -59,15 +59,15 @@ to quickly create a Cobra application.`,
 				command := "sudo rm .dockerignore"
 				fmt.Println(command)
 				run(command, wd)
-				command = fmt.Sprintf("sudo cp /home/nate/code/app-pathway/config/dev/dockerignore/%s .dockerignore", dockerignore)
+				command = fmt.Sprintf("sudo cp /workspaces/devspirit/config/dev/dockerignore/%s .dockerignore", dockerignore)
 				run(command, wd)
 
 				if service.name == "nginx" {
-					command = fmt.Sprintf("sudo docker-compose -f /home/nate/code/app-pathway/config/dev/dev/compose/%s up -d ", service.compose)
+					command = fmt.Sprintf("sudo docker-compose -f /workspaces/devspirit/config/dev/dev/compose/%s up -d ", service.compose)
 					run(command, wd)
 					continue
 				}
-				command = fmt.Sprintf("sudo docker-compose -f /home/nate/code/app-pathway/config/dev/dev/compose/%s up -d %s", service.compose, service.name)
+				command = fmt.Sprintf("sudo docker-compose -f /workspaces/devspirit/config/dev/dev/compose/%s up -d %s", service.compose, service.name)
 				run(command, wd)
 			}
 		}

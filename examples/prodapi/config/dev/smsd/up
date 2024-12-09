@@ -1,5 +1,5 @@
 #!/bin/bash
-ROOT=/home/nate/code/app-pathway
+ROOT=/workspaces/devspirit
 DEV=${ROOT}/examples/prodapi/config/dev
 DOCKER_IGNORE=${ROOT}/.dockerignore 
 

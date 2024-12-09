@@ -12,8 +12,8 @@ services:
     #   dockerfile: cloud/vscode.Dockerfile
     #   context: ./
     volumes:
-      - /home/nate/code/app-pathway/config/dev/cloud/ap:/home/coder
-      - /home/nate/code/app-pathway/scripts/cloud/zshrc:/home/coder/.zshrc
+      - /workspaces/devspirit/config/dev/cloud/ap:/home/coder
+      - /workspaces/devspirit/scripts/cloud/zshrc:/home/coder/.zshrc
       - /etc/timezone:/etc/timezone 
       - /etc/localtime:/etc/localtime 
       - /var/run/docker.sock:/var/run/docker.sock 

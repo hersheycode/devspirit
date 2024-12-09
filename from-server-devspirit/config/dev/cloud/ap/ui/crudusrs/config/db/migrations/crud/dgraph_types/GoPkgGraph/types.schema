@@ -1,0 +1,115 @@
+type ImportOverview {
+    quanity: int 
+    imports: [ImportSpec]
+}
+
+type StructOverview {
+    quanity: int 
+    structs: [StructSpec]
+}
+
+type InterfaceOverview {
+    quanity: int 
+    interfaces: [InterfaceSpec]
+}
+
+type SelectorExprOverview {
+    quanity: int 
+    selectorExprs: [SelectorExpr]
+}
+
+type VarDeclOverview {
+    quanity: int 
+    varDecls: [VarDecl]
+}
+
+type ConstDeclOverview {
+    quanity: int 
+    constDecls: [ConstDecl]
+}
+
+type TypeDeclOverview {
+    quanity: int 
+    typeDecls: [TypeDecl]
+}
+
+type Decls {
+    funcOverview: FuncOverview
+    structOverview: StructOverview
+    interfaceOverview: InterfaceOverview
+    selectorExprOverview: SelectorExprOverview
+    varDeclOverview: VarDeclOverview
+    constDeclOverview: ConstDeclOverview
+    typeDeclOverview: TypeDeclOverview
+}
+
+type PackageSpec {
+    pkgName:   string          # package name
+    files: [FileSpec]
+}
+
+type Paths {
+    init:     string
+	abs:      string
+	dir:      string
+	relative: string
+	validate: string
+}
+
+type FileSpec {
+    string:      string          
+    bytes:       string
+	decls:       Decls              # top-level declarations
+	importOverview: ImportOverview    # imports in this file
+    paths: Paths
+}
+
+type ImportSpec {
+    alias: string # alias name or empty string
+    importPath: string
+}
+
+type StructSpec { 
+    structName:  string
+    string:      string   
+}
+
+type InterfaceSpec { 
+    interfaceName:  string
+    string:      string   
+}
+
+type SelectorExpr {
+    string:      string   
+}
+
+type VarDecl {
+    string:      string   
+}
+
+type ConstDecl {
+    string:      string   
+}
+
+type TypeDecl {
+    string:      string   
+}
+ 
+type ConstDeclSpec {
+    scope: string
+
+}
+
+type CodeOverview {
+    packages: [uid]
+}
+
+type GoPkgGraph {
+    goPkgGraphName: string 
+    root: uid
+}
+
+type Owner {
+    userId: string 
+    apiGenProjects: [GoPkgGraph]
+}

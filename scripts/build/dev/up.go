@@ -37,9 +37,9 @@ func main() {
 	// run(command, wd)
 	fmt.Println("Deploy databases? ")
 	if ask() {
-		command := "sudo docker stack deploy -c ../../pkg/user/auth/deployments/docker-compose.db.yml auth_db_stack"
+		command := "sudo docker stack deploy -c /workspaces/devspirit/deployments/db/auth/docker-compose.db.yml auth_db_stack"
 		run(command, wd)
-		command = "sudo docker stack deploy -c ../../pkg/cert/deployments/docker-compose.db.yml app_api_generator_db_stack"
+		command = "sudo docker stack deploy -c /workspaces/devspirit/deployments/db/builder/insecure/docker-compose.db.yml app_api_generator_db_stack"
 		run(command, wd)
 	}
 

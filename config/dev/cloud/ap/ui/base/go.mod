@@ -1,14 +1,14 @@
 module apppathway.com/pkg/builder/base
 
-replace apppathway.com/pkg/user/auth => /home/nate/code/app-pathway/pkg/user/auth
+replace apppathway.com/pkg/user/auth => /workspaces/devspirit/pkg/user/auth
 
-replace apppathway.com/pkg/net => /home/nate/code/app-pathway/pkg/net
+replace apppathway.com/pkg/net => /workspaces/devspirit/pkg/net
 
-replace apppathway.com/pkg/errors => /home/nate/code/app-pathway/pkg/errors
+replace apppathway.com/pkg/errors => /workspaces/devspirit/pkg/errors
 
-replace apppathway.com/pkg/debug => /home/nate/code/app-pathway/pkg/debug
+replace apppathway.com/pkg/debug => /workspaces/devspirit/pkg/debug
 
-replace apppathway.com/pkg/builder/base/api/cpluginpb => /home/nate/code/app-pathway/pkg/builder/base/api/cpluginpb
+replace apppathway.com/pkg/builder/base/api/cpluginpb => /workspaces/devspirit/pkg/builder/base/api/cpluginpb
 
 go 1.18
 

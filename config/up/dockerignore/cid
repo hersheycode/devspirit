@@ -5,7 +5,7 @@
 /pkg/builder/cplugin
 /pkg/user/behavior
 /pkg/user/customer
-/pkg/builder/gonodes
+/pkg/builder/nodes
 /pkg/cert
 /pkg/adminctl
 /pkg/db_api

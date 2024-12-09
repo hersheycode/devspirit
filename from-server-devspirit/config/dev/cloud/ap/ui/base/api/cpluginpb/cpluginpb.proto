@@ -1,0 +1,25 @@
+syntax = "proto3";
+package base;
+
+option go_package = "apppathway.com/pkg/builder/base/api/cpluginpb";
+
+message CreateRequest {
+    string name = 1;
+    bytes content = 2;
+    optional CreateOpts opts = 3;
+}
+
+message CreateResponse {
+    string status = 1;
+}
+
+message CreateOpts {
+    string base_image = 1;
+    string image_name = 2;
+    string container_name = 3;
+    string dst_dir_name = 4;
+}
+
+service CPluginService {
+    rpc Create(CreateRequest) returns (CreateResponse);
+}

@@ -1,0 +1,10 @@
+type User {
+    name: string
+    username: string
+    email: string
+    phoneNum: string
+    role: string
+    password: password
+    accountId: string
+    profileId: string
+}

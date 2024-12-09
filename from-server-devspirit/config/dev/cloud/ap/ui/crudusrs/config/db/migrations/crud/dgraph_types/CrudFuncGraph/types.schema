@@ -1,0 +1,44 @@
+type CrudPkgSpec {
+    pkgName: string 
+    quanity: int
+    funcs: [FuncSpec]
+} 
+
+type GrpcOverview {
+    unary: [CrudPkgSpec]
+    clientSideStream: [CrudPkgSpec]
+    serverSideStream: [CrudPkgSpec]
+    bidirectionalStream: [CrudPkgSpec]
+}
+
+type CreateOverview {
+    quanity: int 
+    grpcOverview: GrpcOverview
+}
+
+type ReadOverview {
+    quanity: int 
+    grpcOverview: GrpcOverview
+}
+
+type UpdateOverview {
+    quanity: int 
+    grpcOverview: GrpcOverview
+}
+
+type DeleteOverview {
+    quanity: int 
+    grpcOverview: GrpcOverview
+}
+
+type CrudOverview {
+    create: CreateOverview
+    read:  ReadOverview
+    update: UpdateOverview
+    delete: DeleteOverview
+}
+
+type CrudFuncGraph {
+    crudGraphName: string 
+    root: uid
+}
